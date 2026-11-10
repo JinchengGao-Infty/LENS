@@ -1,0 +1,170 @@
+
+== F1: 11 true pairs, material at 0.01/0.02: 9/7, false max a/sd = 0.0000
+   true a/sd: 0-1:0.186, 0-2:0.094, 1-2:0.091, 1-6:0.094, 2-4:0.026, 6-7:0.008, 6-8:0.043, 6-9:0.015, 7-8:0.013, 7-9:0.004, 8-9:0.025
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.11   0.29   0.35   0.45 
+   diamond_matched/calibrated_q0.2       0.15   0.30   0.37   0.47 
+   diamond_mlp/calibrated_q0.2           0.16   0.29   0.36   0.46 
+   fast/validation_k                     0.51   0.81   0.98   1.00 
+   h2_refit/normal_by_alpha0.05          0.76   0.94   1.00   1.00 
+   iloco/by_alpha0.05                    0.72   0.57   0.67   0.79 
+   iloco_mp/by_alpha0.05                 0.98   0.40   0.37   0.34 
+   lens/family_rms_alpha0.05             0.22   0.91   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   0.66   0.81   1.00 
+   lens/floor0.02_alpha0.05              0.00   0.54   0.66   0.85 
+   lens_mlp/family_rms_alpha0.05         0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   0.82   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   0.64   0.78   1.00 
+
+== F2: 11 true pairs, material at 0.01/0.02: 9/7, false max a/sd = 0.0000
+   true a/sd: 0-1:0.203, 0-2:0.102, 1-2:0.099, 1-6:0.102, 2-4:0.028, 6-7:0.008, 6-8:0.047, 6-9:0.016, 7-8:0.014, 7-9:0.005, 8-9:0.027
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.13   0.29   0.35   0.45 
+   diamond_matched/calibrated_q0.2       0.15   0.30   0.36   0.46 
+   diamond_mlp/calibrated_q0.2           0.18   0.28   0.34   0.44 
+   fast/validation_k                     0.54   0.80   0.97   1.00 
+   h2_refit/normal_by_alpha0.05          0.78   0.93   1.00   1.00 
+   iloco/by_alpha0.05                    0.64   0.55   0.66   0.75 
+   iloco_mp/by_alpha0.05                 0.98   0.38   0.33   0.31 
+   lens/family_rms_alpha0.05             0.19   0.91   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   0.70   0.86   1.00 
+   lens/floor0.02_alpha0.05              0.00   0.55   0.67   0.86 
+   lens_mlp/family_rms_alpha0.05         0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   0.82   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   0.64   0.78   1.00 
+
+== F3: 9 true pairs, material at 0.01/0.02: 9/9, false max a/sd = 0.0000
+   true a/sd: 0-1:0.359, 1-2:0.093, 2-3:0.090, 3-4:0.084, 3-6:0.082, 3-7:0.083, 4-6:0.085, 4-7:0.083, 6-7:0.083
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.11   0.40   0.40   0.40 
+   diamond_matched/calibrated_q0.2       0.11   0.42   0.42   0.42 
+   diamond_mlp/calibrated_q0.2           0.14   0.16   0.16   0.16 
+   fast/validation_k                     0.46   1.00   1.00   1.00 
+   h2_refit/normal_by_alpha0.05          0.82   1.00   1.00   1.00 
+   iloco/by_alpha0.05                    0.76   0.94   0.94   0.94 
+   iloco_mp/by_alpha0.05                 0.99   0.17   0.17   0.17 
+   lens/family_rms_alpha0.05             0.19   1.00   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   1.00   1.00   1.00 
+   lens/floor0.02_alpha0.05              0.00   1.00   1.00   1.00 
+   lens_mlp/family_rms_alpha0.05         0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   1.00   1.00   1.00 
+
+== F4: 10 true pairs, material at 0.01/0.02: 10/10, false max a/sd = 0.0000
+   true a/sd: 0-1:0.335, 0-3:0.093, 1-2:0.087, 2-3:0.084, 3-4:0.078, 3-6:0.077, 3-7:0.077, 4-6:0.079, 4-7:0.077, 6-7:0.078
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.09   0.35   0.35   0.35 
+   diamond_matched/calibrated_q0.2       0.10   0.34   0.34   0.34 
+   diamond_mlp/calibrated_q0.2           0.13   0.20   0.20   0.20 
+   fast/validation_k                     0.47   1.00   1.00   1.00 
+   h2_refit/normal_by_alpha0.05          0.77   1.00   1.00   1.00 
+   iloco/by_alpha0.05                    0.76   0.95   0.95   0.95 
+   iloco_mp/by_alpha0.05                 0.99   0.15   0.15   0.15 
+   lens/family_rms_alpha0.05             0.19   1.00   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.02   1.00   1.00   1.00 
+   lens/floor0.02_alpha0.05              0.00   1.00   1.00   1.00 
+   lens_mlp/family_rms_alpha0.05         0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   1.00   1.00   1.00 
+
+== F5: 8 true pairs, material at 0.01/0.02: 7/7, false max a/sd = 0.0000
+   true a/sd: 0-1:0.044, 0-2:0.043, 1-2:0.044, 3-4:0.054, 5-6:0.000, 7-8:0.078, 7-9:0.079, 8-9:0.078
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.11   0.76   0.80   0.80 
+   diamond_matched/calibrated_q0.2       0.12   0.77   0.86   0.86 
+   diamond_mlp/calibrated_q0.2           0.16   0.75   0.86   0.86 
+   fast/validation_k                     0.57   0.88   1.00   1.00 
+   h2_refit/normal_by_alpha0.05          0.70   0.88   1.00   1.00 
+   iloco/by_alpha0.05                    0.49   0.76   0.86   0.86 
+   iloco_mp/by_alpha0.05                 0.99   0.46   0.52   0.52 
+   lens/family_rms_alpha0.05             0.45   0.89   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   0.88   1.00   1.00 
+   lens/floor0.02_alpha0.05              0.00   0.88   1.00   1.00 
+   lens_mlp/family_rms_alpha0.05         0.02   0.88   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   0.88   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   0.88   1.00   1.00 
+
+== F6: 8 true pairs, material at 0.01/0.02: 5/2, false max a/sd = 0.0000
+   true a/sd: 0-1:0.107, 2-3:0.183, 4-5:0.019, 4-7:0.019, 5-7:0.019, 7-8:0.008, 7-9:0.008, 8-9:0.008
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.03   0.12   0.19   0.47 
+   diamond_matched/calibrated_q0.2       0.03   0.12   0.19   0.47 
+   diamond_mlp/calibrated_q0.2           0.05   0.12   0.20   0.50 
+   fast/validation_k                     0.68   0.80   1.00   1.00 
+   h2_refit/normal_by_alpha0.05          0.83   1.00   1.00   1.00 
+   iloco/by_alpha0.05                    0.70   0.81   1.00   1.00 
+   iloco_mp/by_alpha0.05                 0.98   0.62   0.55   0.40 
+   lens/family_rms_alpha0.05             0.12   1.00   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   0.62   0.99   1.00 
+   lens/floor0.02_alpha0.05              0.00   0.25   0.40   1.00 
+   lens_mlp/family_rms_alpha0.05         0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   0.62   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   0.25   0.40   1.00 
+
+== F7: 14 true pairs, material at 0.01/0.02: 3/3, false max a/sd = 0.0000
+   true a/sd: 0-1:0.068, 2-3:0.054, 2-5:0.000, 3-4:0.009, 3-5:0.009, 3-6:0.009, 3-7:0.009, 4-5:0.009, 4-6:0.009, 4-7:0.009, 5-6:0.010, 5-7:0.010, 6-7:0.009, 6-8:0.035
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.05   0.14   0.58   0.58 
+   diamond_matched/calibrated_q0.2       0.07   0.15   0.68   0.68 
+   diamond_mlp/calibrated_q0.2           0.03   0.15   0.72   0.72 
+   fast/validation_k                     0.35   0.93   1.00   1.00 
+   h2_refit/normal_by_alpha0.05          0.31   0.84   1.00   1.00 
+   iloco/by_alpha0.05                    0.63   0.02   0.08   0.08 
+   iloco_mp/by_alpha0.05                 1.00   0.04   0.03   0.03 
+   lens/family_rms_alpha0.05             0.33   0.80   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   0.24   1.00   1.00 
+   lens/floor0.02_alpha0.05              0.00   0.21   1.00   1.00 
+   lens_mlp/family_rms_alpha0.05         0.17   0.94   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   0.24   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   0.21   1.00   1.00 
+
+== F8: 12 true pairs, material at 0.01/0.02: 12/9, false max a/sd = 0.0000
+   true a/sd: 0-1:0.030, 2-3:0.062, 2-4:0.104, 2-5:0.043, 2-6:0.061, 3-4:0.061, 3-6:0.061, 4-5:0.043, 4-6:0.061, 6-7:0.012, 6-8:0.012, 7-8:0.011
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.03   0.26   0.26   0.35 
+   diamond_matched/calibrated_q0.2       0.02   0.26   0.26   0.35 
+   diamond_mlp/calibrated_q0.2           0.02   0.28   0.28   0.37 
+   fast/validation_k                     0.38   1.00   1.00   1.00 
+   h2_refit/normal_by_alpha0.05          0.70   1.00   1.00   1.00 
+   iloco/by_alpha0.05                    0.61   0.19   0.19   0.23 
+   iloco_mp/by_alpha0.05                 0.99   0.15   0.15   0.10 
+   lens/family_rms_alpha0.05             0.35   1.00   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   0.75   0.75   1.00 
+   lens/floor0.02_alpha0.05              0.00   0.67   0.67   0.89 
+   lens_mlp/family_rms_alpha0.05         0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   0.75   0.75   1.00 
+
+== F9: 15 true pairs, material at 0.01/0.02: 11/4, false max a/sd = 0.0000
+   true a/sd: 0-1:0.025, 0-2:0.007, 0-3:0.007, 0-4:0.018, 1-2:0.007, 1-3:0.007, 1-4:0.017, 2-3:0.025, 2-4:0.017, 3-4:0.017, 4-5:0.176, 5-6:0.018, 5-7:0.018, 6-7:0.018, 8-9:0.060
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.02   0.06   0.08   0.23 
+   diamond_matched/calibrated_q0.2       0.02   0.06   0.08   0.23 
+   diamond_mlp/calibrated_q0.2           0.02   0.10   0.14   0.39 
+   fast/validation_k                     0.40   0.80   1.00   1.00 
+   h2_refit/normal_by_alpha0.05          0.72   1.00   1.00   1.00 
+   iloco/by_alpha0.05                    0.62   0.56   0.49   1.00 
+   iloco_mp/by_alpha0.05                 0.98   0.38   0.27   0.55 
+   lens/family_rms_alpha0.05             0.08   1.00   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   0.69   0.94   1.00 
+   lens/floor0.02_alpha0.05              0.00   0.13   0.18   0.50 
+   lens_mlp/family_rms_alpha0.05         0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   0.73   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   0.27   0.36   1.00 
+
+== F10: 6 true pairs, material at 0.01/0.02: 6/6, false max a/sd = 0.0000
+   true a/sd: 0-1:0.124, 2-4:0.036, 2-6:0.036, 3-4:0.052, 4-6:0.036, 6-8:0.073
+   method/rule                            FDP power mat.01 mat.02
+   diamond/calibrated_q0.2               0.07   0.47   0.47   0.47 
+   diamond_matched/calibrated_q0.2       0.06   0.54   0.54   0.54 
+   diamond_mlp/calibrated_q0.2           0.07   0.59   0.59   0.59 
+   fast/validation_k                     0.70   1.00   1.00   1.00 
+   h2_refit/normal_by_alpha0.05          0.83   1.00   1.00   1.00 
+   iloco/by_alpha0.05                    0.77   0.64   0.64   0.64 
+   iloco_mp/by_alpha0.05                 0.99   0.27   0.27   0.27 
+   lens/family_rms_alpha0.05             0.29   1.00   1.00   1.00 
+   lens/floor0.01_alpha0.05              0.00   1.00   1.00   1.00 
+   lens/floor0.02_alpha0.05              0.00   1.00   1.00   1.00 
+   lens_mlp/family_rms_alpha0.05         0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.01_alpha0.05          0.00   1.00   1.00   1.00 
+   lens_mlp/floor0.02_alpha0.05          0.00   1.00   1.00   1.00 

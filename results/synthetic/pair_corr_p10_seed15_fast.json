@@ -1,0 +1,59 @@
+{
+ "dataset": "pair_corr",
+ "p": 10,
+ "seed": 15,
+ "method": "fast",
+ "n": 20000,
+ "truth": [
+  [
+   0,
+   1
+  ]
+ ],
+ "lists": {
+  "validation_k": {
+   "size": 8,
+   "tp": 1,
+   "fdp": 0.875,
+   "power": 1.0,
+   "pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 83.67270619422197,
+ "n_model_fits": 8,
+ "chosen_k": 8,
+ "teacher_signal_r2": null
+}

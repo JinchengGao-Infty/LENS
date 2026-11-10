@@ -1,0 +1,77 @@
+{
+ "dataset": "sparse_pairs",
+ "p": 10,
+ "seed": 3,
+ "method": "h2_refit",
+ "n": 20000,
+ "truth": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   4,
+   5
+  ]
+ ],
+ "lists": {
+  "bootstrap_by_alpha0.05": {
+   "size": 0,
+   "tp": 0,
+   "fdp": 0.0,
+   "power": 0.0,
+   "pairs": []
+  },
+  "bootstrap_by_alpha0.2": {
+   "size": 0,
+   "tp": 0,
+   "fdp": 0.0,
+   "power": 0.0,
+   "pairs": []
+  },
+  "one_sd_rule_B10": {
+   "size": 7,
+   "tp": 3,
+   "fdp": 0.5714285714285714,
+   "power": 1.0,
+   "pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 34.791203156113625,
+ "n_model_fits": 102,
+ "teacher_signal_r2": 0.990760882398638,
+ "min_pvalue": 0.009900990099009901
+}

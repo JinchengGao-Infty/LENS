@@ -1,0 +1,1903 @@
+{
+ "dataset": "fremtpl2_poisson_offset_native_categorical",
+ "split_seed": 32,
+ "train_size": null,
+ "part_sizes": {
+  "discovery": 184420,
+  "confirmation": 178995,
+  "evaluation": 178995,
+  "outer_test": 135603
+ },
+ "eta": 0.25,
+ "alpha": 0.05,
+ "teacher_params": {
+  "n_estimators": 1000,
+  "learning_rate": 0.05,
+  "max_depth": 6,
+  "tree_method": "hist",
+  "early_stopping_rounds": 50,
+  "max_cat_to_onehot": 1
+ },
+ "additive_params": {
+  "n_estimators": 3000,
+  "learning_rate": 0.05,
+  "max_depth": 1,
+  "tree_method": "hist",
+  "early_stopping_rounds": 50,
+  "max_cat_to_onehot": 1
+ },
+ "n_trees": {
+  "discovery": 291,
+  "confirmation": 220,
+  "additive": 3000
+ },
+ "family_rms_norm": 0.04094085351070273,
+ "discovery_margin_sd": 0.5857024788856506,
+ "kappa": 0.02,
+ "beta_max": 2.0,
+ "lists": {
+  "lens": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehBrand"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "VehPower",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "Density"
+   ],
+   [
+    "VehAge",
+    "DrivAge"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehPower",
+    "DrivAge"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ]
+  ],
+  "family_rms": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehBrand"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "VehPower",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "Density"
+   ],
+   [
+    "VehAge",
+    "DrivAge"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehPower",
+    "DrivAge"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ]
+  ],
+  "pair_relative": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehBrand"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "VehPower",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "Density"
+   ],
+   [
+    "VehAge",
+    "DrivAge"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehPower",
+    "DrivAge"
+   ],
+   [
+    "VehPower",
+    "VehGas"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehGas"
+   ],
+   [
+    "VehGas",
+    "Density"
+   ]
+  ],
+  "gain": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "BonusMalus",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ]
+  ],
+  "rms_and_gain": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ]
+  ],
+  "top7": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "BonusMalus",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ]
+  ],
+  "all36": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "BonusMalus",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehBrand"
+   ],
+   [
+    "VehBrand",
+    "Region"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "BonusMalus",
+    "Density"
+   ],
+   [
+    "VehPower",
+    "Region"
+   ],
+   [
+    "VehPower",
+    "VehBrand"
+   ],
+   [
+    "VehAge",
+    "Density"
+   ],
+   [
+    "Density",
+    "Region"
+   ],
+   [
+    "DrivAge",
+    "Density"
+   ],
+   [
+    "VehAge",
+    "DrivAge"
+   ],
+   [
+    "VehBrand",
+    "Density"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehPower",
+    "DrivAge"
+   ],
+   [
+    "VehPower",
+    "Density"
+   ],
+   [
+    "BonusMalus",
+    "Area"
+   ],
+   [
+    "VehPower",
+    "BonusMalus"
+   ],
+   [
+    "VehPower",
+    "VehGas"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ],
+   [
+    "Area",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "Area"
+   ],
+   [
+    "VehGas",
+    "Region"
+   ],
+   [
+    "VehBrand",
+    "Area"
+   ],
+   [
+    "DrivAge",
+    "VehGas"
+   ],
+   [
+    "VehPower",
+    "Area"
+   ],
+   [
+    "DrivAge",
+    "Area"
+   ],
+   [
+    "BonusMalus",
+    "VehGas"
+   ],
+   [
+    "VehGas",
+    "Density"
+   ],
+   [
+    "Area",
+    "Density"
+   ],
+   [
+    "VehGas",
+    "Area"
+   ]
+  ],
+  "single_model": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "BonusMalus",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehBrand"
+   ],
+   [
+    "VehBrand",
+    "Region"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "BonusMalus",
+    "Density"
+   ],
+   [
+    "VehPower",
+    "Region"
+   ],
+   [
+    "VehPower",
+    "VehBrand"
+   ],
+   [
+    "VehAge",
+    "Density"
+   ],
+   [
+    "Density",
+    "Region"
+   ],
+   [
+    "DrivAge",
+    "Density"
+   ],
+   [
+    "VehAge",
+    "DrivAge"
+   ],
+   [
+    "VehBrand",
+    "Density"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehPower",
+    "DrivAge"
+   ],
+   [
+    "VehPower",
+    "Density"
+   ],
+   [
+    "BonusMalus",
+    "Area"
+   ],
+   [
+    "VehPower",
+    "BonusMalus"
+   ],
+   [
+    "VehPower",
+    "VehGas"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ]
+  ],
+  "top_lens": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "BonusMalus",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehBrand"
+   ],
+   [
+    "VehBrand",
+    "Region"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "BonusMalus",
+    "Density"
+   ],
+   [
+    "VehPower",
+    "Region"
+   ],
+   [
+    "VehPower",
+    "VehBrand"
+   ]
+  ],
+  "both_strong": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "BonusMalus",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehBrand"
+   ],
+   [
+    "VehBrand",
+    "Region"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "BonusMalus",
+    "Density"
+   ],
+   [
+    "VehPower",
+    "Region"
+   ],
+   [
+    "VehPower",
+    "VehBrand"
+   ],
+   [
+    "VehAge",
+    "Density"
+   ],
+   [
+    "Density",
+    "Region"
+   ],
+   [
+    "DrivAge",
+    "Density"
+   ],
+   [
+    "VehAge",
+    "DrivAge"
+   ],
+   [
+    "VehBrand",
+    "Density"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehPower",
+    "DrivAge"
+   ],
+   [
+    "VehPower",
+    "BonusMalus"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ]
+  ],
+  "projection_floor": [
+   [
+    "VehAge",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   [
+    "DrivAge",
+    "Region"
+   ],
+   [
+    "VehAge",
+    "BonusMalus"
+   ],
+   [
+    "VehAge",
+    "VehGas"
+   ],
+   [
+    "DrivAge",
+    "VehBrand"
+   ],
+   [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   [
+    "VehPower",
+    "VehBrand"
+   ],
+   [
+    "DrivAge",
+    "Density"
+   ],
+   [
+    "VehAge",
+    "DrivAge"
+   ],
+   [
+    "VehPower",
+    "VehAge"
+   ],
+   [
+    "VehPower",
+    "DrivAge"
+   ],
+   [
+    "VehBrand",
+    "VehGas"
+   ]
+  ]
+ },
+ "outer_test_mean_poisson_deviance": {
+  "intercept_only": 0.327720130828305,
+  "additive_f0": 0.30990997513370677,
+  "discovery_teacher": 0.3025301382585202,
+  "confirmation_teacher": 0.30251353569101447,
+  "f0_plus_lens": 0.30643000002096077,
+  "f0_plus_family_rms": 0.30643000002096077,
+  "f0_plus_pair_relative": 0.3064376841017138,
+  "f0_plus_gain": 0.3068351896540463,
+  "f0_plus_rms_and_gain": 0.3068753055021581,
+  "f0_plus_top7": 0.3073846133470655,
+  "f0_plus_all36": 0.3060664046615623,
+  "f0_plus_single_model": 0.3062168541722799,
+  "f0_plus_top_lens": 0.30701000715692295,
+  "f0_plus_both_strong": 0.30621977158035457,
+  "f0_plus_projection_floor": 0.30643000002096077
+ },
+ "pairs": [
+  {
+   "pair": [
+    1,
+    4
+   ],
+   "names": [
+    "VehAge",
+    "VehBrand"
+   ],
+   "rank": 1,
+   "discovery_energy": 0.023176067673398283,
+   "amplitude": 0.15223688013552525,
+   "projection": 0.13673397310747384,
+   "projection_se": 0.00022291642909548593,
+   "replication_ratio": 0.8981658911148841,
+   "cosine": 0.9255653578155812,
+   "confirmation_energy": 0.02182421763725188,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.25,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 0.5407337373124834,
+   "gain_mean": 0.0006472552435369514,
+   "gain_se": 9.218115777292383e-05,
+   "gain_pvalue": 1.0970472071244114e-12,
+   "gain_selected": true,
+   "rms_and_gain_selected": true
+  },
+  {
+   "pair": [
+    2,
+    3
+   ],
+   "names": [
+    "DrivAge",
+    "BonusMalus"
+   ],
+   "rank": 2,
+   "discovery_energy": 0.007331971454062351,
+   "amplitude": 0.08562693182674684,
+   "projection": 0.044865267769283984,
+   "projection_se": 6.347509280747432e-05,
+   "replication_ratio": 0.5239621087914498,
+   "cosine": 0.6622758585748917,
+   "confirmation_energy": 0.004589260175359926,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.25,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 0.41131426731793425,
+   "gain_mean": 7.523844311959804e-05,
+   "gain_se": 2.498054724970204e-05,
+   "gain_pvalue": 0.001298170501809983,
+   "gain_selected": true,
+   "rms_and_gain_selected": true
+  },
+  {
+   "pair": [
+    2,
+    8
+   ],
+   "names": [
+    "DrivAge",
+    "Region"
+   ],
+   "rank": 3,
+   "discovery_energy": 0.00538394520025126,
+   "amplitude": 0.07337537189174076,
+   "projection": 0.028219554186921045,
+   "projection_se": 4.030558655746471e-05,
+   "replication_ratio": 0.38459163421422443,
+   "cosine": 0.5736114168884665,
+   "confirmation_energy": 0.0024202750482859576,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.25,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 0.6033753306896803,
+   "gain_mean": 7.563843069201567e-05,
+   "gain_se": 2.4432255553102415e-05,
+   "gain_pvalue": 0.0009812707638027158,
+   "gain_selected": true,
+   "rms_and_gain_selected": true
+  },
+  {
+   "pair": [
+    1,
+    8
+   ],
+   "names": [
+    "VehAge",
+    "Region"
+   ],
+   "rank": 4,
+   "discovery_energy": 0.003792442081003242,
+   "amplitude": 0.0615828066996239,
+   "projection": 0.005120668678017906,
+   "projection_se": 7.203398662717176e-05,
+   "replication_ratio": 0.08315094670813662,
+   "cosine": 0.08269433783446019,
+   "confirmation_energy": 0.003834438753736411,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.25,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.0,
+   "gain_mean": 0.0,
+   "gain_se": 0.0,
+   "gain_pvalue": 1.0,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    3
+   ],
+   "names": [
+    "VehAge",
+    "BonusMalus"
+   ],
+   "rank": 5,
+   "discovery_energy": 0.003564212261463378,
+   "amplitude": 0.059701023956573625,
+   "projection": 0.035259737785105945,
+   "projection_se": 6.568913141970222e-05,
+   "replication_ratio": 0.5906052434000761,
+   "cosine": 0.8010119876795733,
+   "confirmation_energy": 0.0019376713827530794,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.25,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 0.7438898194703277,
+   "gain_mean": 0.00010669794086030355,
+   "gain_se": 3.429506902840316e-05,
+   "gain_pvalue": 0.0009317242415447525,
+   "gain_selected": true,
+   "rms_and_gain_selected": true
+  },
+  {
+   "pair": [
+    3,
+    8
+   ],
+   "names": [
+    "BonusMalus",
+    "Region"
+   ],
+   "rank": 6,
+   "discovery_energy": 0.002939865751517901,
+   "amplitude": 0.05422052887530609,
+   "projection": -0.0001591440160214117,
+   "projection_se": 3.2447512808613156e-05,
+   "replication_ratio": -0.002935124745599658,
+   "cosine": -0.0037742975238125713,
+   "confirmation_energy": 0.0017779042266737072,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.25,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.0721090754065485,
+   "gain_mean": 6.556866777015315e-06,
+   "gain_se": 2.1959997851753623e-06,
+   "gain_pvalue": 0.0014140812044457995,
+   "gain_selected": true,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    5
+   ],
+   "names": [
+    "VehAge",
+    "VehGas"
+   ],
+   "rank": 7,
+   "discovery_energy": 0.0023197534815220353,
+   "amplitude": 0.048163819216524295,
+   "projection": 0.022554704354253313,
+   "projection_se": 0.00015869947585034062,
+   "replication_ratio": 0.4682914420232506,
+   "cosine": 0.985117745679807,
+   "confirmation_energy": 0.0005242011781440317,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.25,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 2.0,
+   "gain_mean": 0.000544286156824488,
+   "gain_se": 7.019802899469717e-05,
+   "gain_pvalue": 4.466811484811887e-15,
+   "gain_selected": true,
+   "rms_and_gain_selected": true
+  },
+  {
+   "pair": [
+    2,
+    4
+   ],
+   "names": [
+    "DrivAge",
+    "VehBrand"
+   ],
+   "rank": 8,
+   "discovery_energy": 0.0014741970369331664,
+   "amplitude": 0.038395273627533456,
+   "projection": 0.015402500421389222,
+   "projection_se": 4.1748113548218334e-05,
+   "replication_ratio": 0.40115615715638514,
+   "cosine": 0.7250843280590995,
+   "confirmation_energy": 0.00045123774671516757,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.26657482577063746,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 0.9625023627078523,
+   "gain_mean": 4.633352754084511e-05,
+   "gain_se": 2.145195436017557e-05,
+   "gain_pvalue": 0.015391196143204035,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    8
+   ],
+   "names": [
+    "VehBrand",
+    "Region"
+   ],
+   "rank": 9,
+   "discovery_energy": 0.001327065241538346,
+   "amplitude": 0.03642890667503413,
+   "projection": 0.004400699850986589,
+   "projection_se": 5.663641921282787e-05,
+   "replication_ratio": 0.12080241359542436,
+   "cosine": 0.16245727469570712,
+   "confirmation_energy": 0.0007337788171001071,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.2809640560717183,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.7543422347775044,
+   "gain_mean": 1.6447558531057176e-05,
+   "gain_se": 1.5832277003471583e-05,
+   "gain_pvalue": 0.14943434943240058,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    4
+   ],
+   "names": [
+    "BonusMalus",
+    "VehBrand"
+   ],
+   "rank": 10,
+   "discovery_energy": 0.0013000945331471878,
+   "amplitude": 0.03605682366969098,
+   "projection": 0.03267689875362002,
+   "projection_se": 7.839894391938282e-05,
+   "replication_ratio": 0.9062611574709482,
+   "cosine": 0.7260486183877974,
+   "confirmation_energy": 0.002025584002105478,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.28386342267522874,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 1.6347207944519138,
+   "gain_mean": 0.00013972004775467784,
+   "gain_se": 4.430539841274017e-05,
+   "gain_pvalue": 0.0008064406637532132,
+   "gain_selected": true,
+   "rms_and_gain_selected": true
+  },
+  {
+   "pair": [
+    3,
+    7
+   ],
+   "names": [
+    "BonusMalus",
+    "Density"
+   ],
+   "rank": 11,
+   "discovery_energy": 0.0012275035753370014,
+   "amplitude": 0.035035747106876444,
+   "projection": 0.008744512357174026,
+   "projection_se": 5.3724839853888565e-05,
+   "replication_ratio": 0.24958829422129677,
+   "cosine": 0.39490916421908157,
+   "confirmation_energy": 0.0004903167927128305,
+   "pair_relative_pvalue": 0.6058377489432478,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.2921362957225714,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.007799722342725456,
+   "gain_mean": 2.4901482116672117e-07,
+   "gain_se": 2.0586403212661814e-07,
+   "gain_pvalue": 0.1132146352385221,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    8
+   ],
+   "names": [
+    "VehPower",
+    "Region"
+   ],
+   "rank": 12,
+   "discovery_energy": 0.0010473134679394214,
+   "amplitude": 0.032362222852261265,
+   "projection": -0.0006257968859630679,
+   "projection_se": 1.9103728746603125e-05,
+   "replication_ratio": -0.01933726520640844,
+   "cosine": -0.04829026792141909,
+   "confirmation_energy": 0.00016793745428701285,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.31627040652927557,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.12029339183608084,
+   "gain_mean": 4.099918050818236e-06,
+   "gain_se": 1.8523994755132773e-06,
+   "gain_pvalue": 0.013438442195881447,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    4
+   ],
+   "names": [
+    "VehPower",
+    "VehBrand"
+   ],
+   "rank": 13,
+   "discovery_energy": 0.0007061557251968927,
+   "amplitude": 0.026573590747147678,
+   "projection": 0.017444956212218195,
+   "projection_se": 6.281907807171487e-05,
+   "replication_ratio": 0.6564771911410082,
+   "cosine": 0.802696547391606,
+   "confirmation_energy": 0.0004723206978056449,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.3851648606718419,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 0.8491224962212932,
+   "gain_mean": -9.85025737988593e-06,
+   "gain_se": 1.332359860111086e-05,
+   "gain_pvalue": 0.7701403305252967,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    7
+   ],
+   "names": [
+    "VehAge",
+    "Density"
+   ],
+   "rank": 14,
+   "discovery_energy": 0.0007052623888098735,
+   "amplitude": 0.026556776702187965,
+   "projection": -0.00715744411618233,
+   "projection_se": 3.210519509080925e-05,
+   "replication_ratio": -0.26951479076120866,
+   "cosine": -0.34624146814528695,
+   "confirmation_energy": 0.0004273244776635915,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.38540872231803724,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.0,
+   "gain_mean": 0.0,
+   "gain_se": 0.0,
+   "gain_pvalue": 1.0,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    8
+   ],
+   "names": [
+    "Density",
+    "Region"
+   ],
+   "rank": 15,
+   "discovery_energy": 0.0006747364979499234,
+   "amplitude": 0.02597569051921283,
+   "projection": 0.0009856829734949375,
+   "projection_se": 2.543091810572222e-05,
+   "replication_ratio": 0.03794636268729336,
+   "cosine": 0.04374934043962407,
+   "confirmation_energy": 0.0005076115430177309,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.3940304636023147,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.3881681565067912,
+   "gain_mean": 9.821349901154794e-06,
+   "gain_se": 5.588176709464448e-06,
+   "gain_pvalue": 0.03941434023088672,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    7
+   ],
+   "names": [
+    "DrivAge",
+    "Density"
+   ],
+   "rank": 16,
+   "discovery_energy": 0.0005715538600930044,
+   "amplitude": 0.0239071926434913,
+   "projection": 0.019550295256235074,
+   "projection_se": 4.263661337455751e-05,
+   "replication_ratio": 0.8177578834860653,
+   "cosine": 0.7147430268200393,
+   "confirmation_energy": 0.000748181193359677,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.4281227633166793,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 1.5417044371101478,
+   "gain_mean": 4.020104923744916e-05,
+   "gain_se": 2.0673318740120757e-05,
+   "gain_pvalue": 0.02591240395314826,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    2
+   ],
+   "names": [
+    "VehAge",
+    "DrivAge"
+   ],
+   "rank": 17,
+   "discovery_energy": 0.000392218767260435,
+   "amplitude": 0.019804513810251313,
+   "projection": 0.020368810314347053,
+   "projection_se": 4.3152651523653986e-05,
+   "replication_ratio": 1.0284933278091202,
+   "cosine": 0.5473940746121165,
+   "confirmation_energy": 0.0013846217318457044,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.5168121507924965,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 0.0,
+   "gain_mean": 0.0,
+   "gain_se": 0.0,
+   "gain_pvalue": 1.0,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    7
+   ],
+   "names": [
+    "VehBrand",
+    "Density"
+   ],
+   "rank": 18,
+   "discovery_energy": 0.00038660209963004927,
+   "amplitude": 0.019662199765795516,
+   "projection": -0.0022540547046933524,
+   "projection_se": 1.0607792912290078e-05,
+   "replication_ratio": -0.11463898910306669,
+   "cosine": -0.1719229505621097,
+   "confirmation_energy": 0.0001718941876644468,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.520552811973812,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.5845973229995666,
+   "gain_mean": 8.889448958403903e-07,
+   "gain_se": 6.363785236894975e-06,
+   "gain_pvalue": 0.4444532252422377,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    1
+   ],
+   "names": [
+    "VehPower",
+    "VehAge"
+   ],
+   "rank": 19,
+   "discovery_energy": 0.0003599180125237524,
+   "amplitude": 0.01897150527827859,
+   "projection": 0.027713496953493164,
+   "projection_se": 7.590307704602547e-05,
+   "replication_ratio": 1.4607958908365437,
+   "cosine": 0.8749489630142033,
+   "confirmation_energy": 0.0010032685942030562,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.5395045478755174,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 2.0,
+   "gain_mean": 0.00021878317729324325,
+   "gain_se": 2.6519551170802857e-05,
+   "gain_pvalue": 7.927526528406155e-17,
+   "gain_selected": true,
+   "rms_and_gain_selected": true
+  },
+  {
+   "pair": [
+    0,
+    2
+   ],
+   "names": [
+    "VehPower",
+    "DrivAge"
+   ],
+   "rank": 20,
+   "discovery_energy": 0.0003422978616149674,
+   "amplitude": 0.018501293511940384,
+   "projection": 0.016746575771589348,
+   "projection_se": 3.704397690326694e-05,
+   "replication_ratio": 0.905157023793035,
+   "cosine": 0.8002468389197428,
+   "confirmation_energy": 0.0004379294008725146,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.5532160965431995,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 2.0,
+   "gain_mean": 3.4734580428421834e-05,
+   "gain_se": 1.6566504483492067e-05,
+   "gain_pvalue": 0.01801116511182534,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    7
+   ],
+   "names": [
+    "VehPower",
+    "Density"
+   ],
+   "rank": 21,
+   "discovery_energy": 0.00029284373454796,
+   "amplitude": 0.01711267759726572,
+   "projection": 0.0013536846623796426,
+   "projection_se": 1.8066778075632366e-05,
+   "replication_ratio": 0.07910419948517793,
+   "cosine": 0.15365776799513967,
+   "confirmation_energy": 7.761148187167752e-05,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.5981070653321415,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.43969301561823826,
+   "gain_mean": 3.971806443630742e-07,
+   "gain_se": 4.120481628411412e-06,
+   "gain_pvalue": 0.46160470190431163,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    6
+   ],
+   "names": [
+    "BonusMalus",
+    "Area"
+   ],
+   "rank": 22,
+   "discovery_energy": 0.00018722359874530174,
+   "amplitude": 0.013682967468546497,
+   "projection": -0.001958118472245414,
+   "projection_se": 8.880364546381822e-06,
+   "replication_ratio": -0.14310627257914682,
+   "cosine": -0.1883971685012647,
+   "confirmation_energy": 0.00010802622161257332,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.748025850474593,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.42256281850868965,
+   "gain_mean": 6.927343332870845e-06,
+   "gain_se": 3.2293590939484356e-06,
+   "gain_pvalue": 0.015971867547732607,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    3
+   ],
+   "names": [
+    "VehPower",
+    "BonusMalus"
+   ],
+   "rank": 23,
+   "discovery_energy": 0.00018064430901950837,
+   "amplitude": 0.013440398395118664,
+   "projection": 0.0019597959107854486,
+   "projection_se": 1.5325085225980553e-05,
+   "replication_ratio": 0.14581382583846733,
+   "cosine": 0.12216830517171505,
+   "confirmation_energy": 0.0002573383999465899,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 0.7615260408793348,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.012033549382819598,
+   "gain_mean": 1.8947255297317686e-07,
+   "gain_se": 8.039826828275219e-08,
+   "gain_pvalue": 0.009219699616996145,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    5
+   ],
+   "names": [
+    "VehPower",
+    "VehGas"
+   ],
+   "rank": 24,
+   "discovery_energy": 0.0001656626350526697,
+   "amplitude": 0.012870999768963937,
+   "projection": 0.005326994242203914,
+   "projection_se": 5.881160112622939e-05,
+   "replication_ratio": 0.4138757157815344,
+   "cosine": 0.846944590674728,
+   "confirmation_energy": 3.95598337285623e-05,
+   "pair_relative_pvalue": 5.479532679219926e-282,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.7952151007224807,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.5268191798232421,
+   "gain_mean": 2.7181034299997482e-06,
+   "gain_se": 3.8229909753698074e-06,
+   "gain_pvalue": 0.23854561535567936,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    5
+   ],
+   "names": [
+    "VehBrand",
+    "VehGas"
+   ],
+   "rank": 25,
+   "discovery_energy": 0.00015226258201979904,
+   "amplitude": 0.012339472517891477,
+   "projection": 0.019677217620198504,
+   "projection_se": 0.00015590213936055052,
+   "replication_ratio": 1.5946563025014033,
+   "cosine": 0.9696315502212488,
+   "confirmation_energy": 0.00041182613202755584,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 0.8294692794068184,
+   "family_rms_pvalue": 0.0,
+   "family_rms_selected": true,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "beta": 2.0,
+   "gain_mean": 9.450385181615425e-05,
+   "gain_se": 1.401183875867413e-05,
+   "gain_pvalue": 7.673951745070599e-12,
+   "gain_selected": true,
+   "rms_and_gain_selected": true
+  },
+  {
+   "pair": [
+    6,
+    8
+   ],
+   "names": [
+    "Area",
+    "Region"
+   ],
+   "rank": 26,
+   "discovery_energy": 8.055437077335783e-05,
+   "amplitude": 0.008975208675755558,
+   "projection": 0.0009629265793822152,
+   "projection_se": 3.839058212594615e-06,
+   "replication_ratio": 0.10728737505383443,
+   "cosine": 0.2448894722768898,
+   "confirmation_energy": 1.5461303968919293e-05,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 1.140387231922945,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 2.0,
+   "gain_mean": 5.508069570984054e-06,
+   "gain_se": 1.0094962500824209e-05,
+   "gain_pvalue": 0.2926616753302364,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    6
+   ],
+   "names": [
+    "VehAge",
+    "Area"
+   ],
+   "rank": 27,
+   "discovery_energy": 7.945064474083134e-05,
+   "amplitude": 0.0089135091148678,
+   "projection": -0.0032030042789301387,
+   "projection_se": 2.004891770497669e-05,
+   "replication_ratio": -0.35934268284838616,
+   "cosine": -0.371194968119183,
+   "confirmation_energy": 7.445791607134475e-05,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 1.148281024428782,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.0,
+   "gain_mean": 0.0,
+   "gain_se": 0.0,
+   "gain_pvalue": 1.0,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    8
+   ],
+   "names": [
+    "VehGas",
+    "Region"
+   ],
+   "rank": 28,
+   "discovery_energy": 3.876311758549538e-05,
+   "amplitude": 0.006226003339663044,
+   "projection": 0.0008572903124728594,
+   "projection_se": 1.900051398008771e-05,
+   "replication_ratio": 0.13769512570149964,
+   "cosine": 0.15818163379381875,
+   "confirmation_energy": 2.9372689782761338e-05,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 1.6439460146883924,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 2.0,
+   "gain_mean": 7.5718489060541765e-06,
+   "gain_se": 6.986313540007617e-06,
+   "gain_pvalue": 0.1392241307674667,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    6
+   ],
+   "names": [
+    "VehBrand",
+    "Area"
+   ],
+   "rank": 29,
+   "discovery_energy": 3.7195259157753416e-05,
+   "amplitude": 0.0060987916145539365,
+   "projection": 0.0011659955497928516,
+   "projection_se": 1.2368392509047394e-05,
+   "replication_ratio": 0.19118468435785899,
+   "cosine": 0.3009268872302621,
+   "confirmation_energy": 1.5013149180931726e-05,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 1.6782362842584648,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.0,
+   "gain_mean": 0.0,
+   "gain_se": 0.0,
+   "gain_pvalue": 1.0,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    5
+   ],
+   "names": [
+    "DrivAge",
+    "VehGas"
+   ],
+   "rank": 30,
+   "discovery_energy": 3.064328269072276e-05,
+   "amplitude": 0.005535637514390078,
+   "projection": 0.0025120275986776166,
+   "projection_se": 1.1489510564377912e-05,
+   "replication_ratio": 0.4537919240823691,
+   "cosine": 0.5673502393124716,
+   "confirmation_energy": 1.9604073777614176e-05,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 1.8489674136120542,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 2.0,
+   "gain_mean": -4.26927864932907e-06,
+   "gain_se": 5.694866330191676e-06,
+   "gain_pvalue": 0.7732736940870779,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    6
+   ],
+   "names": [
+    "VehPower",
+    "Area"
+   ],
+   "rank": 31,
+   "discovery_energy": 2.9167225909492987e-05,
+   "amplitude": 0.005400669024249957,
+   "projection": 0.0010438167132689104,
+   "projection_se": 7.315440827104382e-06,
+   "replication_ratio": 0.19327544579791672,
+   "cosine": 0.37597242595427105,
+   "confirmation_energy": 7.707907663000002e-06,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 1.895175085108487,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.9592383044253762,
+   "gain_mean": 1.876827530623998e-06,
+   "gain_se": 2.706884950387199e-06,
+   "gain_pvalue": 0.24404394039038985,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    6
+   ],
+   "names": [
+    "DrivAge",
+    "Area"
+   ],
+   "rank": 32,
+   "discovery_energy": 2.129068500465959e-05,
+   "amplitude": 0.004614183026783787,
+   "projection": 0.001135965417142566,
+   "projection_se": 7.465150394694253e-06,
+   "replication_ratio": 0.24618993450165874,
+   "cosine": 0.3266854114405405,
+   "confirmation_energy": 1.2091237125079063e-05,
+   "pair_relative_pvalue": 0.9907383479195275,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 2.2182070624991894,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 2.0,
+   "gain_mean": 7.0810106627103044e-06,
+   "gain_se": 5.493237490946261e-06,
+   "gain_pvalue": 0.09869184337729986,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    5
+   ],
+   "names": [
+    "BonusMalus",
+    "VehGas"
+   ],
+   "rank": 33,
+   "discovery_energy": 1.1903943457218928e-05,
+   "amplitude": 0.0034502091903562786,
+   "projection": -0.005819785462846772,
+   "projection_se": 2.5238023476142435e-05,
+   "replication_ratio": -1.6867920586130618,
+   "cosine": -0.760080656160025,
+   "confirmation_energy": 5.8626584119707936e-05,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 2.966548638930141,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.0,
+   "gain_mean": 0.0,
+   "gain_se": 0.0,
+   "gain_pvalue": 1.0,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    7
+   ],
+   "names": [
+    "VehGas",
+    "Density"
+   ],
+   "rank": 34,
+   "discovery_energy": 4.231051899874426e-06,
+   "amplitude": 0.002056952089834478,
+   "projection": 0.005366558930628728,
+   "projection_se": 2.0427413407086097e-05,
+   "replication_ratio": 2.608985866588936,
+   "cosine": 0.8317946190668303,
+   "confirmation_energy": 4.162551237771944e-05,
+   "pair_relative_pvalue": 0.0,
+   "pair_relative_selected": true,
+   "family_rms_threshold": 4.97591238427887,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.3617820879305518e-06,
+   "gain_se": 2.242806941013309e-06,
+   "gain_pvalue": 0.7281334648932766,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    7
+   ],
+   "names": [
+    "Area",
+    "Density"
+   ],
+   "rank": 35,
+   "discovery_energy": 3.4229794734256494e-06,
+   "amplitude": 0.0018501295828740347,
+   "projection": 0.00044124877373389086,
+   "projection_se": 2.326782966875138e-06,
+   "replication_ratio": 0.23849614525294205,
+   "cosine": 0.38660914889629994,
+   "confirmation_energy": 1.3026350771250666e-06,
+   "pair_relative_pvalue": 1.0,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 5.532160272674556,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.0,
+   "gain_mean": 0.0,
+   "gain_se": 0.0,
+   "gain_pvalue": 1.0,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    6
+   ],
+   "names": [
+    "VehGas",
+    "Area"
+   ],
+   "rank": 36,
+   "discovery_energy": 3.0891113829615317e-06,
+   "amplitude": 0.0017575868066646188,
+   "projection": 0.00044938021645350956,
+   "projection_se": 6.14987092103507e-06,
+   "replication_ratio": 0.2556802399457587,
+   "cosine": 0.4311534667552356,
+   "confirmation_energy": 1.0863359035416725e-06,
+   "pair_relative_pvalue": 0.05225518722355697,
+   "pair_relative_selected": false,
+   "family_rms_threshold": 5.8234468641119905,
+   "family_rms_pvalue": 1.0,
+   "family_rms_selected": false,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "beta": 0.0,
+   "gain_mean": 0.0,
+   "gain_se": 0.0,
+   "gain_pvalue": 1.0,
+   "gain_selected": false,
+   "rms_and_gain_selected": false
+  }
+ ],
+ "timings": {
+  "discovery_seconds": 2.8802543050001077,
+  "replication_seconds": 87.48321121100003,
+  "utility_seconds": 6.52539938100017,
+  "wall_seconds": 100.89267339499997
+ }
+}

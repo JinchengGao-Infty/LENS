@@ -1,0 +1,31 @@
+{
+ "dataset": "pair_corr",
+ "p": 30,
+ "seed": 21,
+ "method": "fast",
+ "n": 20000,
+ "truth": [
+  [
+   0,
+   1
+  ]
+ ],
+ "lists": {
+  "validation_k": {
+   "size": 1,
+   "tp": 1,
+   "fdp": 0.0,
+   "power": 1.0,
+   "pairs": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 107.38981839641929,
+ "n_model_fits": 8,
+ "chosen_k": 1,
+ "teacher_signal_r2": null
+}

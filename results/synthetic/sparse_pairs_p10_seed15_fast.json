@@ -1,0 +1,55 @@
+{
+ "dataset": "sparse_pairs",
+ "p": 10,
+ "seed": 15,
+ "method": "fast",
+ "n": 20000,
+ "truth": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   4,
+   5
+  ]
+ ],
+ "lists": {
+  "validation_k": {
+   "size": 5,
+   "tp": 3,
+   "fdp": 0.4,
+   "power": 1.0,
+   "pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 97.75557064823806,
+ "n_model_fits": 8,
+ "chosen_k": 5,
+ "teacher_signal_r2": null
+}

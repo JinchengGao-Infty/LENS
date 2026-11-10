@@ -1,0 +1,65 @@
+{
+ "dataset": "additive_corr",
+ "p": 10,
+ "seed": 3,
+ "method": "iloco",
+ "n": 20000,
+ "truth": [],
+ "lists": {
+  "by_alpha0.05": {
+   "size": 1,
+   "tp": 0,
+   "fdp": 1.0,
+   "power": null,
+   "pairs": [
+    [
+     5,
+     7
+    ]
+   ]
+  },
+  "by_alpha0.2": {
+   "size": 8,
+   "tp": 0,
+   "fdp": 1.0,
+   "power": null,
+   "pairs": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 16.89247139543295,
+ "n_model_fits": 56,
+ "teacher_signal_r2": null
+}

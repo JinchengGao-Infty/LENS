@@ -1,0 +1,36 @@
+{
+ "dataset": "additive",
+ "p": 10,
+ "seed": 6,
+ "method": "iloco",
+ "n": 20000,
+ "truth": [],
+ "lists": {
+  "by_alpha0.05": {
+   "size": 0,
+   "tp": 0,
+   "fdp": 0.0,
+   "power": null,
+   "pairs": []
+  },
+  "by_alpha0.2": {
+   "size": 2,
+   "tp": 0,
+   "fdp": 1.0,
+   "power": null,
+   "pairs": [
+    [
+     0,
+     6
+    ],
+    [
+     1,
+     6
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 18.261970173567533,
+ "n_model_fits": 56,
+ "teacher_signal_r2": null
+}

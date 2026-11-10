@@ -1,0 +1,50 @@
+{
+ "dataset": "pair_corr",
+ "p": 10,
+ "seed": 11,
+ "method": "iloco",
+ "n": 20000,
+ "truth": [
+  [
+   0,
+   1
+  ]
+ ],
+ "lists": {
+  "by_alpha0.05": {
+   "size": 2,
+   "tp": 1,
+   "fdp": 0.5,
+   "power": 1.0,
+   "pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  "by_alpha0.2": {
+   "size": 2,
+   "tp": 1,
+   "fdp": 0.5,
+   "power": 1.0,
+   "pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 40.057553328573704,
+ "n_model_fits": 56,
+ "teacher_signal_r2": null
+}

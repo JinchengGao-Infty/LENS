@@ -1,0 +1,54 @@
+{
+ "dataset": "additive",
+ "p": 50,
+ "seed": 20,
+ "method": "fast",
+ "n": 20000,
+ "truth": [],
+ "lists": {
+  "validation_k": {
+   "size": 8,
+   "tp": 0,
+   "fdp": 1.0,
+   "power": null,
+   "pairs": [
+    [
+     0,
+     26
+    ],
+    [
+     2,
+     23
+    ],
+    [
+     7,
+     23
+    ],
+    [
+     7,
+     39
+    ],
+    [
+     10,
+     23
+    ],
+    [
+     10,
+     31
+    ],
+    [
+     24,
+     27
+    ],
+    [
+     30,
+     33
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 74.26846634037793,
+ "n_model_fits": 8,
+ "chosen_k": 8,
+ "teacher_signal_r2": null
+}

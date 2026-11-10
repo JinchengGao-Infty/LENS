@@ -1,0 +1,21 @@
+{
+ "dataset": "additive",
+ "p": 30,
+ "seed": 21,
+ "method": "fast",
+ "n": 20000,
+ "truth": [],
+ "lists": {
+  "validation_k": {
+   "size": 0,
+   "tp": 0,
+   "fdp": 0.0,
+   "power": null,
+   "pairs": []
+  }
+ },
+ "wall_seconds": 49.111716313287616,
+ "n_model_fits": 8,
+ "chosen_k": 0,
+ "teacher_signal_r2": null
+}

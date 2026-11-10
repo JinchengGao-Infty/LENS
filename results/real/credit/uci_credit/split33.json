@@ -1,0 +1,7905 @@
+{
+ "dataset": "uci_credit",
+ "split_seed": 33,
+ "part_sizes": {
+  "discovery": 8160,
+  "confirmation": 7920,
+  "evaluation": 7920,
+  "outer_test": 6000
+ },
+ "eta": 0.25,
+ "alpha": 0.05,
+ "kappa": 0.02,
+ "n_trees": {
+  "discovery": 91,
+  "confirmation": 106,
+  "additive": 904
+ },
+ "family_rms_norm": 0.023595276294116948,
+ "discovery_margin_sd": 1.204251766204834,
+ "lists": {
+  "lens": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT3"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_2"
+   ]
+  ],
+  "family_rms": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_0",
+    "PAY_3"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT1"
+   ],
+   [
+    "AGE",
+    "PAY_0"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT6"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT2"
+   ],
+   [
+    "SEX",
+    "PAY_0"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_0",
+    "PAY_6"
+   ],
+   [
+    "AGE",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT2"
+   ],
+   [
+    "LIMIT_BAL",
+    "EDUCATION"
+   ],
+   [
+    "PAY_6",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT6"
+   ],
+   [
+    "PAY_2",
+    "PAY_4"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT6"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_5"
+   ],
+   [
+    "PAY_6",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT4",
+    "BILL_AMT6"
+   ],
+   [
+    "LIMIT_BAL",
+    "SEX"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_2"
+   ],
+   [
+    "LIMIT_BAL",
+    "MARRIAGE"
+   ]
+  ],
+  "pair_relative": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_0",
+    "PAY_3"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT1"
+   ],
+   [
+    "AGE",
+    "PAY_0"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT6"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT2"
+   ],
+   [
+    "SEX",
+    "PAY_0"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_0",
+    "PAY_6"
+   ],
+   [
+    "AGE",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT2"
+   ],
+   [
+    "LIMIT_BAL",
+    "EDUCATION"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_6",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_2",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_AMT3",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_AMT5",
+    "PAY_AMT6"
+   ],
+   [
+    "AGE",
+    "BILL_AMT2"
+   ],
+   [
+    "BILL_AMT5",
+    "PAY_AMT3"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT5"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_6"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT6"
+   ],
+   [
+    "PAY_2",
+    "PAY_4"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT2",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT6"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_5"
+   ],
+   [
+    "EDUCATION",
+    "PAY_2"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT6"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_0"
+   ],
+   [
+    "PAY_3",
+    "PAY_5"
+   ],
+   [
+    "PAY_6",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_2",
+    "BILL_AMT6"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT4",
+    "BILL_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "BILL_AMT2"
+   ],
+   [
+    "BILL_AMT2",
+    "BILL_AMT6"
+   ],
+   [
+    "LIMIT_BAL",
+    "SEX"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_2"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT6"
+   ],
+   [
+    "LIMIT_BAL",
+    "MARRIAGE"
+   ],
+   [
+    "SEX",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_5",
+    "PAY_AMT5"
+   ],
+   [
+    "SEX",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT5"
+   ],
+   [
+    "SEX",
+    "AGE"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT1"
+   ],
+   [
+    "MARRIAGE",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT2"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT6"
+   ],
+   [
+    "SEX",
+    "PAY_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "PAY_5"
+   ],
+   [
+    "PAY_2",
+    "PAY_5"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_2"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_5"
+   ],
+   [
+    "SEX",
+    "MARRIAGE"
+   ]
+  ],
+  "gain": [],
+  "top10": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_0"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_3"
+   ],
+   [
+    "PAY_0",
+    "PAY_2"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT2"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT1"
+   ]
+  ],
+  "all": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_0"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_3"
+   ],
+   [
+    "PAY_0",
+    "PAY_2"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT2"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT6"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT1"
+   ],
+   [
+    "EDUCATION",
+    "PAY_0"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_4"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_AMT2",
+    "PAY_AMT4"
+   ],
+   [
+    "AGE",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT1"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT1"
+   ],
+   [
+    "AGE",
+    "PAY_0"
+   ],
+   [
+    "BILL_AMT1",
+    "BILL_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_AMT2",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_AMT2",
+    "PAY_AMT3"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT5"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT3"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT5"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_3"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT1",
+    "BILL_AMT5"
+   ],
+   [
+    "EDUCATION",
+    "AGE"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT6"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT2"
+   ],
+   [
+    "BILL_AMT5",
+    "PAY_AMT5"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT1"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT5"
+   ],
+   [
+    "EDUCATION",
+    "PAY_3"
+   ],
+   [
+    "AGE",
+    "PAY_AMT5"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_4"
+   ],
+   [
+    "BILL_AMT1",
+    "BILL_AMT3"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_6",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_5",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT1",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT2"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT1"
+   ],
+   [
+    "SEX",
+    "PAY_3"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT2"
+   ],
+   [
+    "LIMIT_BAL",
+    "AGE"
+   ],
+   [
+    "BILL_AMT5",
+    "PAY_AMT1"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_3",
+    "PAY_4"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_AMT4",
+    "PAY_AMT6"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "BILL_AMT1"
+   ],
+   [
+    "SEX",
+    "PAY_0"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_6",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_0",
+    "PAY_5"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT5"
+   ],
+   [
+    "AGE",
+    "PAY_6"
+   ],
+   [
+    "PAY_0",
+    "PAY_6"
+   ],
+   [
+    "AGE",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT5"
+   ],
+   [
+    "SEX",
+    "PAY_AMT2"
+   ],
+   [
+    "AGE",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_AMT4",
+    "PAY_AMT5"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT4"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_AMT3",
+    "PAY_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "EDUCATION"
+   ],
+   [
+    "BILL_AMT1",
+    "BILL_AMT2"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT5"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT1"
+   ],
+   [
+    "AGE",
+    "PAY_AMT4"
+   ],
+   [
+    "BILL_AMT5",
+    "BILL_AMT6"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT4"
+   ],
+   [
+    "EDUCATION",
+    "BILL_AMT5"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_6",
+    "PAY_AMT3"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT5"
+   ],
+   [
+    "AGE",
+    "BILL_AMT4"
+   ],
+   [
+    "AGE",
+    "PAY_AMT3"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_2",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_AMT3",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_AMT5",
+    "PAY_AMT6"
+   ],
+   [
+    "AGE",
+    "BILL_AMT2"
+   ],
+   [
+    "AGE",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_AMT2",
+    "PAY_AMT6"
+   ],
+   [
+    "AGE",
+    "PAY_4"
+   ],
+   [
+    "AGE",
+    "BILL_AMT5"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT6"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_3"
+   ],
+   [
+    "SEX",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_AMT3",
+    "PAY_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "BILL_AMT6"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_4",
+    "PAY_6"
+   ],
+   [
+    "AGE",
+    "BILL_AMT3"
+   ],
+   [
+    "BILL_AMT5",
+    "PAY_AMT4"
+   ],
+   [
+    "BILL_AMT5",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_2",
+    "BILL_AMT4"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT5"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT6"
+   ],
+   [
+    "PAY_2",
+    "PAY_3"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_6",
+    "BILL_AMT2"
+   ],
+   [
+    "BILL_AMT3",
+    "BILL_AMT5"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_6"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT3"
+   ],
+   [
+    "EDUCATION",
+    "PAY_4"
+   ],
+   [
+    "BILL_AMT5",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT4",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_5",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_2",
+    "PAY_4"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT5",
+    "PAY_AMT6"
+   ],
+   [
+    "AGE",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_5",
+    "PAY_AMT4"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_4"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT2",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_2",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_5"
+   ],
+   [
+    "BILL_AMT2",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_6",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_6",
+    "BILL_AMT1"
+   ],
+   [
+    "SEX",
+    "PAY_AMT4"
+   ],
+   [
+    "EDUCATION",
+    "PAY_2"
+   ],
+   [
+    "BILL_AMT3",
+    "BILL_AMT6"
+   ],
+   [
+    "MARRIAGE",
+    "BILL_AMT3"
+   ],
+   [
+    "AGE",
+    "PAY_3"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT6"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_0"
+   ],
+   [
+    "PAY_3",
+    "PAY_5"
+   ],
+   [
+    "PAY_4",
+    "PAY_5"
+   ],
+   [
+    "PAY_6",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_6",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_6",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_6",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_2",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_5",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_6",
+    "PAY_AMT6"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT3"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT4"
+   ],
+   [
+    "AGE",
+    "PAY_2"
+   ],
+   [
+    "EDUCATION",
+    "BILL_AMT4"
+   ],
+   [
+    "AGE",
+    "PAY_5"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT6"
+   ],
+   [
+    "BILL_AMT4",
+    "BILL_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "BILL_AMT2"
+   ],
+   [
+    "PAY_5",
+    "PAY_AMT1"
+   ],
+   [
+    "BILL_AMT3",
+    "BILL_AMT4"
+   ],
+   [
+    "BILL_AMT2",
+    "BILL_AMT6"
+   ],
+   [
+    "LIMIT_BAL",
+    "SEX"
+   ],
+   [
+    "SEX",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_5",
+    "PAY_6"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_2"
+   ],
+   [
+    "PAY_6",
+    "PAY_AMT5"
+   ],
+   [
+    "BILL_AMT2",
+    "PAY_AMT6"
+   ],
+   [
+    "PAY_2",
+    "BILL_AMT3"
+   ],
+   [
+    "BILL_AMT2",
+    "BILL_AMT4"
+   ],
+   [
+    "SEX",
+    "PAY_AMT3"
+   ],
+   [
+    "LIMIT_BAL",
+    "MARRIAGE"
+   ],
+   [
+    "PAY_3",
+    "PAY_6"
+   ],
+   [
+    "SEX",
+    "BILL_AMT5"
+   ],
+   [
+    "MARRIAGE",
+    "AGE"
+   ],
+   [
+    "SEX",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_5",
+    "PAY_AMT5"
+   ],
+   [
+    "SEX",
+    "BILL_AMT4"
+   ],
+   [
+    "EDUCATION",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT5"
+   ],
+   [
+    "SEX",
+    "AGE"
+   ],
+   [
+    "EDUCATION",
+    "PAY_6"
+   ],
+   [
+    "PAY_2",
+    "BILL_AMT2"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT5"
+   ],
+   [
+    "MARRIAGE",
+    "BILL_AMT2"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT1"
+   ],
+   [
+    "MARRIAGE",
+    "BILL_AMT4"
+   ],
+   [
+    "SEX",
+    "EDUCATION"
+   ],
+   [
+    "SEX",
+    "BILL_AMT6"
+   ],
+   [
+    "SEX",
+    "BILL_AMT2"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT2"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_2",
+    "PAY_6"
+   ],
+   [
+    "PAY_5",
+    "BILL_AMT4"
+   ],
+   [
+    "SEX",
+    "BILL_AMT3"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_AMT6"
+   ],
+   [
+    "MARRIAGE",
+    "BILL_AMT5"
+   ],
+   [
+    "SEX",
+    "PAY_5"
+   ],
+   [
+    "EDUCATION",
+    "MARRIAGE"
+   ],
+   [
+    "MARRIAGE",
+    "BILL_AMT6"
+   ],
+   [
+    "MARRIAGE",
+    "BILL_AMT1"
+   ],
+   [
+    "SEX",
+    "PAY_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "PAY_5"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_6"
+   ],
+   [
+    "SEX",
+    "PAY_2"
+   ],
+   [
+    "PAY_2",
+    "PAY_5"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_2"
+   ],
+   [
+    "SEX",
+    "PAY_4"
+   ],
+   [
+    "MARRIAGE",
+    "PAY_5"
+   ],
+   [
+    "SEX",
+    "MARRIAGE"
+   ],
+   [
+    "SEX",
+    "PAY_6"
+   ]
+  ],
+  "single_model": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_0"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_3"
+   ],
+   [
+    "PAY_0",
+    "PAY_2"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT2"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT5"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT6"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT4"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT1"
+   ],
+   [
+    "EDUCATION",
+    "PAY_0"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_4"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_AMT2",
+    "PAY_AMT4"
+   ],
+   [
+    "AGE",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT1"
+   ],
+   [
+    "BILL_AMT3",
+    "PAY_AMT1"
+   ],
+   [
+    "AGE",
+    "PAY_0"
+   ],
+   [
+    "BILL_AMT1",
+    "BILL_AMT6"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT3"
+   ],
+   [
+    "PAY_3",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_4",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_AMT1",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_AMT2",
+    "PAY_AMT5"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT4"
+   ],
+   [
+    "PAY_4",
+    "BILL_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT3"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT6",
+    "PAY_AMT4"
+   ],
+   [
+    "PAY_AMT2",
+    "PAY_AMT3"
+   ]
+  ],
+  "top_lens": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_0"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_3"
+   ],
+   [
+    "PAY_0",
+    "PAY_2"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT4"
+   ]
+  ],
+  "both_strong": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_0"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_3"
+   ],
+   [
+    "PAY_0",
+    "PAY_2"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT3"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT6"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_4"
+   ],
+   [
+    "PAY_3",
+    "BILL_AMT1"
+   ],
+   [
+    "EDUCATION",
+    "PAY_AMT1"
+   ],
+   [
+    "PAY_0",
+    "BILL_AMT3"
+   ],
+   [
+    "BILL_AMT1",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_AMT2",
+    "PAY_AMT3"
+   ]
+  ],
+  "projection_floor": [
+   [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_0",
+    "PAY_3"
+   ],
+   [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   [
+    "PAY_2",
+    "PAY_AMT2"
+   ],
+   [
+    "PAY_0",
+    "PAY_AMT2"
+   ],
+   [
+    "BILL_AMT4",
+    "PAY_AMT3"
+   ],
+   [
+    "LIMIT_BAL",
+    "PAY_2"
+   ]
+  ]
+ },
+ "outer_test_mean_log_loss": {
+  "intercept_only": 0.5284379231740076,
+  "additive_f0": 0.43344150435303647,
+  "discovery_teacher": 0.43377094764883317,
+  "confirmation_teacher": 0.43510645294453326,
+  "f0_plus_lens": 0.4324182755765998,
+  "f0_plus_family_rms": 0.43173589540421137,
+  "f0_plus_pair_relative": 0.43336383037970033,
+  "f0_plus_gain": 0.43344150435303647,
+  "f0_plus_top10": 0.4307381792761299,
+  "f0_plus_all": 0.44263578846666035,
+  "f0_plus_single_model": 0.431993568194727,
+  "f0_plus_top_lens": 0.43171497866189557,
+  "f0_plus_both_strong": 0.4321596011144972,
+  "f0_plus_projection_floor": 0.4315244480288067
+ },
+ "pairs": [
+  {
+   "pair": [
+    5,
+    11
+   ],
+   "names": [
+    "PAY_0",
+    "BILL_AMT1"
+   ],
+   "rank": 1,
+   "amplitude": 0.1398076560573571,
+   "projection": 0.057828514481503245,
+   "projection_se": 0.00040908530878174605,
+   "cosine": 0.7488021149034914,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.9428032120709651,
+   "gain_mean": 9.022789713134507e-05,
+   "gain_se": 0.0005359931364711628,
+   "gain_pvalue": 0.4331587750993092,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    5
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_0"
+   ],
+   "rank": 2,
+   "amplitude": 0.13973988632626258,
+   "projection": 0.015092847385686989,
+   "projection_se": 0.0006236279414302641,
+   "cosine": 0.31178464262077743,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.030677249109926388,
+   "gain_mean": 6.580002893742394e-05,
+   "gain_se": 2.2763871275675985e-05,
+   "gain_pvalue": 0.0019228630308147931,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    18
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_AMT2"
+   ],
+   "rank": 3,
+   "amplitude": 0.09902323289421364,
+   "projection": 0.009432664742577075,
+   "projection_se": 0.00024951264283034523,
+   "cosine": 0.24483446063866804,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.1331619907633672,
+   "gain_mean": 4.2070933520017725e-05,
+   "gain_se": 4.420896448480452e-05,
+   "gain_pvalue": 0.17064028430284628,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    7
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_3"
+   ],
+   "rank": 4,
+   "amplitude": 0.07226032999043748,
+   "projection": 0.02427978554969952,
+   "projection_se": 0.00017270043443351151,
+   "cosine": 0.5603184906966081,
+   "lens_pvalue": 0.12972827780313922,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.24522730095404568,
+   "gain_mean": 0.0004176046296519178,
+   "gain_se": 0.00011744389563379604,
+   "gain_pvalue": 0.00018842982665349934,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    6
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_2"
+   ],
+   "rank": 5,
+   "amplitude": 0.06938444213488908,
+   "projection": 0.0038242179435554716,
+   "projection_se": 0.00012666251208116124,
+   "cosine": 0.08573570957430472,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.3447447699931452,
+   "gain_mean": 0.00032449996232684566,
+   "gain_se": 0.0002308341212301294,
+   "gain_pvalue": 0.0798960365710073,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    20
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_AMT4"
+   ],
+   "rank": 6,
+   "amplitude": 0.059248979153120426,
+   "projection": -0.013510319145390892,
+   "projection_se": 0.0001605301108621268,
+   "cosine": -0.7471961612594968,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.22030701426014182,
+   "gain_mean": 8.51604069729937e-06,
+   "gain_se": 8.712298619408803e-05,
+   "gain_pvalue": 0.461066459337063,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    12
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "BILL_AMT2"
+   ],
+   "rank": 7,
+   "amplitude": 0.056578328369878556,
+   "projection": -0.0005829282097278205,
+   "projection_se": 0.00015049125582805893,
+   "cosine": -0.040380371246603354,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    11
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "BILL_AMT1"
+   ],
+   "rank": 8,
+   "amplitude": 0.05610059309025576,
+   "projection": 0.04134815290046727,
+   "projection_se": 0.00031195545226645036,
+   "cosine": 0.7646132328414489,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 1.7537601289642124,
+   "gain_mean": 0.00048422325905567957,
+   "gain_se": 0.00047486439679734517,
+   "gain_pvalue": 0.15393336596476598,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    15
+   ],
+   "names": [
+    "PAY_0",
+    "BILL_AMT5"
+   ],
+   "rank": 9,
+   "amplitude": 0.05474633242347128,
+   "projection": -0.004875313500008582,
+   "projection_se": 0.0001031572535911274,
+   "cosine": -0.22930141978764512,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    17
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_AMT1"
+   ],
+   "rank": 10,
+   "amplitude": 0.05360899423647391,
+   "projection": 0.0018167637099357993,
+   "projection_se": 0.00023283774472246326,
+   "cosine": 0.07228739879989939,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.482538513877844,
+   "gain_mean": 0.0002465067680669022,
+   "gain_se": 0.00014872775948009183,
+   "gain_pvalue": 0.0487156618736951,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    19
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_AMT3"
+   ],
+   "rank": 11,
+   "amplitude": 0.05074076369262919,
+   "projection": 0.009408960352334048,
+   "projection_se": 0.000641738802810158,
+   "cosine": 0.21649462496834962,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.8303017451697611,
+   "gain_mean": 8.0155092160043e-05,
+   "gain_se": 0.00020635758360014182,
+   "gain_pvalue": 0.34884961193275643,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    21
+   ],
+   "names": [
+    "BILL_AMT6",
+    "PAY_AMT5"
+   ],
+   "rank": 12,
+   "amplitude": 0.046195889110272274,
+   "projection": 0.00037772619177570507,
+   "projection_se": 2.835598092821321e-05,
+   "cosine": 0.08437104801808153,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.7316867061116951,
+   "gain_mean": -9.680939913109588e-05,
+   "gain_se": 9.784250883777e-05,
+   "gain_pvalue": 0.8387763118339758,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    21
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_AMT5"
+   ],
+   "rank": 13,
+   "amplitude": 0.04535012221774647,
+   "projection": 0.0019412322232619235,
+   "projection_se": 0.0002919684594261496,
+   "cosine": 0.18880648756562313,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.37884184245494035,
+   "gain_mean": 0.00012935796841994065,
+   "gain_se": 9.717058866631608e-05,
+   "gain_pvalue": 0.09155402148813313,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    16
+   ],
+   "names": [
+    "PAY_0",
+    "BILL_AMT6"
+   ],
+   "rank": 14,
+   "amplitude": 0.044829647721112434,
+   "projection": -0.009743931927087937,
+   "projection_se": 0.00016222276579263474,
+   "cosine": -0.3973886995382341,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.8188706874049864,
+   "gain_mean": -5.1594664175055e-05,
+   "gain_se": 0.0001786555198511292,
+   "gain_pvalue": 0.6136305351262469,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    17
+   ],
+   "names": [
+    "BILL_AMT1",
+    "PAY_AMT1"
+   ],
+   "rank": 15,
+   "amplitude": 0.044090884281604355,
+   "projection": -0.00452438258239365,
+   "projection_se": 0.00011515919327714506,
+   "cosine": -0.3871295810545629,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    20
+   ],
+   "names": [
+    "PAY_AMT1",
+    "PAY_AMT4"
+   ],
+   "rank": 16,
+   "amplitude": 0.043618088461336954,
+   "projection": 0.002420305548272352,
+   "projection_se": 4.646794430180757e-05,
+   "cosine": 0.3001038333586654,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.1937796515232576,
+   "gain_mean": -8.15481507888843e-05,
+   "gain_se": 5.924522342571654e-05,
+   "gain_pvalue": 0.9156589859581317,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    17
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_AMT1"
+   ],
+   "rank": 17,
+   "amplitude": 0.04339891905199128,
+   "projection": 0.009935233957805458,
+   "projection_se": 0.00014369205883845514,
+   "cosine": 0.5970700724179113,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.984455130912623,
+   "gain_mean": 0.00013133803322099165,
+   "gain_se": 0.00020945920270133922,
+   "gain_pvalue": 0.2653184874629336,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    5
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_0"
+   ],
+   "rank": 18,
+   "amplitude": 0.04223176582942516,
+   "projection": -0.010758052812359626,
+   "projection_se": 0.0003315050164785916,
+   "cosine": -0.5683871556056286,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    12
+   ],
+   "names": [
+    "PAY_0",
+    "BILL_AMT2"
+   ],
+   "rank": 19,
+   "amplitude": 0.04034490442749913,
+   "projection": -0.0021510963341150133,
+   "projection_se": 0.0001429312359129757,
+   "cosine": -0.03976731055712063,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    8
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_4"
+   ],
+   "rank": 20,
+   "amplitude": 0.04002013693648497,
+   "projection": -0.0019468536817131548,
+   "projection_se": 0.0002014176534335073,
+   "cosine": -0.06455177014703728,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.47113715704950376,
+   "gain_mean": 8.036214228693621e-05,
+   "gain_se": 0.00015066858378619155,
+   "gain_pvalue": 0.2968886487829636,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    21
+   ],
+   "names": [
+    "PAY_AMT1",
+    "PAY_AMT5"
+   ],
+   "rank": 21,
+   "amplitude": 0.03910624497726161,
+   "projection": -0.0003333271324595947,
+   "projection_se": 0.00011585609956434731,
+   "cosine": -0.021828445827261823,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.01212686431024671,
+   "gain_mean": 3.4634288796287166e-06,
+   "gain_se": 3.158726720674099e-06,
+   "gain_pvalue": 0.13643797162906446,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    11
+   ],
+   "names": [
+    "PAY_3",
+    "BILL_AMT1"
+   ],
+   "rank": 22,
+   "amplitude": 0.03873020313933506,
+   "projection": -0.012290351377149875,
+   "projection_se": 9.704833887700455e-05,
+   "cosine": -0.4453704432098392,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    18,
+    20
+   ],
+   "names": [
+    "PAY_AMT2",
+    "PAY_AMT4"
+   ],
+   "rank": 23,
+   "amplitude": 0.03856390111579934,
+   "projection": -0.0022013979454234838,
+   "projection_se": 0.00017965727948707314,
+   "cosine": -0.14286949635099755,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.10237418905791353,
+   "gain_mean": -1.0369165128119584e-05,
+   "gain_se": 2.0934976855021962e-05,
+   "gain_pvalue": 0.6898070128924076,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    11
+   ],
+   "names": [
+    "AGE",
+    "BILL_AMT1"
+   ],
+   "rank": 24,
+   "amplitude": 0.037565974233137144,
+   "projection": 0.0007953538913018011,
+   "projection_se": 9.469190875924263e-05,
+   "cosine": 0.07789389823384882,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.3735052809100006,
+   "gain_mean": -0.00011704320749996403,
+   "gain_se": 6.003909915068336e-05,
+   "gain_pvalue": 0.9743791315602042,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    17
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_AMT1"
+   ],
+   "rank": 25,
+   "amplitude": 0.03749356588119668,
+   "projection": 0.011233662587756625,
+   "projection_se": 8.52598094381964e-05,
+   "cosine": 0.6957416497098919,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.9483528386151422,
+   "gain_mean": 0.00023790573199326158,
+   "gain_se": 0.00017574123163728166,
+   "gain_pvalue": 0.08791167121038518,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    17
+   ],
+   "names": [
+    "BILL_AMT3",
+    "PAY_AMT1"
+   ],
+   "rank": 26,
+   "amplitude": 0.03726746257478168,
+   "projection": 0.0010660968616051302,
+   "projection_se": 2.6898205838060147e-05,
+   "cosine": 0.17461819214651508,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.32625568189961457,
+   "gain_mean": -0.0001175977122058297,
+   "gain_se": 0.00010240448510125215,
+   "gain_pvalue": 0.8745910131028414,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    5
+   ],
+   "names": [
+    "AGE",
+    "PAY_0"
+   ],
+   "rank": 27,
+   "amplitude": 0.03672890217400855,
+   "projection": 0.00986482145540536,
+   "projection_se": 0.00015350058337158074,
+   "cosine": 0.6813244181148672,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.32819928840037527,
+   "gain_mean": 7.172551962630986e-05,
+   "gain_se": 6.538872737120068e-05,
+   "gain_pvalue": 0.1363404664350869,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    16
+   ],
+   "names": [
+    "BILL_AMT1",
+    "BILL_AMT6"
+   ],
+   "rank": 28,
+   "amplitude": 0.035321678555466196,
+   "projection": 0.001075230796512091,
+   "projection_se": 7.921787635361492e-05,
+   "cosine": 0.25036894605363946,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.9665784524856426,
+   "gain_mean": 0.00022267648081497336,
+   "gain_se": 0.00015928299796603485,
+   "gain_pvalue": 0.0810576179602332,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    17
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_AMT1"
+   ],
+   "rank": 29,
+   "amplitude": 0.0351884699611304,
+   "projection": 0.008334846059719642,
+   "projection_se": 5.389476523353753e-05,
+   "cosine": 0.32373528499867216,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -0.00017784551588440295,
+   "gain_se": 0.00025799929087004254,
+   "gain_pvalue": 0.7546908041719238,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    20
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_AMT4"
+   ],
+   "rank": 30,
+   "amplitude": 0.031774810815772964,
+   "projection": -0.0028437525248859383,
+   "projection_se": 9.746060625434836e-05,
+   "cosine": -0.21836006827055413,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    21
+   ],
+   "names": [
+    "PAY_4",
+    "PAY_AMT5"
+   ],
+   "rank": 31,
+   "amplitude": 0.03176714969498629,
+   "projection": -0.0008598644318295832,
+   "projection_se": 2.5834774779131172e-05,
+   "cosine": -0.519364908151311,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    18
+   ],
+   "names": [
+    "PAY_AMT1",
+    "PAY_AMT2"
+   ],
+   "rank": 32,
+   "amplitude": 0.03132936867399029,
+   "projection": 0.0007570992740177932,
+   "projection_se": 4.985314475202739e-05,
+   "cosine": 0.08779129249061396,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.28489208046000414,
+   "gain_mean": -8.907576261620633e-05,
+   "gain_se": 5.091272277805705e-05,
+   "gain_pvalue": 0.959904391702148,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    13
+   ],
+   "names": [
+    "PAY_0",
+    "BILL_AMT3"
+   ],
+   "rank": 33,
+   "amplitude": 0.030078136605954018,
+   "projection": 0.012893082789383397,
+   "projection_se": 0.0002493614675294729,
+   "cosine": 0.34508057380258667,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    19
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_AMT3"
+   ],
+   "rank": 34,
+   "amplitude": 0.03002066620140465,
+   "projection": -0.008677769221154841,
+   "projection_se": 0.00013836193988406675,
+   "cosine": -0.5992179610922901,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    18
+   ],
+   "names": [
+    "PAY_4",
+    "PAY_AMT2"
+   ],
+   "rank": 35,
+   "amplitude": 0.02883046478587746,
+   "projection": -0.004815066396445751,
+   "projection_se": 0.00010196544052583702,
+   "cosine": -0.2552786842060553,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    19
+   ],
+   "names": [
+    "PAY_AMT1",
+    "PAY_AMT3"
+   ],
+   "rank": 36,
+   "amplitude": 0.02870817811580692,
+   "projection": -0.007216751298275904,
+   "projection_se": 0.00010738203842595759,
+   "cosine": -0.32020267372975375,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.9434340050022185,
+   "gain_mean": -0.00021309755633929024,
+   "gain_se": 0.000144935334490624,
+   "gain_pvalue": 0.9292589307245084,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    18,
+    21
+   ],
+   "names": [
+    "PAY_AMT2",
+    "PAY_AMT5"
+   ],
+   "rank": 37,
+   "amplitude": 0.028666246555011148,
+   "projection": 0.0018633518411833236,
+   "projection_se": 7.802149182893643e-05,
+   "cosine": 0.19050879430562104,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.8762776542527312,
+   "gain_mean": -0.000134284765280778,
+   "gain_se": 8.466653110410357e-05,
+   "gain_pvalue": 0.9436352306408844,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    14
+   ],
+   "names": [
+    "PAY_4",
+    "BILL_AMT4"
+   ],
+   "rank": 38,
+   "amplitude": 0.02844452487489188,
+   "projection": 0.0003846651331994364,
+   "projection_se": 1.3883697623257253e-05,
+   "cosine": 0.10035594614212975,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    11
+   ],
+   "names": [
+    "PAY_4",
+    "BILL_AMT1"
+   ],
+   "rank": 39,
+   "amplitude": 0.027735854122328926,
+   "projection": -0.0007271369943485503,
+   "projection_se": 3.8121673685009786e-05,
+   "cosine": -0.2891844053256856,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.2032516369096562,
+   "gain_mean": 1.487070225294125e-05,
+   "gain_se": 3.365307931139574e-05,
+   "gain_pvalue": 0.32928716649463186,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    19
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_AMT3"
+   ],
+   "rank": 40,
+   "amplitude": 0.02605966019540077,
+   "projection": 0.00546970901346755,
+   "projection_se": 0.00019451994061002646,
+   "cosine": 0.2780180569313912,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.23491094823035236,
+   "gain_mean": -2.2648880757216614e-05,
+   "gain_se": 3.362054872065044e-05,
+   "gain_pvalue": 0.7497368365132174,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    18
+   ],
+   "names": [
+    "BILL_AMT1",
+    "PAY_AMT2"
+   ],
+   "rank": 41,
+   "amplitude": 0.026009996438229446,
+   "projection": -0.011135164524308488,
+   "projection_se": 0.0001344034059286658,
+   "cosine": -0.16460441555350847,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    20
+   ],
+   "names": [
+    "BILL_AMT6",
+    "PAY_AMT4"
+   ],
+   "rank": 42,
+   "amplitude": 0.024843230114870656,
+   "projection": 0.00030601089871283083,
+   "projection_se": 6.774653213740348e-05,
+   "cosine": 0.01690858473576408,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.415120881096439,
+   "gain_mean": -6.479369262504353e-06,
+   "gain_se": 0.00015363009965234576,
+   "gain_pvalue": 0.5168204554289924,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    18,
+    19
+   ],
+   "names": [
+    "PAY_AMT2",
+    "PAY_AMT3"
+   ],
+   "rank": 43,
+   "amplitude": 0.02440400658883337,
+   "projection": 0.005965932454285579,
+   "projection_se": 0.00019741537881084727,
+   "cosine": 0.1899029386855374,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.3779495899701535,
+   "gain_mean": -0.00039347736469624845,
+   "gain_se": 0.00019278204083868382,
+   "gain_pvalue": 0.9793769630524258,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    15
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "BILL_AMT5"
+   ],
+   "rank": 44,
+   "amplitude": 0.02366994225252526,
+   "projection": -0.005726854678841254,
+   "projection_se": 0.00017936356343611855,
+   "cosine": -0.36649668401471536,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00021565787129356587,
+   "gain_se": 0.00017783498942979805,
+   "gain_pvalue": 0.11262508776491109,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    13
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "BILL_AMT3"
+   ],
+   "rank": 45,
+   "amplitude": 0.02366334957528893,
+   "projection": -0.010535740419189955,
+   "projection_se": 0.00011595824828273831,
+   "cosine": -0.36986606457413523,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.9450538483794444,
+   "gain_mean": -5.955903354785152e-05,
+   "gain_se": 0.00017723938908229762,
+   "gain_pvalue": 0.6315786045323333,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    21
+   ],
+   "names": [
+    "BILL_AMT1",
+    "PAY_AMT5"
+   ],
+   "rank": 46,
+   "amplitude": 0.023534349419480374,
+   "projection": -0.0011651556931397541,
+   "projection_se": 3.055779137863418e-05,
+   "cosine": -0.1849268507797451,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    7
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_3"
+   ],
+   "rank": 47,
+   "amplitude": 0.02341725963862931,
+   "projection": 0.00525053176745828,
+   "projection_se": 0.00012490006376519695,
+   "cosine": 0.3350656397986937,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.15095484803974907,
+   "gain_mean": 3.7275567587676835e-05,
+   "gain_se": 2.2132939105512288e-05,
+   "gain_pvalue": 0.04607469099827075,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    19
+   ],
+   "names": [
+    "BILL_AMT1",
+    "PAY_AMT3"
+   ],
+   "rank": 48,
+   "amplitude": 0.023224463928832317,
+   "projection": -0.0008564591441267417,
+   "projection_se": 9.772790677596498e-05,
+   "cosine": -0.02349016096351533,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    15
+   ],
+   "names": [
+    "BILL_AMT1",
+    "BILL_AMT5"
+   ],
+   "rank": 49,
+   "amplitude": 0.02251137046433575,
+   "projection": 0.0019068863907855766,
+   "projection_se": 0.00012471547075849833,
+   "cosine": 0.22210605880394438,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.410065946172016,
+   "gain_mean": 0.00010352920634050492,
+   "gain_se": 0.00013897907498765388,
+   "gain_pvalue": 0.22815805433061126,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    4
+   ],
+   "names": [
+    "EDUCATION",
+    "AGE"
+   ],
+   "rank": 50,
+   "amplitude": 0.022212332541179634,
+   "projection": 0.00019663516898972016,
+   "projection_se": 1.1764058489734602e-05,
+   "cosine": 0.05920997015683487,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    20
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_AMT4"
+   ],
+   "rank": 51,
+   "amplitude": 0.02200646887738228,
+   "projection": -0.002911506965735753,
+   "projection_se": 5.548114701282662e-05,
+   "cosine": -0.7152400465330012,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    22
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_AMT6"
+   ],
+   "rank": 52,
+   "amplitude": 0.021967870000078986,
+   "projection": 0.011211393013363605,
+   "projection_se": 0.0002563803174246322,
+   "cosine": 0.33253662832543296,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.775199918473233,
+   "gain_mean": -9.450095559122803e-05,
+   "gain_se": 0.00011844993860378865,
+   "gain_pvalue": 0.7875106260104117,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    18
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_AMT2"
+   ],
+   "rank": 53,
+   "amplitude": 0.021013891681310484,
+   "projection": 0.047662912347119786,
+   "projection_se": 0.0004545623023345793,
+   "cosine": 0.9483426403015246,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 1.6441940023819503,
+   "gain_mean": -0.00022072576182976272,
+   "gain_se": 0.00019214480088369795,
+   "gain_pvalue": 0.8746698384070102,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    12
+   ],
+   "names": [
+    "PAY_3",
+    "BILL_AMT2"
+   ],
+   "rank": 54,
+   "amplitude": 0.020675600541940446,
+   "projection": -0.0017487647760871423,
+   "projection_se": 3.789116477747466e-05,
+   "cosine": -0.1945907861041655,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    21
+   ],
+   "names": [
+    "BILL_AMT5",
+    "PAY_AMT5"
+   ],
+   "rank": 55,
+   "amplitude": 0.020488723108639462,
+   "projection": -0.0003833503671977518,
+   "projection_se": 1.7313993265538393e-05,
+   "cosine": -0.17585373169391258,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    17
+   ],
+   "names": [
+    "BILL_AMT6",
+    "PAY_AMT1"
+   ],
+   "rank": 56,
+   "amplitude": 0.02038154675585552,
+   "projection": -0.0050436765614153365,
+   "projection_se": 7.422371494643194e-05,
+   "cosine": -0.5525455702586797,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    20
+   ],
+   "names": [
+    "BILL_AMT1",
+    "PAY_AMT4"
+   ],
+   "rank": 57,
+   "amplitude": 0.020352664356409367,
+   "projection": 0.002799453912676463,
+   "projection_se": 9.196883443237318e-05,
+   "cosine": 0.14804682580993633,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    21
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_AMT5"
+   ],
+   "rank": 58,
+   "amplitude": 0.020092813044953327,
+   "projection": -0.0013567825540777582,
+   "projection_se": 8.43521917119028e-05,
+   "cosine": -0.20191867972889885,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.74978192999265,
+   "gain_mean": 0.00010303338842539423,
+   "gain_se": 0.00025664888127285206,
+   "gain_pvalue": 0.34404199087561027,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    7
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_3"
+   ],
+   "rank": 59,
+   "amplitude": 0.020027669556458086,
+   "projection": 0.0018893245643581088,
+   "projection_se": 5.45902255470476e-05,
+   "cosine": 0.564529126103536,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 8.627807880946733e-07,
+   "gain_se": 0.00018898669548179188,
+   "gain_pvalue": 0.4981787154985557,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    21
+   ],
+   "names": [
+    "AGE",
+    "PAY_AMT5"
+   ],
+   "rank": 60,
+   "amplitude": 0.019528356038337944,
+   "projection": -0.004143078356876079,
+   "projection_se": 9.06839825894581e-05,
+   "cosine": -0.591482290354634,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.08105906197581995,
+   "gain_mean": -7.214058432162584e-06,
+   "gain_se": 4.5624891806111e-06,
+   "gain_pvalue": 0.9430800983187101,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    8
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_4"
+   ],
+   "rank": 61,
+   "amplitude": 0.01927620908564439,
+   "projection": 0.002938712683530668,
+   "projection_se": 4.561715656036681e-05,
+   "cosine": 0.17719780134003754,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    13
+   ],
+   "names": [
+    "BILL_AMT1",
+    "BILL_AMT3"
+   ],
+   "rank": 62,
+   "amplitude": 0.019234771302277125,
+   "projection": 0.0018327958247995625,
+   "projection_se": 6.792416388418054e-05,
+   "cosine": 0.3094676186194953,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.5177482278054069,
+   "gain_mean": -3.515569010776812e-05,
+   "gain_se": 0.0001300928814969764,
+   "gain_pvalue": 0.6065103851379083,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    21
+   ],
+   "names": [
+    "BILL_AMT2",
+    "PAY_AMT5"
+   ],
+   "rank": 63,
+   "amplitude": 0.01920429911869913,
+   "projection": -0.00037071889871801426,
+   "projection_se": 4.08998336742169e-05,
+   "cosine": -0.04097371995577003,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    18
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_AMT2"
+   ],
+   "rank": 64,
+   "amplitude": 0.01903325018665075,
+   "projection": -0.0023450003073035453,
+   "projection_se": 0.00013085056470577285,
+   "cosine": -0.22891929807763467,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.6569593122347529,
+   "gain_mean": 9.096305522672974e-06,
+   "gain_se": 4.753215671979601e-05,
+   "gain_pvalue": 0.42411722910985206,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    17
+   ],
+   "names": [
+    "PAY_6",
+    "PAY_AMT1"
+   ],
+   "rank": 65,
+   "amplitude": 0.018954455362240014,
+   "projection": 0.0029593171704385547,
+   "projection_se": 9.46226760326986e-05,
+   "cosine": 0.5215587847218309,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.01069250222357466,
+   "gain_mean": 2.0134032104117915e-06,
+   "gain_se": 1.4586005301377893e-06,
+   "gain_pvalue": 0.08373692500202473,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    16
+   ],
+   "names": [
+    "PAY_4",
+    "BILL_AMT6"
+   ],
+   "rank": 66,
+   "amplitude": 0.01894912726261771,
+   "projection": -0.001339346322154321,
+   "projection_se": 2.278053659709575e-05,
+   "cosine": -0.36128908764658246,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    22
+   ],
+   "names": [
+    "PAY_5",
+    "PAY_AMT6"
+   ],
+   "rank": 67,
+   "amplitude": 0.018763257619742676,
+   "projection": -0.0009442948635963311,
+   "projection_se": 5.0125984807535134e-05,
+   "cosine": -0.05051279033146065,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    14
+   ],
+   "names": [
+    "BILL_AMT1",
+    "BILL_AMT4"
+   ],
+   "rank": 68,
+   "amplitude": 0.01873549440617949,
+   "projection": 0.001528601717544827,
+   "projection_se": 6.500936207899236e-05,
+   "cosine": 0.159479845690388,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 9.414345833746108e-05,
+   "gain_se": 0.00014768548300884065,
+   "gain_pvalue": 0.26191291426731467,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    20
+   ],
+   "names": [
+    "PAY_4",
+    "PAY_AMT4"
+   ],
+   "rank": 69,
+   "amplitude": 0.018663586104111698,
+   "projection": 0.0012109493196996394,
+   "projection_se": 5.06901726110625e-05,
+   "cosine": 0.701719006185696,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    18
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_AMT2"
+   ],
+   "rank": 70,
+   "amplitude": 0.018657950019134804,
+   "projection": 0.04890021269625764,
+   "projection_se": 0.00031130024896636177,
+   "cosine": 0.48347516716013517,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 1.7835531235804953,
+   "gain_mean": 3.225948281623433e-05,
+   "gain_se": 0.000123770101300058,
+   "gain_pvalue": 0.3971849341123225,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    12
+   ],
+   "names": [
+    "PAY_4",
+    "BILL_AMT2"
+   ],
+   "rank": 71,
+   "amplitude": 0.018344908848107678,
+   "projection": -0.0003917995368731409,
+   "projection_se": 2.2534944483022006e-05,
+   "cosine": -0.0769332757504133,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 5.824074595284509e-05,
+   "gain_se": 0.00016027971622290606,
+   "gain_pvalue": 0.3581644747389979,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    19
+   ],
+   "names": [
+    "BILL_AMT3",
+    "PAY_AMT3"
+   ],
+   "rank": 72,
+   "amplitude": 0.018059041978208682,
+   "projection": 0.0076356628358866,
+   "projection_se": 0.00013004561720290355,
+   "cosine": 0.42347798913369694,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -0.00012172825613682708,
+   "gain_se": 0.00015572565740845269,
+   "gain_pvalue": 0.782799849046467,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    17
+   ],
+   "names": [
+    "PAY_4",
+    "PAY_AMT1"
+   ],
+   "rank": 73,
+   "amplitude": 0.017627712427054843,
+   "projection": 0.0009533937225857328,
+   "projection_se": 1.1042580423955396e-05,
+   "cosine": 0.10495184990428018,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00016232137850489062,
+   "gain_se": 0.00020327612218111615,
+   "gain_pvalue": 0.21228249902809176,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    7
+   ],
+   "names": [
+    "SEX",
+    "PAY_3"
+   ],
+   "rank": 74,
+   "amplitude": 0.016691338500888275,
+   "projection": -0.0027160958536097224,
+   "projection_se": 9.342660576743431e-05,
+   "cosine": -0.9999999999999013,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    18
+   ],
+   "names": [
+    "BILL_AMT6",
+    "PAY_AMT2"
+   ],
+   "rank": 75,
+   "amplitude": 0.016470470957909582,
+   "projection": 0.008688338799818947,
+   "projection_se": 0.00011262337168107987,
+   "cosine": 0.5385163295215579,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 1.0269390528521085,
+   "gain_mean": -6.064283563622253e-07,
+   "gain_se": 7.61329966183365e-05,
+   "gain_pvalue": 0.5031776938234076,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    4
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "AGE"
+   ],
+   "rank": 76,
+   "amplitude": 0.016202612361923444,
+   "projection": -0.006167824796609641,
+   "projection_se": 0.00011633554980650192,
+   "cosine": -0.5646505640241316,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    17
+   ],
+   "names": [
+    "BILL_AMT5",
+    "PAY_AMT1"
+   ],
+   "rank": 77,
+   "amplitude": 0.016169482766878678,
+   "projection": 0.0014754728637505084,
+   "projection_se": 3.5194247884642265e-05,
+   "cosine": 0.12903029403484617,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    17
+   ],
+   "names": [
+    "BILL_AMT2",
+    "PAY_AMT1"
+   ],
+   "rank": 78,
+   "amplitude": 0.016144607840345174,
+   "projection": -0.001805132794298279,
+   "projection_se": 7.645627937250845e-05,
+   "cosine": -0.0764532262406858,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.1657207488037202,
+   "gain_mean": -0.00017466648678984275,
+   "gain_se": 9.904331049041015e-05,
+   "gain_pvalue": 0.9610949711816594,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    22
+   ],
+   "names": [
+    "PAY_AMT1",
+    "PAY_AMT6"
+   ],
+   "rank": 79,
+   "amplitude": 0.015793908679398384,
+   "projection": -0.0034930570044860833,
+   "projection_se": 5.778135361511729e-05,
+   "cosine": -0.33938247688721884,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.3420556827137635,
+   "gain_mean": -1.8072764445265877e-05,
+   "gain_se": 2.1329208328614984e-05,
+   "gain_pvalue": 0.8015929107010077,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    20
+   ],
+   "names": [
+    "BILL_AMT3",
+    "PAY_AMT4"
+   ],
+   "rank": 80,
+   "amplitude": 0.015474277608558634,
+   "projection": -0.0002596679304762058,
+   "projection_se": 1.4468233751660639e-05,
+   "cosine": -0.06394671487456387,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    8
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_4"
+   ],
+   "rank": 81,
+   "amplitude": 0.015459733907613155,
+   "projection": 0.0016936846683315533,
+   "projection_se": 2.979741753500632e-05,
+   "cosine": 0.663137943109875,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    21
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_AMT5"
+   ],
+   "rank": 82,
+   "amplitude": 0.015094055623782531,
+   "projection": 0.0007174231975774323,
+   "projection_se": 5.030219769030242e-05,
+   "cosine": 0.3675235242487412,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    20,
+    22
+   ],
+   "names": [
+    "PAY_AMT4",
+    "PAY_AMT6"
+   ],
+   "rank": 83,
+   "amplitude": 0.01500733837379344,
+   "projection": -0.00027635175425183757,
+   "projection_se": 1.8729937823873623e-05,
+   "cosine": -0.040419604972495686,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.551470719507085,
+   "gain_mean": -6.989484230262658e-05,
+   "gain_se": 9.086389438868231e-05,
+   "gain_pvalue": 0.7791203303740191,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    16
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "BILL_AMT6"
+   ],
+   "rank": 84,
+   "amplitude": 0.014947370685879103,
+   "projection": -0.0005454065551046568,
+   "projection_se": 1.6888218872367687e-05,
+   "cosine": -0.07125442094179675,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    11
+   ],
+   "names": [
+    "EDUCATION",
+    "BILL_AMT1"
+   ],
+   "rank": 85,
+   "amplitude": 0.014863494651025903,
+   "projection": -0.007239928752784353,
+   "projection_se": 9.067798240337108e-05,
+   "cosine": -0.2990143168448232,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    5
+   ],
+   "names": [
+    "SEX",
+    "PAY_0"
+   ],
+   "rank": 86,
+   "amplitude": 0.014734315984118744,
+   "projection": 0.007975539903723563,
+   "projection_se": 0.00014315398929913076,
+   "cosine": 0.5195967008057568,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.13908189589593872,
+   "gain_mean": -1.9562467446209275e-07,
+   "gain_se": 1.0492631672323989e-05,
+   "gain_pvalue": 0.5074374508827905,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    20
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_AMT4"
+   ],
+   "rank": 87,
+   "amplitude": 0.014688032118444702,
+   "projection": -0.0020163231759612976,
+   "projection_se": 2.1966338184349085e-05,
+   "cosine": -0.11395257812513154,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.3202946286505115,
+   "gain_mean": 0.00020625657941222134,
+   "gain_se": 9.149207437891072e-05,
+   "gain_pvalue": 0.012086590739671733,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    20
+   ],
+   "names": [
+    "PAY_6",
+    "PAY_AMT4"
+   ],
+   "rank": 88,
+   "amplitude": 0.014316164788402145,
+   "projection": -0.0003711907629863651,
+   "projection_se": 4.055591948909168e-05,
+   "cosine": -0.03324384276195469,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    9
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_5"
+   ],
+   "rank": 89,
+   "amplitude": 0.0138565464452776,
+   "projection": -0.009029844689043009,
+   "projection_se": 0.00020502036119541232,
+   "cosine": -0.535647457859372,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -0.0002187508963515857,
+   "gain_se": 0.00018345665360994554,
+   "gain_pvalue": 0.8834447703970529,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    22
+   ],
+   "names": [
+    "BILL_AMT1",
+    "PAY_AMT6"
+   ],
+   "rank": 90,
+   "amplitude": 0.013511949524173462,
+   "projection": -0.0036933147087041145,
+   "projection_se": 8.679992505579651e-05,
+   "cosine": -0.11470773158343665,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    18
+   ],
+   "names": [
+    "BILL_AMT3",
+    "PAY_AMT2"
+   ],
+   "rank": 91,
+   "amplitude": 0.013312015483589944,
+   "projection": 0.0005720016951318692,
+   "projection_se": 6.181298799781018e-05,
+   "cosine": 0.025134159093476896,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.17013086892663032,
+   "gain_mean": -1.4918380099419336e-05,
+   "gain_se": 1.1641431664081162e-05,
+   "gain_pvalue": 0.8999892226071018,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    14
+   ],
+   "names": [
+    "PAY_0",
+    "BILL_AMT4"
+   ],
+   "rank": 92,
+   "amplitude": 0.013248325280024635,
+   "projection": 0.013306710238680979,
+   "projection_se": 0.0001573349297979978,
+   "cosine": 0.6802143581051303,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    21
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_AMT5"
+   ],
+   "rank": 93,
+   "amplitude": 0.012802383000035123,
+   "projection": -0.00011087626092323006,
+   "projection_se": 6.897419561510173e-05,
+   "cosine": -0.01092917222636194,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.15114479791567673,
+   "gain_mean": 4.010231752115843e-06,
+   "gain_se": 9.235038671786079e-06,
+   "gain_pvalue": 0.3320567480279349,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    10
+   ],
+   "names": [
+    "AGE",
+    "PAY_6"
+   ],
+   "rank": 94,
+   "amplitude": 0.012719543578220055,
+   "projection": -0.006655155740774297,
+   "projection_se": 0.00013308545116365477,
+   "cosine": -0.6591971197155703,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    10
+   ],
+   "names": [
+    "PAY_0",
+    "PAY_6"
+   ],
+   "rank": 95,
+   "amplitude": 0.012649602190816163,
+   "projection": 0.006976405329862049,
+   "projection_se": 0.00017818074673196297,
+   "cosine": 0.46351643531587566,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 2.551209666553468e-05,
+   "gain_se": 0.0001196409935490698,
+   "gain_pvalue": 0.41557037010672976,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    16
+   ],
+   "names": [
+    "AGE",
+    "BILL_AMT6"
+   ],
+   "rank": 96,
+   "amplitude": 0.012591829117098588,
+   "projection": -0.0005114372664420361,
+   "projection_se": 3.545909767529977e-05,
+   "cosine": -0.09057264611338278,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    15
+   ],
+   "names": [
+    "PAY_3",
+    "BILL_AMT5"
+   ],
+   "rank": 97,
+   "amplitude": 0.012499419715000116,
+   "projection": 8.080492308814213e-05,
+   "projection_se": 4.871690904143106e-05,
+   "cosine": 0.011818626844615291,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    18
+   ],
+   "names": [
+    "SEX",
+    "PAY_AMT2"
+   ],
+   "rank": 98,
+   "amplitude": 0.01247683797342959,
+   "projection": 0.0016424310697925532,
+   "projection_se": 6.979457238437127e-05,
+   "cosine": 0.40463252357560603,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.925709524880733e-05,
+   "gain_se": 7.699685772407939e-05,
+   "gain_pvalue": 0.648019046236312,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    18
+   ],
+   "names": [
+    "AGE",
+    "PAY_AMT2"
+   ],
+   "rank": 99,
+   "amplitude": 0.012450222771414741,
+   "projection": 0.014387655653561567,
+   "projection_se": 0.00025057721016767383,
+   "cosine": 0.4277670680857864,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -8.47548789209269e-05,
+   "gain_se": 8.287851883772403e-05,
+   "gain_pvalue": 0.8467609277805066,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    20,
+    21
+   ],
+   "names": [
+    "PAY_AMT4",
+    "PAY_AMT5"
+   ],
+   "rank": 100,
+   "amplitude": 0.01235229029587751,
+   "projection": 0.0015433762306229486,
+   "projection_se": 4.6740196695602226e-05,
+   "cosine": 0.49183001392722103,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.945353996135886,
+   "gain_mean": -0.00020294315629264826,
+   "gain_se": 0.0002182724341556574,
+   "gain_pvalue": 0.8237549031522255,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    20
+   ],
+   "names": [
+    "BILL_AMT2",
+    "PAY_AMT4"
+   ],
+   "rank": 101,
+   "amplitude": 0.011992724034641057,
+   "projection": 0.0005449904660031776,
+   "projection_se": 3.2638062862842524e-05,
+   "cosine": 0.06661658957707935,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.032735596956894736,
+   "gain_mean": -2.4734841638139203e-06,
+   "gain_se": 2.566411282689345e-06,
+   "gain_pvalue": 0.8324246466813694,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    18
+   ],
+   "names": [
+    "BILL_AMT2",
+    "PAY_AMT2"
+   ],
+   "rank": 102,
+   "amplitude": 0.011913883558674312,
+   "projection": 0.006924430711974681,
+   "projection_se": 0.00010405429948003888,
+   "cosine": 0.2761686449549055,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -1.560567414945582e-05,
+   "gain_se": 8.179021287203309e-05,
+   "gain_pvalue": 0.575659341967206,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    17
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_AMT1"
+   ],
+   "rank": 103,
+   "amplitude": 0.011831716214934316,
+   "projection": -0.0027820352751435767,
+   "projection_se": 7.72307716553203e-05,
+   "cosine": -0.826653264418208,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.7971692547450095,
+   "gain_mean": 7.15461826349465e-05,
+   "gain_se": 9.832458183263302e-05,
+   "gain_pvalue": 0.23341299629008622,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    19,
+    20
+   ],
+   "names": [
+    "PAY_AMT3",
+    "PAY_AMT4"
+   ],
+   "rank": 104,
+   "amplitude": 0.01165138263885212,
+   "projection": -0.005525019793327343,
+   "projection_se": 4.31639209999917e-05,
+   "cosine": -0.2800860031907215,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    2
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "EDUCATION"
+   ],
+   "rank": 105,
+   "amplitude": 0.010614806158023847,
+   "projection": 0.011804769606737039,
+   "projection_se": 9.919598724142418e-05,
+   "cosine": 0.5812531537332972,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    12
+   ],
+   "names": [
+    "BILL_AMT1",
+    "BILL_AMT2"
+   ],
+   "rank": 106,
+   "amplitude": 0.010390185025649708,
+   "projection": 0.001839631379403077,
+   "projection_se": 0.00017040547885987785,
+   "cosine": 0.062202337565849745,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 6.191973351305493e-05,
+   "gain_se": 0.00011503285971585305,
+   "gain_pvalue": 0.29519234109769016,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    22
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_AMT6"
+   ],
+   "rank": 107,
+   "amplitude": 0.010306060243300257,
+   "projection": 0.0004853801358177885,
+   "projection_se": 0.00015008845061595613,
+   "cosine": 0.019929011743981234,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.158919963916211,
+   "gain_mean": 5.8300124234094015e-05,
+   "gain_se": 4.744254750373587e-05,
+   "gain_pvalue": 0.10956264326908727,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    21
+   ],
+   "names": [
+    "BILL_AMT3",
+    "PAY_AMT5"
+   ],
+   "rank": 108,
+   "amplitude": 0.010029199998482782,
+   "projection": 0.0007641958517840636,
+   "projection_se": 3.933358784394598e-05,
+   "cosine": 0.1453820906459856,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.8636134387343074,
+   "gain_mean": -0.00016320910353164315,
+   "gain_se": 5.240932807024538e-05,
+   "gain_pvalue": 0.999077537763471,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    17
+   ],
+   "names": [
+    "BILL_AMT4",
+    "PAY_AMT1"
+   ],
+   "rank": 109,
+   "amplitude": 0.009854367705028823,
+   "projection": 0.0019581646058080405,
+   "projection_se": 6.720642835497724e-05,
+   "cosine": 0.08736213606815338,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.035563438277634,
+   "gain_mean": -6.59763163922711e-05,
+   "gain_se": 4.9124613664371074e-05,
+   "gain_pvalue": 0.9103704733572313,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    20
+   ],
+   "names": [
+    "AGE",
+    "PAY_AMT4"
+   ],
+   "rank": 110,
+   "amplitude": 0.009640260685788103,
+   "projection": 0.0007736832263972955,
+   "projection_se": 5.504111539626031e-05,
+   "cosine": 0.04063664024376672,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    16
+   ],
+   "names": [
+    "BILL_AMT5",
+    "BILL_AMT6"
+   ],
+   "rank": 111,
+   "amplitude": 0.009601372961375435,
+   "projection": 0.0016578654098620832,
+   "projection_se": 6.892815477451764e-05,
+   "cosine": 0.4926949289390159,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    14
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "BILL_AMT4"
+   ],
+   "rank": 112,
+   "amplitude": 0.00959632102348385,
+   "projection": 0.004465574692992774,
+   "projection_se": 0.0001338135067972255,
+   "cosine": 0.08363629381373007,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    15
+   ],
+   "names": [
+    "EDUCATION",
+    "BILL_AMT5"
+   ],
+   "rank": 113,
+   "amplitude": 0.009541446760158159,
+   "projection": 0.00031982344720756265,
+   "projection_se": 2.3897688587636944e-05,
+   "cosine": 0.16079965643321983,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.3049436454937893,
+   "gain_mean": -0.0001573231772146159,
+   "gain_se": 5.102420417581277e-05,
+   "gain_pvalue": 0.998976423429398,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    20
+   ],
+   "names": [
+    "BILL_AMT4",
+    "PAY_AMT4"
+   ],
+   "rank": 114,
+   "amplitude": 0.009228573669795796,
+   "projection": 0.0011928016172072678,
+   "projection_se": 2.2873010917970324e-05,
+   "cosine": 0.1175000176514943,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 4.2016933599946726e-05,
+   "gain_se": 5.940102704764497e-05,
+   "gain_pvalue": 0.2396765026653706,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    19
+   ],
+   "names": [
+    "PAY_6",
+    "PAY_AMT3"
+   ],
+   "rank": 115,
+   "amplitude": 0.009154349524917678,
+   "projection": 0.016735476979926767,
+   "projection_se": 0.00026163244293890076,
+   "cosine": 0.786732553993454,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    21
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_AMT5"
+   ],
+   "rank": 116,
+   "amplitude": 0.009151167337384542,
+   "projection": -0.0010507552204601592,
+   "projection_se": 3.862275707097314e-05,
+   "cosine": -0.37097968519203683,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    14
+   ],
+   "names": [
+    "AGE",
+    "BILL_AMT4"
+   ],
+   "rank": 117,
+   "amplitude": 0.00910227755707479,
+   "projection": -0.0002819076665182841,
+   "projection_se": 6.913759953678606e-05,
+   "cosine": -0.03831482517888675,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 6.102707094344116e-05,
+   "gain_se": 7.28877291617357e-05,
+   "gain_pvalue": 0.20121901379196155,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    19
+   ],
+   "names": [
+    "AGE",
+    "PAY_AMT3"
+   ],
+   "rank": 118,
+   "amplitude": 0.008908266151445852,
+   "projection": -0.001483757507573484,
+   "projection_se": 0.00011617717209593433,
+   "cosine": -0.039332732244204534,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 7.266612662613204e-05,
+   "gain_se": 0.00010464155809493847,
+   "gain_pvalue": 0.24370662390357672,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    19
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_AMT3"
+   ],
+   "rank": 119,
+   "amplitude": 0.008830246479176629,
+   "projection": 0.0008224806832967901,
+   "projection_se": 1.6307009522634222e-05,
+   "cosine": 0.12114613864552531,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.19478660449776983,
+   "gain_mean": 1.827783997353523e-05,
+   "gain_se": 1.2505691960709753e-05,
+   "gain_pvalue": 0.07193068280929818,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    11
+   ],
+   "names": [
+    "PAY_2",
+    "BILL_AMT1"
+   ],
+   "rank": 120,
+   "amplitude": 0.008784196897129401,
+   "projection": 0.00446133944913146,
+   "projection_se": 7.524310760434465e-05,
+   "cosine": 0.35215527644091027,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -0.00014094686390233848,
+   "gain_se": 9.125826711571847e-05,
+   "gain_pvalue": 0.938764345579119,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    19,
+    21
+   ],
+   "names": [
+    "PAY_AMT3",
+    "PAY_AMT5"
+   ],
+   "rank": 121,
+   "amplitude": 0.008645220070987088,
+   "projection": 0.0050912338723426535,
+   "projection_se": 0.00013109547973862883,
+   "cosine": 0.440770313730322,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -0.00015207412633141802,
+   "gain_se": 7.122714394468559e-05,
+   "gain_pvalue": 0.9836218881713068,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    16
+   ],
+   "names": [
+    "PAY_5",
+    "BILL_AMT6"
+   ],
+   "rank": 122,
+   "amplitude": 0.008560383496889609,
+   "projection": 0.003203699474727281,
+   "projection_se": 6.0910507740386564e-05,
+   "cosine": 0.5509019969436426,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 7.18023306335154e-05,
+   "gain_se": 7.112443780238051e-05,
+   "gain_pvalue": 0.1563600015029426,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    11
+   ],
+   "names": [
+    "PAY_5",
+    "BILL_AMT1"
+   ],
+   "rank": 123,
+   "amplitude": 0.008531244609371078,
+   "projection": 0.0006831346232045749,
+   "projection_se": 5.767691147285431e-05,
+   "cosine": 0.09232087104368604,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    21,
+    22
+   ],
+   "names": [
+    "PAY_AMT5",
+    "PAY_AMT6"
+   ],
+   "rank": 124,
+   "amplitude": 0.008366512701610764,
+   "projection": 0.0051807686285629635,
+   "projection_se": 9.106490580401267e-05,
+   "cosine": 0.3032124892407364,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 1.8131080005702365,
+   "gain_mean": -2.5953311576596003e-05,
+   "gain_se": 9.740454414687147e-05,
+   "gain_pvalue": 0.6050531582127128,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    12
+   ],
+   "names": [
+    "AGE",
+    "BILL_AMT2"
+   ],
+   "rank": 125,
+   "amplitude": 0.008316575124215454,
+   "projection": 0.0023966524012778018,
+   "projection_se": 9.537907592377654e-05,
+   "cosine": 0.31031359663087144,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 1.024618190417517,
+   "gain_mean": 0.00010062853626801024,
+   "gain_se": 3.633939895921101e-05,
+   "gain_pvalue": 0.0028103062849440114,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    17
+   ],
+   "names": [
+    "AGE",
+    "PAY_AMT1"
+   ],
+   "rank": 126,
+   "amplitude": 0.008180932547314132,
+   "projection": -0.0007443854763142363,
+   "projection_se": 5.7013380855515546e-05,
+   "cosine": -0.06701155639353151,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    18,
+    22
+   ],
+   "names": [
+    "PAY_AMT2",
+    "PAY_AMT6"
+   ],
+   "rank": 127,
+   "amplitude": 0.00812194100905193,
+   "projection": -0.0002269332180797076,
+   "projection_se": 0.00012636579848380867,
+   "cosine": -0.011372381953595322,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.1705883597825455,
+   "gain_mean": -1.5885286191008052e-07,
+   "gain_se": 1.2116009374063126e-05,
+   "gain_pvalue": 0.5052303778785503,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    8
+   ],
+   "names": [
+    "AGE",
+    "PAY_4"
+   ],
+   "rank": 128,
+   "amplitude": 0.008026265900748435,
+   "projection": -0.005980786434356787,
+   "projection_se": 8.054192858457695e-05,
+   "cosine": -0.3446536474956443,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.2010026275434089e-05,
+   "gain_se": 7.414915322707904e-05,
+   "gain_pvalue": 0.5643357276969305,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    15
+   ],
+   "names": [
+    "AGE",
+    "BILL_AMT5"
+   ],
+   "rank": 129,
+   "amplitude": 0.007932889522140343,
+   "projection": 0.0015242400257596026,
+   "projection_se": 8.424952809374582e-05,
+   "cosine": 0.1025876636586886,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00010426971148948915,
+   "gain_se": 7.080300021726088e-05,
+   "gain_pvalue": 0.07041952990935105,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    22
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_AMT6"
+   ],
+   "rank": 130,
+   "amplitude": 0.007831009528765712,
+   "projection": 0.0018146883510307295,
+   "projection_se": 8.372100578645109e-05,
+   "cosine": 0.3430238365197201,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 8.250728266941785e-05,
+   "gain_se": 7.00469842008279e-05,
+   "gain_pvalue": 0.11942125442957324,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    7
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_3"
+   ],
+   "rank": 131,
+   "amplitude": 0.007804407369107485,
+   "projection": 0.0006964894463319859,
+   "projection_se": 5.723011188064064e-05,
+   "cosine": 0.25319869499321523,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    21
+   ],
+   "names": [
+    "SEX",
+    "PAY_AMT5"
+   ],
+   "rank": 132,
+   "amplitude": 0.00769686094993299,
+   "projection": -0.0011287672036211385,
+   "projection_se": 5.2993210638301315e-05,
+   "cosine": -0.6243348653845064,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    19,
+    22
+   ],
+   "names": [
+    "PAY_AMT3",
+    "PAY_AMT6"
+   ],
+   "rank": 133,
+   "amplitude": 0.007429370781639448,
+   "projection": -0.015464327146735015,
+   "projection_se": 0.00030747205487716443,
+   "cosine": -0.28067426346307944,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.3448058519355173,
+   "gain_mean": 5.2707048698701994e-05,
+   "gain_se": 3.571885936589074e-05,
+   "gain_pvalue": 0.0700245252366978,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    16
+   ],
+   "names": [
+    "EDUCATION",
+    "BILL_AMT6"
+   ],
+   "rank": 134,
+   "amplitude": 0.007256224559851773,
+   "projection": 0.0006078189078235753,
+   "projection_se": 2.7315977013670906e-05,
+   "cosine": 0.21528097969650864,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    18
+   ],
+   "names": [
+    "BILL_AMT4",
+    "PAY_AMT2"
+   ],
+   "rank": 135,
+   "amplitude": 0.007160752652870659,
+   "projection": -0.0011134067701620684,
+   "projection_se": 5.813277125423604e-05,
+   "cosine": -0.04175057861807774,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.07454583693004375,
+   "gain_mean": 5.2102093316814e-06,
+   "gain_se": 3.7011580073274727e-06,
+   "gain_pvalue": 0.07960639106870243,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    10
+   ],
+   "names": [
+    "PAY_4",
+    "PAY_6"
+   ],
+   "rank": 136,
+   "amplitude": 0.006973081403332309,
+   "projection": 0.0016635690284356856,
+   "projection_se": 4.523475584871071e-05,
+   "cosine": 0.17148578218925684,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    13
+   ],
+   "names": [
+    "AGE",
+    "BILL_AMT3"
+   ],
+   "rank": 137,
+   "amplitude": 0.006964303488442915,
+   "projection": 0.0008361299929913658,
+   "projection_se": 4.521796047975703e-05,
+   "cosine": 0.10900037499955541,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    20
+   ],
+   "names": [
+    "BILL_AMT5",
+    "PAY_AMT4"
+   ],
+   "rank": 138,
+   "amplitude": 0.006924015429331248,
+   "projection": -0.0006313621172821638,
+   "projection_se": 2.6252092054662828e-05,
+   "cosine": -0.17762813029983288,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    19
+   ],
+   "names": [
+    "BILL_AMT5",
+    "PAY_AMT3"
+   ],
+   "rank": 139,
+   "amplitude": 0.00674614228442231,
+   "projection": 0.00335691035752941,
+   "projection_se": 7.722688660872082e-05,
+   "cosine": 0.21396000856585584,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.7881827665587301,
+   "gain_mean": -5.983773482585875e-05,
+   "gain_se": 3.098748108171374e-05,
+   "gain_pvalue": 0.9732602872889402,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    14
+   ],
+   "names": [
+    "PAY_2",
+    "BILL_AMT4"
+   ],
+   "rank": 140,
+   "amplitude": 0.006734704904826635,
+   "projection": -0.0005259073828509555,
+   "projection_se": 8.418359941585311e-05,
+   "cosine": -0.12954882938602236,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -8.732523356573002e-05,
+   "gain_se": 6.197522215419962e-05,
+   "gain_pvalue": 0.9205875341869616,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    18
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_AMT2"
+   ],
+   "rank": 141,
+   "amplitude": 0.0067262491352429185,
+   "projection": 0.0038022776602567713,
+   "projection_se": 7.132288422516369e-05,
+   "cosine": 0.29514525471220315,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 1.1029769475313922,
+   "gain_mean": -4.890992571016113e-05,
+   "gain_se": 2.852818311837117e-05,
+   "gain_pvalue": 0.9567762431438437,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    21
+   ],
+   "names": [
+    "BILL_AMT4",
+    "PAY_AMT5"
+   ],
+   "rank": 142,
+   "amplitude": 0.006707677819330869,
+   "projection": 0.010216225949493094,
+   "projection_se": 0.00015889838996041155,
+   "cosine": 0.6154262699443366,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -4.2864894101411935e-05,
+   "gain_se": 6.486293470293555e-05,
+   "gain_pvalue": 0.7456468490324261,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    22
+   ],
+   "names": [
+    "BILL_AMT6",
+    "PAY_AMT6"
+   ],
+   "rank": 143,
+   "amplitude": 0.006614390436491802,
+   "projection": 0.0016716403940855008,
+   "projection_se": 6.690853493080128e-05,
+   "cosine": 0.2382470255878085,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -5.0730351923252364e-05,
+   "gain_se": 4.8787666635050146e-05,
+   "gain_pvalue": 0.850788043721378,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    7
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_3"
+   ],
+   "rank": 144,
+   "amplitude": 0.006551588150149111,
+   "projection": -0.03729475763868069,
+   "projection_se": 0.00041847126633362146,
+   "cosine": -0.978500046392421,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    15
+   ],
+   "names": [
+    "PAY_4",
+    "BILL_AMT5"
+   ],
+   "rank": 145,
+   "amplitude": 0.00646523552594077,
+   "projection": 0.0058456322804616165,
+   "projection_se": 4.384078077894191e-05,
+   "cosine": 0.5764506094697694,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 1.8721338226012076,
+   "gain_mean": -1.0298516952574838e-05,
+   "gain_se": 5.8183137425870144e-05,
+   "gain_pvalue": 0.5702464912108357,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    12
+   ],
+   "names": [
+    "PAY_6",
+    "BILL_AMT2"
+   ],
+   "rank": 146,
+   "amplitude": 0.006097858266477411,
+   "projection": -0.001765292375721633,
+   "projection_se": 0.0001268533758757408,
+   "cosine": -0.18425515238669204,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 7.000000243941295e-05,
+   "gain_se": 6.397468997137438e-05,
+   "gain_pvalue": 0.13693741690682376,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    15
+   ],
+   "names": [
+    "BILL_AMT3",
+    "BILL_AMT5"
+   ],
+   "rank": 147,
+   "amplitude": 0.006026199691627484,
+   "projection": -0.0007970326193890599,
+   "projection_se": 2.9423835192434187e-05,
+   "cosine": -0.100607893853338,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    10
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_6"
+   ],
+   "rank": 148,
+   "amplitude": 0.005997813337863405,
+   "projection": 0.002113130324161823,
+   "projection_se": 0.00017085934608573075,
+   "cosine": 0.1501424252581421,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 1.4057709973872403,
+   "gain_mean": 7.409329327183966e-05,
+   "gain_se": 3.7568198954447606e-05,
+   "gain_pvalue": 0.02429142878555291,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    22
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_AMT6"
+   ],
+   "rank": 149,
+   "amplitude": 0.005991008254601703,
+   "projection": 0.007581646628208656,
+   "projection_se": 6.239764202388111e-05,
+   "cosine": 0.3181689558419077,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    19
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_AMT3"
+   ],
+   "rank": 150,
+   "amplitude": 0.005938173830769549,
+   "projection": -0.0021013869111671264,
+   "projection_se": 6.63065575732973e-05,
+   "cosine": -0.4035362474992519,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    8
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_4"
+   ],
+   "rank": 151,
+   "amplitude": 0.0057899337827371005,
+   "projection": 0.00026681323810179953,
+   "projection_se": 3.372783746069972e-05,
+   "cosine": 0.22338769121299146,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -6.668461732981636e-05,
+   "gain_se": 5.052894188311157e-05,
+   "gain_pvalue": 0.9065375978879611,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    18
+   ],
+   "names": [
+    "BILL_AMT5",
+    "PAY_AMT2"
+   ],
+   "rank": 152,
+   "amplitude": 0.0057095467141762965,
+   "projection": -0.004525172965706527,
+   "projection_se": 9.824464973654059e-05,
+   "cosine": -0.1822614741258498,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    15
+   ],
+   "names": [
+    "BILL_AMT4",
+    "BILL_AMT5"
+   ],
+   "rank": 153,
+   "amplitude": 0.005624589534948295,
+   "projection": -0.005807814275872028,
+   "projection_se": 9.06282484674909e-05,
+   "cosine": -0.38792779255038157,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    19
+   ],
+   "names": [
+    "PAY_5",
+    "PAY_AMT3"
+   ],
+   "rank": 154,
+   "amplitude": 0.005578711157498308,
+   "projection": -0.019520411046346674,
+   "projection_se": 0.00021365267473790755,
+   "cosine": -0.5934171860541196,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    8
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_4"
+   ],
+   "rank": 155,
+   "amplitude": 0.005375824336638862,
+   "projection": 0.022119706083973612,
+   "projection_se": 0.0002673287675754759,
+   "cosine": 0.936136089054276,
+   "lens_pvalue": 0.9999999999999022,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    13
+   ],
+   "names": [
+    "PAY_4",
+    "BILL_AMT3"
+   ],
+   "rank": 156,
+   "amplitude": 0.005273157862865841,
+   "projection": 0.000534915379064013,
+   "projection_se": 3.439062559870939e-05,
+   "cosine": 0.12163199967915968,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 5.822732182146776e-05,
+   "gain_se": 4.8280117604009e-05,
+   "gain_pvalue": 0.11390275564698499,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    22
+   ],
+   "names": [
+    "PAY_4",
+    "PAY_AMT6"
+   ],
+   "rank": 157,
+   "amplitude": 0.005209378297350254,
+   "projection": -0.0037250255893784396,
+   "projection_se": 5.546654058050926e-05,
+   "cosine": -0.10461565238310619,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 4.110585655686741e-05,
+   "gain_se": 6.784613222488217e-05,
+   "gain_pvalue": 0.27230093050639015,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    22
+   ],
+   "names": [
+    "BILL_AMT4",
+    "PAY_AMT6"
+   ],
+   "rank": 158,
+   "amplitude": 0.004987584417499212,
+   "projection": 0.014318360861386542,
+   "projection_se": 0.00010179114446251289,
+   "cosine": 0.5070303498709876,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 3.0098873802969226e-05,
+   "gain_se": 5.004444683375262e-05,
+   "gain_pvalue": 0.273772539021953,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    19
+   ],
+   "names": [
+    "BILL_AMT4",
+    "PAY_AMT3"
+   ],
+   "rank": 159,
+   "amplitude": 0.004982469380717703,
+   "projection": 0.04147439407561676,
+   "projection_se": 0.00025790962728232565,
+   "cosine": 0.5326152390029614,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    22
+   ],
+   "names": [
+    "BILL_AMT5",
+    "PAY_AMT6"
+   ],
+   "rank": 160,
+   "amplitude": 0.004978347542280945,
+   "projection": -0.00029522398308679096,
+   "projection_se": 5.2667921608482904e-05,
+   "cosine": -0.039448287987106104,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.6755246362592697e-05,
+   "gain_se": 5.19796640084385e-05,
+   "gain_pvalue": 0.3033725077285927,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    22
+   ],
+   "names": [
+    "AGE",
+    "PAY_AMT6"
+   ],
+   "rank": 161,
+   "amplitude": 0.00496256216996623,
+   "projection": 0.0003795291845081793,
+   "projection_se": 5.565240559543382e-05,
+   "cosine": 0.03903149002572781,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.2039066799187112e-05,
+   "gain_se": 3.0947473260310024e-05,
+   "gain_pvalue": 0.6513678990124555,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    19
+   ],
+   "names": [
+    "BILL_AMT2",
+    "PAY_AMT3"
+   ],
+   "rank": 162,
+   "amplitude": 0.004929801764353618,
+   "projection": -0.0081283893699147,
+   "projection_se": 0.0001996251232917579,
+   "cosine": -0.3916376943585809,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    19
+   ],
+   "names": [
+    "PAY_4",
+    "PAY_AMT3"
+   ],
+   "rank": 163,
+   "amplitude": 0.004812632593036513,
+   "projection": 0.005948136654052419,
+   "projection_se": 8.902522610924122e-05,
+   "cosine": 0.7722674427869304,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 9.454364820950256e-05,
+   "gain_se": 5.21542103371289e-05,
+   "gain_pvalue": 0.03493356216557306,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    20
+   ],
+   "names": [
+    "PAY_5",
+    "PAY_AMT4"
+   ],
+   "rank": 164,
+   "amplitude": 0.004789273019848076,
+   "projection": -0.015614369538268346,
+   "projection_se": 0.00018413057177938674,
+   "cosine": -0.8124043784056434,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    8
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_4"
+   ],
+   "rank": 165,
+   "amplitude": 0.004676817713002315,
+   "projection": 0.0002603745143127528,
+   "projection_se": 0.00014617934726822752,
+   "cosine": 0.20829365296596167,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.397571458346615e-05,
+   "gain_se": 4.693705408806496e-05,
+   "gain_pvalue": 0.3047435601256953,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    19
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_AMT3"
+   ],
+   "rank": 166,
+   "amplitude": 0.004608500043123883,
+   "projection": 0.006824922716028296,
+   "projection_se": 0.000156369044557431,
+   "cosine": 0.2655668595975963,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    19
+   ],
+   "names": [
+    "BILL_AMT6",
+    "PAY_AMT3"
+   ],
+   "rank": 167,
+   "amplitude": 0.004581682752270944,
+   "projection": 0.001843171456396806,
+   "projection_se": 7.209750665315283e-05,
+   "cosine": 0.18187775146994706,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    15
+   ],
+   "names": [
+    "BILL_AMT2",
+    "BILL_AMT5"
+   ],
+   "rank": 168,
+   "amplitude": 0.004472381353435881,
+   "projection": 0.0035612975924630423,
+   "projection_se": 6.91408881924011e-05,
+   "cosine": 0.20545705363996158,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -4.969559381429991e-06,
+   "gain_se": 3.952522507450541e-05,
+   "gain_pvalue": 0.5500277021946558,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    16
+   ],
+   "names": [
+    "PAY_3",
+    "BILL_AMT6"
+   ],
+   "rank": 169,
+   "amplitude": 0.0041509263449555946,
+   "projection": 0.006694090498433118,
+   "projection_se": 5.5945034700071166e-05,
+   "cosine": 0.35818694183202326,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    15
+   ],
+   "names": [
+    "PAY_2",
+    "BILL_AMT5"
+   ],
+   "rank": 170,
+   "amplitude": 0.004126899800130861,
+   "projection": 0.000527373385298444,
+   "projection_se": 3.4402077910625895e-05,
+   "cosine": 0.057497945369970216,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.0810268724237917,
+   "gain_mean": 1.57660215676162e-05,
+   "gain_se": 2.8992501062273835e-05,
+   "gain_pvalue": 0.2932907473595711,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    14
+   ],
+   "names": [
+    "PAY_3",
+    "BILL_AMT4"
+   ],
+   "rank": 171,
+   "amplitude": 0.003907089450075723,
+   "projection": -0.000664871686296659,
+   "projection_se": 1.7565294258001373e-05,
+   "cosine": -0.21788188679254636,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -3.6726209350218503e-05,
+   "gain_se": 3.957792614771505e-05,
+   "gain_pvalue": 0.8232824130615621,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    9
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_5"
+   ],
+   "rank": 172,
+   "amplitude": 0.0038948746702246627,
+   "projection": 0.008256275327413633,
+   "projection_se": 0.0001320692897852789,
+   "cosine": 0.5057271901916106,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    13
+   ],
+   "names": [
+    "BILL_AMT2",
+    "BILL_AMT3"
+   ],
+   "rank": 173,
+   "amplitude": 0.0038038077041772063,
+   "projection": -0.003430127374153284,
+   "projection_se": 3.537725184268883e-05,
+   "cosine": -0.3500513475681975,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    18
+   ],
+   "names": [
+    "PAY_6",
+    "PAY_AMT2"
+   ],
+   "rank": 174,
+   "amplitude": 0.0037120113754560034,
+   "projection": -0.003608955698289133,
+   "projection_se": 8.054180364606492e-05,
+   "cosine": -0.09369490235605431,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    11
+   ],
+   "names": [
+    "PAY_6",
+    "BILL_AMT1"
+   ],
+   "rank": 175,
+   "amplitude": 0.0036140862465465803,
+   "projection": -0.0029793384174128306,
+   "projection_se": 0.00014287213348019776,
+   "cosine": -0.10271111256396631,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.7229240208863453e-06,
+   "gain_se": 3.547355466506401e-05,
+   "gain_pvalue": 0.45820802753416484,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    20
+   ],
+   "names": [
+    "SEX",
+    "PAY_AMT4"
+   ],
+   "rank": 176,
+   "amplitude": 0.0035761666279772687,
+   "projection": -0.001033453012904299,
+   "projection_se": 3.389543473803766e-05,
+   "cosine": -0.7147301895559924,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    6
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_2"
+   ],
+   "rank": 177,
+   "amplitude": 0.0035116097854952905,
+   "projection": 0.0053455349063597475,
+   "projection_se": 0.00012081629861613941,
+   "cosine": 0.5687125650640908,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -4.7655613742948423e-07,
+   "gain_se": 3.396866864015622e-05,
+   "gain_pvalue": 0.5055966914058314,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    16
+   ],
+   "names": [
+    "BILL_AMT3",
+    "BILL_AMT6"
+   ],
+   "rank": 178,
+   "amplitude": 0.0034879046524220127,
+   "projection": -0.0024747191183235972,
+   "projection_se": 4.607686977618362e-05,
+   "cosine": -0.3134627583470856,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    13
+   ],
+   "names": [
+    "MARRIAGE",
+    "BILL_AMT3"
+   ],
+   "rank": 179,
+   "amplitude": 0.0034222217469471205,
+   "projection": -0.0001268516246509599,
+   "projection_se": 1.9886897239437426e-05,
+   "cosine": -0.27761099563573083,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -9.930838574530751e-06,
+   "gain_se": 3.894610857314762e-05,
+   "gain_pvalue": 0.6006342945685238,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    7
+   ],
+   "names": [
+    "AGE",
+    "PAY_3"
+   ],
+   "rank": 180,
+   "amplitude": 0.0034098925810159045,
+   "projection": 0.0004217502091025323,
+   "projection_se": 5.261775082133514e-05,
+   "cosine": 0.07559677870351894,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    22
+   ],
+   "names": [
+    "BILL_AMT3",
+    "PAY_AMT6"
+   ],
+   "rank": 181,
+   "amplitude": 0.00335515092718109,
+   "projection": 0.0015932782593141425,
+   "projection_se": 3.0797944708207594e-05,
+   "cosine": 0.17829154133380223,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 5.0724870178238986e-05,
+   "gain_se": 3.421282572831642e-05,
+   "gain_pvalue": 0.06908672697891834,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    5
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_0"
+   ],
+   "rank": 182,
+   "amplitude": 0.003269338150693955,
+   "projection": 0.0033702854257349445,
+   "projection_se": 4.175948783215163e-05,
+   "cosine": 0.0678392332783594,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.3404361683588812,
+   "gain_mean": 8.445580890265056e-06,
+   "gain_se": 6.969197939905889e-06,
+   "gain_pvalue": 0.11278604592217639,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    9
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_5"
+   ],
+   "rank": 183,
+   "amplitude": 0.003163383679106378,
+   "projection": 0.002203688505574389,
+   "projection_se": 6.012974799295891e-05,
+   "cosine": 0.37099219807929745,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    9
+   ],
+   "names": [
+    "PAY_4",
+    "PAY_5"
+   ],
+   "rank": 184,
+   "amplitude": 0.0030419543712504665,
+   "projection": -0.0001227333195447527,
+   "projection_se": 1.585943502922946e-05,
+   "cosine": -0.10686591497929981,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.123321079644554e-05,
+   "gain_se": 2.852072863984185e-05,
+   "gain_pvalue": 0.7717079786398471,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    16
+   ],
+   "names": [
+    "PAY_6",
+    "BILL_AMT6"
+   ],
+   "rank": 185,
+   "amplitude": 0.0030361760176519127,
+   "projection": 0.007548592384353205,
+   "projection_se": 9.107513082015388e-05,
+   "cosine": 0.185619371081249,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 3.4596132564167324e-05,
+   "gain_se": 3.0805601555393525e-05,
+   "gain_pvalue": 0.13070880717044941,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    13
+   ],
+   "names": [
+    "PAY_6",
+    "BILL_AMT3"
+   ],
+   "rank": 186,
+   "amplitude": 0.0030345500087764006,
+   "projection": -0.001042265072962678,
+   "projection_se": 5.9908181300510144e-05,
+   "cosine": -0.10540731333114808,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.3841883460539606,
+   "gain_mean": 4.425560510458883e-05,
+   "gain_se": 3.0154268163662228e-05,
+   "gain_pvalue": 0.07110104095255013,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    14
+   ],
+   "names": [
+    "PAY_6",
+    "BILL_AMT4"
+   ],
+   "rank": 187,
+   "amplitude": 0.0029547997645649137,
+   "projection": -0.0002797470867043744,
+   "projection_se": 9.617649881366165e-05,
+   "cosine": -0.03157517650999738,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.660341539998684e-05,
+   "gain_se": 2.8937388200545603e-05,
+   "gain_pvalue": 0.17895782446845632,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    15
+   ],
+   "names": [
+    "PAY_6",
+    "BILL_AMT5"
+   ],
+   "rank": 188,
+   "amplitude": 0.0028478188624123475,
+   "projection": -0.005668019252491389,
+   "projection_se": 5.367498203004566e-05,
+   "cosine": -0.34520963715615266,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    16
+   ],
+   "names": [
+    "PAY_2",
+    "BILL_AMT6"
+   ],
+   "rank": 189,
+   "amplitude": 0.0028239226053933305,
+   "projection": 0.005096924603038024,
+   "projection_se": 7.258789484399216e-05,
+   "cosine": 0.5393169246581795,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -4.5652663516099455e-05,
+   "gain_se": 3.210575889923962e-05,
+   "gain_pvalue": 0.922479072570725,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    18
+   ],
+   "names": [
+    "PAY_5",
+    "PAY_AMT2"
+   ],
+   "rank": 190,
+   "amplitude": 0.0027011165844722357,
+   "projection": -0.012299991526399526,
+   "projection_se": 0.00013227028080205596,
+   "cosine": -0.437779069476189,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    13
+   ],
+   "names": [
+    "PAY_3",
+    "BILL_AMT3"
+   ],
+   "rank": 191,
+   "amplitude": 0.002686294801669321,
+   "projection": -0.0012799061183630016,
+   "projection_se": 2.3179299521738015e-05,
+   "cosine": -0.3040108169561433,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.060788075327888,
+   "gain_mean": -3.428378212008267e-06,
+   "gain_se": 1.4722419832117973e-05,
+   "gain_pvalue": 0.5920679868358357,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    22
+   ],
+   "names": [
+    "PAY_6",
+    "PAY_AMT6"
+   ],
+   "rank": 192,
+   "amplitude": 0.0025684470401012923,
+   "projection": -0.0010503731734787674,
+   "projection_se": 0.0001600849073916063,
+   "cosine": -0.1255993019522353,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -6.77937305985978e-05,
+   "gain_se": 5.444550260425308e-05,
+   "gain_pvalue": 0.8934647726108185,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    13
+   ],
+   "names": [
+    "PAY_5",
+    "BILL_AMT3"
+   ],
+   "rank": 193,
+   "amplitude": 0.0025623054442523515,
+   "projection": 0.0005607698956013074,
+   "projection_se": 4.713315275042448e-05,
+   "cosine": 0.12071548762538872,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.1036093992462045e-05,
+   "gain_se": 2.3346362393058585e-05,
+   "gain_pvalue": 0.6817904896514362,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    20
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_AMT4"
+   ],
+   "rank": 194,
+   "amplitude": 0.002531323422766756,
+   "projection": 0.0023935346156936863,
+   "projection_se": 0.00010755361652060165,
+   "cosine": 0.7447304725404957,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    6
+   ],
+   "names": [
+    "AGE",
+    "PAY_2"
+   ],
+   "rank": 195,
+   "amplitude": 0.002452927935476015,
+   "projection": -0.009579039003011245,
+   "projection_se": 0.0001368427577343881,
+   "cosine": -0.7371733326850889,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    14
+   ],
+   "names": [
+    "EDUCATION",
+    "BILL_AMT4"
+   ],
+   "rank": 196,
+   "amplitude": 0.002402024990263554,
+   "projection": 0.0006070391335587627,
+   "projection_se": 1.9565055338095183e-05,
+   "cosine": 0.13271114716939836,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 4.490704521819682e-05,
+   "gain_se": 2.0201597638556423e-05,
+   "gain_pvalue": 0.013109746504506567,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    9
+   ],
+   "names": [
+    "AGE",
+    "PAY_5"
+   ],
+   "rank": 197,
+   "amplitude": 0.0023907398130108325,
+   "projection": 0.0006379412618029611,
+   "projection_se": 9.419621684783796e-05,
+   "cosine": 0.09637417291722467,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    22
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_AMT6"
+   ],
+   "rank": 198,
+   "amplitude": 0.0023351370335286657,
+   "projection": 0.02249633704007521,
+   "projection_se": 0.000369612713865622,
+   "cosine": 0.7231186429355878,
+   "lens_pvalue": 0.9999913934998595,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -2.2912711440184417e-05,
+   "gain_se": 2.772447698895411e-05,
+   "gain_pvalue": 0.7957236978707161,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    16
+   ],
+   "names": [
+    "BILL_AMT4",
+    "BILL_AMT6"
+   ],
+   "rank": 199,
+   "amplitude": 0.0023281813690139725,
+   "projection": 0.006765117472883144,
+   "projection_se": 7.062814400677965e-05,
+   "cosine": 0.372925389873566,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    12
+   ],
+   "names": [
+    "EDUCATION",
+    "BILL_AMT2"
+   ],
+   "rank": 200,
+   "amplitude": 0.002320032458685395,
+   "projection": 0.0029433395858618643,
+   "projection_se": 3.1994462961156694e-05,
+   "cosine": 0.41537002385921323,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -9.134066306508914e-06,
+   "gain_se": 2.1742871528084428e-05,
+   "gain_pvalue": 0.6627918832454126,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    17
+   ],
+   "names": [
+    "PAY_5",
+    "PAY_AMT1"
+   ],
+   "rank": 201,
+   "amplitude": 0.002309401376455324,
+   "projection": -0.0021447797865019372,
+   "projection_se": 4.2774665172779746e-05,
+   "cosine": -0.17368063949532497,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    14
+   ],
+   "names": [
+    "BILL_AMT3",
+    "BILL_AMT4"
+   ],
+   "rank": 202,
+   "amplitude": 0.0022793891444822605,
+   "projection": 0.0004078491640967022,
+   "projection_se": 4.0462772515568414e-05,
+   "cosine": 0.06004031903411501,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    16
+   ],
+   "names": [
+    "BILL_AMT2",
+    "BILL_AMT6"
+   ],
+   "rank": 203,
+   "amplitude": 0.0022649241927412632,
+   "projection": 0.000804342543973226,
+   "projection_se": 2.2766178801552833e-05,
+   "cosine": 0.09834157945264473,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    1
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "SEX"
+   ],
+   "rank": 204,
+   "amplitude": 0.0021865358610136665,
+   "projection": 0.008903703180120523,
+   "projection_se": 0.00012813994817861718,
+   "cosine": 0.4026717997822926,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    17
+   ],
+   "names": [
+    "SEX",
+    "PAY_AMT1"
+   ],
+   "rank": 205,
+   "amplitude": 0.002184816115327407,
+   "projection": -0.0048833606185206746,
+   "projection_se": 4.6552791915783265e-05,
+   "cosine": -0.518313157656292,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    10
+   ],
+   "names": [
+    "PAY_5",
+    "PAY_6"
+   ],
+   "rank": 206,
+   "amplitude": 0.0020659624927243866,
+   "projection": -0.0021892188936414787,
+   "projection_se": 5.0260424685067674e-05,
+   "cosine": -0.24027824423190777,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    20
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_AMT4"
+   ],
+   "rank": 207,
+   "amplitude": 0.002055905010903393,
+   "projection": -0.00374335038322029,
+   "projection_se": 8.477443965079628e-05,
+   "cosine": -0.6523401579150842,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    6
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "PAY_2"
+   ],
+   "rank": 208,
+   "amplitude": 0.002051626410733638,
+   "projection": 0.060865092556915946,
+   "projection_se": 0.0003884425455159126,
+   "cosine": 0.6740161443970212,
+   "lens_pvalue": 0.0,
+   "lens_selected": true,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 1.4401185638231029e-05,
+   "gain_se": 1.9918336517599974e-05,
+   "gain_pvalue": 0.23483642066004334,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    21
+   ],
+   "names": [
+    "PAY_6",
+    "PAY_AMT5"
+   ],
+   "rank": 209,
+   "amplitude": 0.0020376304853397466,
+   "projection": -0.000564118223441877,
+   "projection_se": 2.8161042402796237e-05,
+   "cosine": -0.21037479169752465,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 4.3371564889225174e-05,
+   "gain_se": 2.565626249645857e-05,
+   "gain_pvalue": 0.04546746128606778,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    22
+   ],
+   "names": [
+    "BILL_AMT2",
+    "PAY_AMT6"
+   ],
+   "rank": 210,
+   "amplitude": 0.0019939542368932503,
+   "projection": 0.003570716082416069,
+   "projection_se": 4.734637908046104e-05,
+   "cosine": 0.39095094928072666,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -1.1259097827555854e-05,
+   "gain_se": 1.8392811733926003e-05,
+   "gain_pvalue": 0.7297796276887683,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    13
+   ],
+   "names": [
+    "PAY_2",
+    "BILL_AMT3"
+   ],
+   "rank": 211,
+   "amplitude": 0.0019552439887013653,
+   "projection": -0.00021353412660774982,
+   "projection_se": 8.374867817198652e-05,
+   "cosine": -0.08331442691875351,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    14
+   ],
+   "names": [
+    "BILL_AMT2",
+    "BILL_AMT4"
+   ],
+   "rank": 212,
+   "amplitude": 0.0019447114272519524,
+   "projection": -0.006394719260584386,
+   "projection_se": 8.696831492830185e-05,
+   "cosine": -0.22151094714032457,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    19
+   ],
+   "names": [
+    "SEX",
+    "PAY_AMT3"
+   ],
+   "rank": 213,
+   "amplitude": 0.0019186576420497246,
+   "projection": -0.0051791871063980935,
+   "projection_se": 4.92535273330534e-05,
+   "cosine": -0.6001477356301198,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.6419773192449797e-05,
+   "gain_se": 2.105732466028781e-05,
+   "gain_pvalue": 0.7822355122183651,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    3
+   ],
+   "names": [
+    "LIMIT_BAL",
+    "MARRIAGE"
+   ],
+   "rank": 214,
+   "amplitude": 0.001900026809732679,
+   "projection": 0.013030835953757213,
+   "projection_se": 0.0002916460118462433,
+   "cosine": 0.7544485696179593,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -3.572803800404894e-05,
+   "gain_se": 1.862233275829157e-05,
+   "gain_pvalue": 0.9724798949284933,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    10
+   ],
+   "names": [
+    "PAY_3",
+    "PAY_6"
+   ],
+   "rank": 215,
+   "amplitude": 0.0018701193322995635,
+   "projection": -0.0019856160975629134,
+   "projection_se": 4.937095012814752e-05,
+   "cosine": -0.1777907026540368,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    15
+   ],
+   "names": [
+    "SEX",
+    "BILL_AMT5"
+   ],
+   "rank": 216,
+   "amplitude": 0.0018432728352221846,
+   "projection": 0.005835287858635395,
+   "projection_se": 5.089490896662876e-05,
+   "cosine": 0.5301594666444447,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -3.7886196796382312e-06,
+   "gain_se": 1.6934623349152285e-05,
+   "gain_pvalue": 0.5885125406648943,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    4
+   ],
+   "names": [
+    "MARRIAGE",
+    "AGE"
+   ],
+   "rank": 217,
+   "amplitude": 0.00184305348451462,
+   "projection": -0.00013834787947068932,
+   "projection_se": 2.165308871402522e-05,
+   "cosine": -0.00741593101140956,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.9385536646932346e-05,
+   "gain_se": 3.132240211077235e-05,
+   "gain_pvalue": 0.10430009183587796,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    11
+   ],
+   "names": [
+    "SEX",
+    "BILL_AMT1"
+   ],
+   "rank": 218,
+   "amplitude": 0.001825269523282254,
+   "projection": -0.01976426388110271,
+   "projection_se": 0.00017141115956558856,
+   "cosine": -0.7364266090388485,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.4351955267602045e-06,
+   "gain_se": 1.577623510565679e-05,
+   "gain_pvalue": 0.561336451695995,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    21
+   ],
+   "names": [
+    "PAY_5",
+    "PAY_AMT5"
+   ],
+   "rank": 219,
+   "amplitude": 0.001752375207471654,
+   "projection": 0.0011485955497180795,
+   "projection_se": 4.246219887815818e-05,
+   "cosine": 0.41330004833642586,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    14
+   ],
+   "names": [
+    "SEX",
+    "BILL_AMT4"
+   ],
+   "rank": 220,
+   "amplitude": 0.001664142872589447,
+   "projection": 0.004762338281877774,
+   "projection_se": 5.076409986140797e-05,
+   "cosine": 0.8961453038908818,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -1.645144897526102e-05,
+   "gain_se": 1.3702864969399964e-05,
+   "gain_pvalue": 0.8850438156210152,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    13
+   ],
+   "names": [
+    "EDUCATION",
+    "BILL_AMT3"
+   ],
+   "rank": 221,
+   "amplitude": 0.0015341863098431111,
+   "projection": 0.00035102242672751047,
+   "projection_se": 1.1853252828490653e-05,
+   "cosine": 0.1728667640774846,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.7525847872150674e-05,
+   "gain_se": 1.219598693892839e-05,
+   "gain_pvalue": 0.9879946953976109,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    15
+   ],
+   "names": [
+    "PAY_5",
+    "BILL_AMT5"
+   ],
+   "rank": 222,
+   "amplitude": 0.0014964577920727176,
+   "projection": 0.0031986292006651084,
+   "projection_se": 5.3268481216986925e-05,
+   "cosine": 0.3364054055425681,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 7.936926424011745e-06,
+   "gain_se": 1.4570321957792008e-05,
+   "gain_pvalue": 0.2929687894465759,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    4
+   ],
+   "names": [
+    "SEX",
+    "AGE"
+   ],
+   "rank": 223,
+   "amplitude": 0.001470467311710301,
+   "projection": 0.0009689019722132479,
+   "projection_se": 2.373850826561156e-05,
+   "cosine": 0.21809743632223405,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 9.586488714039868e-06,
+   "gain_se": 1.261332245690096e-05,
+   "gain_pvalue": 0.22361867592896828,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    10
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_6"
+   ],
+   "rank": 224,
+   "amplitude": 0.0014078051238368488,
+   "projection": -0.0002926037087390245,
+   "projection_se": 4.13357606941335e-05,
+   "cosine": -0.05219024065691314,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    12
+   ],
+   "names": [
+    "PAY_2",
+    "BILL_AMT2"
+   ],
+   "rank": 225,
+   "amplitude": 0.0014076187294186392,
+   "projection": -0.0035117931844413446,
+   "projection_se": 7.53266337889136e-05,
+   "cosine": -0.2988593714828438,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -3.4742163381355866e-06,
+   "gain_se": 1.5567711084235092e-05,
+   "gain_pvalue": 0.5882976566645303,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    21
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_AMT5"
+   ],
+   "rank": 226,
+   "amplitude": 0.0014074803719124709,
+   "projection": -0.0017367160364696159,
+   "projection_se": 4.605536615685799e-05,
+   "cosine": -0.39135477982414796,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 1.5583831446767585e-05,
+   "gain_se": 1.8650534991775276e-05,
+   "gain_pvalue": 0.20169836666211916,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    12
+   ],
+   "names": [
+    "MARRIAGE",
+    "BILL_AMT2"
+   ],
+   "rank": 227,
+   "amplitude": 0.0013539233101635014,
+   "projection": -0.0020097666096507366,
+   "projection_se": 5.645836070684157e-05,
+   "cosine": -0.39294831344829695,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    17
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_AMT1"
+   ],
+   "rank": 228,
+   "amplitude": 0.0013227453031258052,
+   "projection": 0.0012774946717051664,
+   "projection_se": 5.2608122435797234e-05,
+   "cosine": 0.6078187692551894,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 1.1927735824515669e-05,
+   "gain_se": 1.0825099207787156e-05,
+   "gain_pvalue": 0.13526143081171477,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    14
+   ],
+   "names": [
+    "MARRIAGE",
+    "BILL_AMT4"
+   ],
+   "rank": 229,
+   "amplitude": 0.0012742948545339413,
+   "projection": 0.000689907658389602,
+   "projection_se": 1.0368835342190832e-05,
+   "cosine": 0.1712871861902602,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 8.355661828505115e-06,
+   "gain_se": 1.4244797184376192e-05,
+   "gain_pvalue": 0.27874411880114436,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    2
+   ],
+   "names": [
+    "SEX",
+    "EDUCATION"
+   ],
+   "rank": 230,
+   "amplitude": 0.0012601621465303833,
+   "projection": -0.0016629513130038943,
+   "projection_se": 3.958021111992928e-05,
+   "cosine": -0.3210193486524567,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.9970531370047923e-06,
+   "gain_se": 1.0442463552845471e-05,
+   "gain_pvalue": 0.6129462631678942,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    16
+   ],
+   "names": [
+    "SEX",
+    "BILL_AMT6"
+   ],
+   "rank": 231,
+   "amplitude": 0.001258265471940879,
+   "projection": 0.0001244312301580318,
+   "projection_se": 4.4356077077150504e-06,
+   "cosine": 0.1337944671705832,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 8.094778804340382e-06,
+   "gain_se": 1.0939487320416745e-05,
+   "gain_pvalue": 0.229662250322393,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    12
+   ],
+   "names": [
+    "SEX",
+    "BILL_AMT2"
+   ],
+   "rank": 232,
+   "amplitude": 0.0012216584770110253,
+   "projection": -0.00041144552454715373,
+   "projection_se": 5.8613064441267795e-05,
+   "cosine": -0.3657848986284552,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 1.9648214695749038e-06,
+   "gain_se": 1.1716669570568104e-05,
+   "gain_pvalue": 0.4334117973961814,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    12
+   ],
+   "names": [
+    "PAY_5",
+    "BILL_AMT2"
+   ],
+   "rank": 233,
+   "amplitude": 0.0011885027213612558,
+   "projection": 0.0029318410966532368,
+   "projection_se": 0.00013032236686191695,
+   "cosine": 0.3740426450260761,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    18
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_AMT2"
+   ],
+   "rank": 234,
+   "amplitude": 0.001147647408847193,
+   "projection": 1.9694030983730296e-05,
+   "projection_se": 7.00371004973597e-06,
+   "cosine": 0.01121631561797363,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.4603065850680254e-05,
+   "gain_se": 1.5210609066290346e-05,
+   "gain_pvalue": 0.831486969825896,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    10
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_6"
+   ],
+   "rank": 235,
+   "amplitude": 0.001016162946952539,
+   "projection": -0.0031534590488844086,
+   "projection_se": 9.045278175407846e-05,
+   "cosine": -0.3000626640573005,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.1488606423824048e-05,
+   "gain_se": 1.1678571625688616e-05,
+   "gain_pvalue": 0.8373768082798115,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    14
+   ],
+   "names": [
+    "PAY_5",
+    "BILL_AMT4"
+   ],
+   "rank": 236,
+   "amplitude": 0.0010118988687500112,
+   "projection": -0.00850711487952895,
+   "projection_se": 0.00016958538633143867,
+   "cosine": -0.6640709826486295,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    13
+   ],
+   "names": [
+    "SEX",
+    "BILL_AMT3"
+   ],
+   "rank": 237,
+   "amplitude": 0.0008724467456856735,
+   "projection": -0.0009460771952496618,
+   "projection_se": 3.388464959494626e-05,
+   "cosine": -0.8309251393934758,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.3703405269598076e-06,
+   "gain_se": 8.578745682722189e-06,
+   "gain_pvalue": 0.6088426534296956,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    22
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_AMT6"
+   ],
+   "rank": 238,
+   "amplitude": 0.0008128426103505628,
+   "projection": 0.0024978283214185295,
+   "projection_se": 0.000134455634255682,
+   "cosine": 0.4118578529699427,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    15
+   ],
+   "names": [
+    "MARRIAGE",
+    "BILL_AMT5"
+   ],
+   "rank": 239,
+   "amplitude": 0.0007438914028940832,
+   "projection": -0.00030334373089682925,
+   "projection_se": 5.577268830190757e-05,
+   "cosine": -0.11341153717423948,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.649190896199752e-06,
+   "gain_se": 6.594444504933361e-06,
+   "gain_pvalue": 0.6560588908310574,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    9
+   ],
+   "names": [
+    "SEX",
+    "PAY_5"
+   ],
+   "rank": 240,
+   "amplitude": 0.0007329064252713599,
+   "projection": -0.0021445838896854354,
+   "projection_se": 5.3156362306730675e-05,
+   "cosine": -0.9849262155712513,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 6.468529241874077e-08,
+   "gain_se": 7.828735492374492e-06,
+   "gain_pvalue": 0.49670375829280977,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    3
+   ],
+   "names": [
+    "EDUCATION",
+    "MARRIAGE"
+   ],
+   "rank": 241,
+   "amplitude": 0.0006667629795438068,
+   "projection": -0.00014457882107865588,
+   "projection_se": 6.757445848719486e-06,
+   "cosine": -0.06593100883394926,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    16
+   ],
+   "names": [
+    "MARRIAGE",
+    "BILL_AMT6"
+   ],
+   "rank": 242,
+   "amplitude": 0.0006516201351663291,
+   "projection": -0.0002613376689912994,
+   "projection_se": 5.58686759665651e-05,
+   "cosine": -0.023071271077397763,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    11
+   ],
+   "names": [
+    "MARRIAGE",
+    "BILL_AMT1"
+   ],
+   "rank": 243,
+   "amplitude": 0.0006199182910739376,
+   "projection": -0.0019287323609415072,
+   "projection_se": 2.0676933581714376e-05,
+   "cosine": -0.2756008827615672,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    22
+   ],
+   "names": [
+    "SEX",
+    "PAY_AMT6"
+   ],
+   "rank": 244,
+   "amplitude": 0.0005798162958783935,
+   "projection": 0.0023618347348114423,
+   "projection_se": 7.613923275678299e-05,
+   "cosine": 0.8407939290887457,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -3.050033484292893e-06,
+   "gain_se": 5.232307159732426e-06,
+   "gain_pvalue": 0.7200275151954492,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    9
+   ],
+   "names": [
+    "EDUCATION",
+    "PAY_5"
+   ],
+   "rank": 245,
+   "amplitude": 0.0004833627132041922,
+   "projection": 0.0009192790058776844,
+   "projection_se": 6.546809151588134e-05,
+   "cosine": 0.1378799218308002,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -1.3105296991084785e-06,
+   "gain_se": 3.3873063665794164e-06,
+   "gain_pvalue": 0.6505827883960311,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    10
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_6"
+   ],
+   "rank": 246,
+   "amplitude": 0.0004783609888897716,
+   "projection": -0.0022164201646133826,
+   "projection_se": 5.1233545238909986e-05,
+   "cosine": -0.22759431354021575,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    6
+   ],
+   "names": [
+    "SEX",
+    "PAY_2"
+   ],
+   "rank": 247,
+   "amplitude": 0.0004359200390212467,
+   "projection": -0.00037310295563544414,
+   "projection_se": 1.6336551155229794e-05,
+   "cosine": -0.11841027368231327,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 4.18787775665607e-06,
+   "gain_se": 4.833604365231997e-06,
+   "gain_pvalue": 0.19313298728801914,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    9
+   ],
+   "names": [
+    "PAY_2",
+    "PAY_5"
+   ],
+   "rank": 248,
+   "amplitude": 0.00042869587843636254,
+   "projection": 0.00046583699114347607,
+   "projection_se": 9.203185494946116e-05,
+   "cosine": 0.18187898296547778,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    6
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_2"
+   ],
+   "rank": 249,
+   "amplitude": 0.0003126947940553333,
+   "projection": 0.0005908454318013966,
+   "projection_se": 2.428038486985536e-05,
+   "cosine": 0.10867620104905716,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 3.7250334064586507e-06,
+   "gain_se": 3.222989645567272e-06,
+   "gain_pvalue": 0.12388770835768231,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    8
+   ],
+   "names": [
+    "SEX",
+    "PAY_4"
+   ],
+   "rank": 250,
+   "amplitude": 0.0002636615029646991,
+   "projection": -0.0030038032018077218,
+   "projection_se": 7.586706227106555e-05,
+   "cosine": -0.9999480944615028,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    9
+   ],
+   "names": [
+    "MARRIAGE",
+    "PAY_5"
+   ],
+   "rank": 251,
+   "amplitude": 4.738040868301824e-06,
+   "projection": 0.00012197763198890167,
+   "projection_se": 5.4409223111319415e-06,
+   "cosine": 0.08530879952199688,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -1.5017880310756414e-08,
+   "gain_se": 5.556279407566408e-08,
+   "gain_pvalue": 0.6065301244196548,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    3
+   ],
+   "names": [
+    "SEX",
+    "MARRIAGE"
+   ],
+   "rank": 252,
+   "amplitude": 3.3149877343499985e-06,
+   "projection": 0.00037399338421485626,
+   "projection_se": 5.67975263739787e-06,
+   "cosine": 0.04709254075696363,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": -2.7522185145422997e-10,
+   "gain_se": 1.5225270117710117e-10,
+   "gain_pvalue": 0.9646706583461178,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    10
+   ],
+   "names": [
+    "SEX",
+    "PAY_6"
+   ],
+   "rank": 253,
+   "amplitude": 1.1864732482681886e-09,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.6883235094489463e-10,
+   "gain_se": 1.527269032693802e-10,
+   "gain_pvalue": 0.9608144116843547,
+   "gain_selected": false
+  }
+ ],
+ "timings": {
+  "discovery_seconds": 17.442365223000024,
+  "replication_seconds": 43.00855565200027,
+  "utility_seconds": 1.694979068000066,
+  "wall_seconds": 62.64303102300005
+ }
+}

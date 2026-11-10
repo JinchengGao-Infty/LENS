@@ -1,0 +1,54 @@
+{
+ "dataset": "additive_corr",
+ "p": 30,
+ "seed": 17,
+ "method": "fast",
+ "n": 20000,
+ "truth": [],
+ "lists": {
+  "validation_k": {
+   "size": 8,
+   "tp": 0,
+   "fdp": 1.0,
+   "power": null,
+   "pairs": [
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     28
+    ],
+    [
+     4,
+     25
+    ],
+    [
+     6,
+     19
+    ],
+    [
+     19,
+     27
+    ],
+    [
+     20,
+     24
+    ]
+   ]
+  }
+ },
+ "wall_seconds": 49.417030550539494,
+ "n_model_fits": 8,
+ "chosen_k": 8,
+ "teacher_signal_r2": null
+}

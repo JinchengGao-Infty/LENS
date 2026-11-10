@@ -1,0 +1,13 @@
+# Main environment (Python 3.11; versions used to reproduce the archived results).
+numpy==2.4.3
+scipy==1.16.3
+pandas==3.0.1
+scikit-learn==1.8.0
+xgboost==3.2.0
+torch==2.11.0
+cupy-cuda12x==14.1.1
+interpret==0.7.8
+threadpoolctl==3.6.0
+joblib==1.5.3
+shap==0.51.0
+matplotlib==3.10.8

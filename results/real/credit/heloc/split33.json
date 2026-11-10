@@ -1,0 +1,7737 @@
+{
+ "dataset": "heloc",
+ "split_seed": 33,
+ "part_sizes": {
+  "discovery": 2845,
+  "confirmation": 2761,
+  "evaluation": 2761,
+  "outer_test": 2092
+ },
+ "eta": 0.25,
+ "alpha": 0.05,
+ "kappa": 0.02,
+ "n_trees": {
+  "discovery": 47,
+  "confirmation": 80,
+  "additive": 528
+ },
+ "family_rms_norm": 0.020295884913880295,
+ "discovery_margin_sd": 1.2734791040420532,
+ "lists": {
+  "lens": [
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NetFractionRevolvingBurden"
+   ]
+  ],
+  "family_rms": [
+   [
+    "ExternalRiskEstimate",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumTotalTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "AverageMInFile",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "PercentInstallTrades"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "AverageMInFile"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "PercentInstallTrades"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumInqLast6M",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "AverageMInFile",
+    "NumInqLast6M"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentDelq"
+   ]
+  ],
+  "pair_relative": [
+   [
+    "ExternalRiskEstimate",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumTotalTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "AverageMInFile",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "PercentInstallTrades"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "AverageMInFile"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumInqLast6M"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "PercentInstallTrades"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumInqLast6M",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "PercentTradesWBalance"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumInqLast6M"
+   ],
+   [
+    "AverageMInFile",
+    "NumInqLast6M"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NumTotalTrades",
+    "PercentTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumInqLast6M"
+   ],
+   [
+    "NumInqLast6M",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "AverageMInFile",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "NumInqLast6M",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NumInqLast6M"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "PercentInstallTrades"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "AverageMInFile",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "PercentInstallTrades",
+    "NumInqLast6M"
+   ],
+   [
+    "AverageMInFile",
+    "MaxDelqEver"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumInqLast6M"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "MaxDelqEver",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "NumRevolvingTradesWBalance",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumRevolvingTradesWBalance",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumTotalTrades",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "MaxDelqEver",
+    "NumTotalTrades"
+   ]
+  ],
+  "gain": [],
+  "top10": [
+   [
+    "ExternalRiskEstimate",
+    "MSinceOldestTradeOpen"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "AverageMInFile"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumInqLast6M"
+   ],
+   [
+    "AverageMInFile",
+    "MSinceMostRecentInqexcl7days"
+   ]
+  ],
+  "all": [
+   [
+    "ExternalRiskEstimate",
+    "MSinceOldestTradeOpen"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "AverageMInFile"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumInqLast6M"
+   ],
+   [
+    "AverageMInFile",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumTotalTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "PercentTradesWBalance"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentTradeOpen"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "AverageMInFile",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "AverageMInFile",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "PercentInstallTrades"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumTotalTrades",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "PercentInstallTrades",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MaxDelqEver"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "PercentTradesWBalance"
+   ],
+   [
+    "AverageMInFile",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "AverageMInFile",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumTotalTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "AverageMInFile",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "PercentTradesWBalance"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "PercentTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "MaxDelqEver"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "AverageMInFile",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumTotalTrades"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "PercentInstallTrades"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "PercentInstallTrades",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NetFractionInstallBurden",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "AverageMInFile"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumInqLast6M"
+   ],
+   [
+    "PercentInstallTrades",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "NumBank2NatlTradesWHighUtilization",
+    "PercentTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "AverageMInFile",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "PercentInstallTrades",
+    "PercentTradesWBalance"
+   ],
+   [
+    "AverageMInFile",
+    "NumTotalTrades"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "AverageMInFile",
+    "PercentInstallTrades"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "NumTotalTrades",
+    "NumInqLast6M"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "NetFractionInstallBurden",
+    "PercentTradesWBalance"
+   ],
+   [
+    "AverageMInFile",
+    "PercentTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "AverageMInFile"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NumTotalTrades"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumInqLast6Mexcl7days",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NetFractionInstallBurden",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "PercentInstallTrades",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "NumRevolvingTradesWBalance",
+    "PercentTradesWBalance"
+   ],
+   [
+    "AverageMInFile",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "PercentInstallTrades"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumTotalTrades"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "PercentInstallTrades"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NumTotalTrades",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumTotalTrades",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumTotalTrades"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "NumTotalTrades",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "NumInqLast6M",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "PercentTradesWBalance"
+   ],
+   [
+    "AverageMInFile",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumInqLast6M"
+   ],
+   [
+    "AverageMInFile",
+    "NumInqLast6M"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumInqLast6M",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumInqLast6M"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "PercentInstallTrades"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "MSinceMostRecentTradeOpen"
+   ],
+   [
+    "NumTotalTrades",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumTotalTrades"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumInqLast6M"
+   ],
+   [
+    "PercentInstallTrades",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NumTotalTrades",
+    "PercentInstallTrades"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "PercentInstallTrades"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "MaxDelqEver"
+   ],
+   [
+    "NumInqLast6M",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "NumTotalTrades",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NetFractionRevolvingBurden",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumInqLast6M",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumTotalTrades",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "MaxDelqEver",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "AverageMInFile",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "PercentInstallTrades"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumInqLast6M"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumTotalTrades"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NumInqLast6M"
+   ],
+   [
+    "MaxDelqEver",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NumInqLast6M",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NumInqLast6M"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "NetFractionInstallBurden",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumInqLast6Mexcl7days",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NumInqLast6M"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "MaxDelqEver",
+    "PercentInstallTrades"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "PercentInstallTrades"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "AverageMInFile",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "AverageMInFile",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "MaxDelqEver"
+   ],
+   [
+    "PercentInstallTrades",
+    "NumInqLast6M"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "MaxDelqEver"
+   ],
+   [
+    "NumInqLast6Mexcl7days",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "AverageMInFile",
+    "MaxDelqEver"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumInqLast6M"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "MaxDelqEver",
+    "PercentTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "PercentInstallTrades"
+   ],
+   [
+    "MaxDelqEver",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MaxDelqEver",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NumTotalTrades"
+   ],
+   [
+    "NumInqLast6M",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "PercentTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MaxDelqEver",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "NumInstallTradesWBalance",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumRevolvingTradesWBalance",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumRevolvingTradesWBalance",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumTotalTrades",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "NumInqLast6Mexcl7days",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "PercentTradesWBalance"
+   ],
+   [
+    "NumTotalTrades",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MaxDelqEver",
+    "NumInqLast6M"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "PercentInstallTrades",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "AverageMInFile",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MaxDelqEver",
+    "NumTotalTrades"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "MaxDelqEver"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumInstallTradesWBalance",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MaxDelqEver",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NumInqLast6M"
+   ],
+   [
+    "NumInqLast6M",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "PercentInstallTrades"
+   ],
+   [
+    "MSinceMostRecentTradeOpen",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   [
+    "PercentInstallTrades",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MaxDelqEver",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "MaxDelqEver",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "NumTradesOpeninLast12M",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumInqLast6Mexcl7days"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumInqLast6Mexcl7days",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumInqLast6Mexcl7days",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NumInstallTradesWBalance"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "NumTradesOpeninLast12M"
+   ],
+   [
+    "MaxDelq2PublicRecLast12M",
+    "MaxDelqEver"
+   ],
+   [
+    "NumTrades90Ever2DerogPubRec",
+    "MaxDelqEver"
+   ],
+   [
+    "NumTrades60Ever2DerogPubRec",
+    "MaxDelqEver"
+   ]
+  ],
+  "single_model": [
+   [
+    "ExternalRiskEstimate",
+    "MSinceOldestTradeOpen"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "AverageMInFile"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumInqLast6M"
+   ],
+   [
+    "AverageMInFile",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumTotalTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "PercentTradesWBalance"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumRevolvingTradesWBalance"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentTradeOpen"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "NumSatisfactoryTrades",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "AverageMInFile",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "AverageMInFile",
+    "NetFractionRevolvingBurden"
+   ]
+  ],
+  "top_lens": [
+   [
+    "ExternalRiskEstimate",
+    "MSinceOldestTradeOpen"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionRevolvingBurden"
+   ]
+  ],
+  "both_strong": [
+   [
+    "ExternalRiskEstimate",
+    "MSinceOldestTradeOpen"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NetFractionInstallBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentDelq"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "AverageMInFile"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumInqLast6M"
+   ],
+   [
+    "AverageMInFile",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "NumTotalTrades"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "PercentTradesNeverDelq"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "MSinceMostRecentInqexcl7days",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentTradeOpen"
+   ],
+   [
+    "MSinceMostRecentDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   [
+    "AverageMInFile",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "AverageMInFile",
+    "NetFractionRevolvingBurden"
+   ]
+  ],
+  "projection_floor": [
+   [
+    "ExternalRiskEstimate",
+    "NumSatisfactoryTrades"
+   ],
+   [
+    "MSinceOldestTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   [
+    "PercentTradesNeverDelq",
+    "NetFractionRevolvingBurden"
+   ]
+  ]
+ },
+ "outer_test_mean_log_loss": {
+  "intercept_only": 0.6922190506492032,
+  "additive_f0": 0.5445631578685733,
+  "discovery_teacher": 0.5605154269682974,
+  "confirmation_teacher": 0.554035916825646,
+  "f0_plus_lens": 0.5438842812597529,
+  "f0_plus_family_rms": 0.545839774152891,
+  "f0_plus_pair_relative": 0.547662285221696,
+  "f0_plus_gain": 0.5445631578685733,
+  "f0_plus_top10": 0.5426815147219209,
+  "f0_plus_all": 0.5716240914176492,
+  "f0_plus_single_model": 0.5469377767939942,
+  "f0_plus_top_lens": 0.5426388567265922,
+  "f0_plus_both_strong": 0.5459979083223472,
+  "f0_plus_projection_floor": 0.5442347085998449
+ },
+ "pairs": [
+  {
+   "pair": [
+    0,
+    1
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "MSinceOldestTradeOpen"
+   ],
+   "rank": 1,
+   "amplitude": 0.14441307235474776,
+   "projection": 0.014637243848234428,
+   "projection_se": 0.0008399945653930127,
+   "cosine": 0.3112820235754095,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    17
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 2,
+   "amplitude": 0.1321895431069556,
+   "projection": -0.024863071061455907,
+   "projection_se": 0.0009520522633829766,
+   "cosine": -0.4392851821794794,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    18
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 3,
+   "amplitude": 0.07726866178352913,
+   "projection": -0.002791679493591774,
+   "projection_se": 0.00034196227788119485,
+   "cosine": -0.05919388589451174,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    4
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumSatisfactoryTrades"
+   ],
+   "rank": 4,
+   "amplitude": 0.07021655388728654,
+   "projection": 0.02566914360916804,
+   "projection_se": 0.0005770823114357785,
+   "cosine": 0.38081298032677163,
+   "lens_pvalue": 0.3647423026345953,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    8
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentDelq"
+   ],
+   "rank": 5,
+   "amplitude": 0.07002063349446105,
+   "projection": -0.0019848725132772054,
+   "projection_se": 0.00020762439807200838,
+   "cosine": -0.06644434824524643,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    14
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 6,
+   "amplitude": 0.06615447692710298,
+   "projection": -0.009531121101685556,
+   "projection_se": 0.00021309305618476352,
+   "cosine": -0.1255154941383231,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    9
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 7,
+   "amplitude": 0.0587108052067478,
+   "projection": -0.006385174830782053,
+   "projection_se": 0.0001215968838849174,
+   "cosine": -0.441289082680324,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    3
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "AverageMInFile"
+   ],
+   "rank": 8,
+   "amplitude": 0.058705621328850606,
+   "projection": -0.015552530876171082,
+   "projection_se": 0.0007733344688887596,
+   "cosine": -0.17588443185904779,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    15
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumInqLast6M"
+   ],
+   "rank": 9,
+   "amplitude": 0.056523707106656565,
+   "projection": 0.005122429741109555,
+   "projection_se": 0.00025112704626004345,
+   "cosine": 0.12052490168049818,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    14
+   ],
+   "names": [
+    "AverageMInFile",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 10,
+   "amplitude": 0.04329030193151055,
+   "projection": -0.011369714431934668,
+   "projection_se": 0.0007094422125794046,
+   "cosine": -0.4377292938763211,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    11
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumTotalTrades"
+   ],
+   "rank": 11,
+   "amplitude": 0.04254542571305927,
+   "projection": -0.020802458826996998,
+   "projection_se": 0.0002962960474875724,
+   "cosine": -0.24518634170352058,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.8622816444826874,
+   "gain_mean": -7.502692935246058e-05,
+   "gain_se": 0.0003215199919245079,
+   "gain_pvalue": 0.5922554710407485,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    7
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "PercentTradesNeverDelq"
+   ],
+   "rank": 12,
+   "amplitude": 0.04252817244051309,
+   "projection": -0.03485668665838794,
+   "projection_se": 0.0006731926745458209,
+   "cosine": -0.4008295481753892,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    22
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "PercentTradesWBalance"
+   ],
+   "rank": 13,
+   "amplitude": 0.04184237535194386,
+   "projection": -0.003621616032560198,
+   "projection_se": 0.00011170540316730208,
+   "cosine": -0.17080278833652182,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    19
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 14,
+   "amplitude": 0.04142506026951546,
+   "projection": 3.433866931839601e-05,
+   "projection_se": 0.00012196170048309019,
+   "cosine": 0.003297965157363622,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.08686932296268951,
+   "gain_mean": -7.413662671331201e-05,
+   "gain_se": 2.9445145650061595e-05,
+   "gain_pvalue": 0.9940952767252006,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    17
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 15,
+   "amplitude": 0.03879941595859447,
+   "projection": 0.033034534270855245,
+   "projection_se": 0.0009028394096685121,
+   "cosine": 0.6739044403485762,
+   "lens_pvalue": 2.6674378564073892e-17,
+   "lens_selected": true,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.2663038415462393,
+   "gain_mean": 8.868054161051353e-05,
+   "gain_se": 7.998615632210022e-05,
+   "gain_pvalue": 0.13378010743488294,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    17
+   ],
+   "names": [
+    "MSinceMostRecentInqexcl7days",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 16,
+   "amplitude": 0.03694761672222237,
+   "projection": -0.0159717743177066,
+   "projection_se": 0.0009404512475069798,
+   "cosine": -0.48548911977688397,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    2
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "MSinceMostRecentTradeOpen"
+   ],
+   "rank": 17,
+   "amplitude": 0.03562221297294448,
+   "projection": -0.001262224945080835,
+   "projection_se": 0.0002976708454466538,
+   "cosine": -0.0415650518652915,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    9
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 18,
+   "amplitude": 0.034798214683149836,
+   "projection": -0.0004327687546988784,
+   "projection_se": 1.498400909609282e-05,
+   "cosine": -0.3381565000704324,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    14
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 19,
+   "amplitude": 0.032028798365854476,
+   "projection": 0.02227906114775202,
+   "projection_se": 0.0004409479168826411,
+   "cosine": 0.5739272315560288,
+   "lens_pvalue": 0.9999999999997683,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    14
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 20,
+   "amplitude": 0.03192983904987663,
+   "projection": 0.00017948288669875916,
+   "projection_se": 0.00037052141413680846,
+   "cosine": 0.012793905339267091,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    18
+   ],
+   "names": [
+    "MSinceMostRecentInqexcl7days",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 21,
+   "amplitude": 0.027004834558761962,
+   "projection": -0.002651110810350235,
+   "projection_se": 0.00040175186858945725,
+   "cosine": -0.1644587032019071,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    4
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumSatisfactoryTrades"
+   ],
+   "rank": 22,
+   "amplitude": 0.026973811350600695,
+   "projection": -0.013795061432685869,
+   "projection_se": 0.00041756563138782,
+   "cosine": -0.3938400867696738,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    17
+   ],
+   "names": [
+    "AverageMInFile",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 23,
+   "amplitude": 0.02596365426824937,
+   "projection": -0.006241642670833971,
+   "projection_se": 0.0005984745005960255,
+   "cosine": -0.11559289267722464,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.9390375449918904,
+   "gain_mean": -0.00041672237209511667,
+   "gain_se": 0.0003714014817784463,
+   "gain_pvalue": 0.8690744522314005,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    21
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 24,
+   "amplitude": 0.025320089791995393,
+   "projection": 0.01363488257664344,
+   "projection_se": 0.000326433280072075,
+   "cosine": 0.17350367133655814,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.2453305257732444,
+   "gain_mean": 2.2156020007425095e-05,
+   "gain_se": 5.6757904999656824e-05,
+   "gain_pvalue": 0.34813515341189183,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    14
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 25,
+   "amplitude": 0.02476972063391978,
+   "projection": 0.005254820343487715,
+   "projection_se": 0.0003499325020541652,
+   "cosine": 0.14020143966867243,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    17
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 26,
+   "amplitude": 0.023410313320543986,
+   "projection": 0.038380387377048714,
+   "projection_se": 0.0006062984556963368,
+   "cosine": 0.8410840790497325,
+   "lens_pvalue": 6.3869252691638e-101,
+   "lens_selected": true,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -0.0002471860666111162,
+   "gain_se": 0.0004027029303643666,
+   "gain_pvalue": 0.7303320018453795,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    13
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "PercentInstallTrades"
+   ],
+   "rank": 27,
+   "amplitude": 0.02335778635603305,
+   "projection": -0.00039169218652228657,
+   "projection_se": 0.0004538856332618414,
+   "cosine": -0.0102758602821677,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    8
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "MSinceMostRecentDelq"
+   ],
+   "rank": 28,
+   "amplitude": 0.023346980720955077,
+   "projection": 0.0009444451842485524,
+   "projection_se": 0.00038038582076414817,
+   "cosine": 0.05701438953829895,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -3.5899202872209178e-06,
+   "gain_se": 0.0002688193031728408,
+   "gain_pvalue": 0.5053274761194172,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    20
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 29,
+   "amplitude": 0.023165503365253335,
+   "projection": 0.002911755478894202,
+   "projection_se": 0.00031657766722032116,
+   "cosine": 0.14676110415928367,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -0.00013830115068212272,
+   "gain_se": 0.0002390542717688851,
+   "gain_pvalue": 0.7185483540161951,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    20
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 30,
+   "amplitude": 0.02229261517130345,
+   "projection": 0.002365782296768816,
+   "projection_se": 0.00018093808927497978,
+   "cosine": 0.04857093712809739,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    14
+   ],
+   "names": [
+    "NumTotalTrades",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 31,
+   "amplitude": 0.022021966695331213,
+   "projection": 0.001115857978624851,
+   "projection_se": 0.0001412282335093566,
+   "cosine": 0.058209686410242316,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    4
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumSatisfactoryTrades"
+   ],
+   "rank": 32,
+   "amplitude": 0.021697305560767693,
+   "projection": -0.006141971812459321,
+   "projection_se": 0.00028332232771087663,
+   "cosine": -0.33515202164138713,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    17
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 33,
+   "amplitude": 0.020950821561755543,
+   "projection": 0.00014393742540513605,
+   "projection_se": 0.00032494951304345917,
+   "cosine": 0.007654100682301751,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.892416771464235,
+   "gain_mean": -0.00043467476126035924,
+   "gain_se": 0.0003029146460450848,
+   "gain_pvalue": 0.9243528030724386,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    12
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 34,
+   "amplitude": 0.019574565383868626,
+   "projection": -0.0023665925125144916,
+   "projection_se": 0.00022088631858051868,
+   "cosine": -0.08105899267715803,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.844817118693465,
+   "gain_mean": -0.00019687115118453786,
+   "gain_se": 0.00013059128771067147,
+   "gain_pvalue": 0.9341634203467511,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    17
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 35,
+   "amplitude": 0.019184263277427453,
+   "projection": -0.009050055913439022,
+   "projection_se": 0.00019513121882478379,
+   "cosine": -0.18484522472978315,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    6
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   "rank": 36,
+   "amplitude": 0.0183282800628071,
+   "projection": 0.0018307042463879984,
+   "projection_se": 0.0001411234474944002,
+   "cosine": 0.4638686525302438,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    17
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 37,
+   "amplitude": 0.01823289732444384,
+   "projection": -0.009704361500830571,
+   "projection_se": 0.00027424282865121677,
+   "cosine": -0.42242048806433713,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.5142818374822927,
+   "gain_mean": -5.9855779671280725e-05,
+   "gain_se": 7.846271230815854e-05,
+   "gain_pvalue": 0.7772254697963786,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    10
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "MaxDelqEver"
+   ],
+   "rank": 38,
+   "amplitude": 0.018164202991202423,
+   "projection": 0.0011517812637520891,
+   "projection_se": 0.00012740193250744861,
+   "cosine": 0.10671440411440739,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.6348179797481823,
+   "gain_mean": -7.652599703982387e-06,
+   "gain_se": 0.00024459046211491,
+   "gain_pvalue": 0.5124798307131351,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    22
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "PercentTradesWBalance"
+   ],
+   "rank": 39,
+   "amplitude": 0.017947492176661934,
+   "projection": -0.0005382009020641388,
+   "projection_se": 0.00011252225299790521,
+   "cosine": -0.05769153560374931,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    12
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 40,
+   "amplitude": 0.01741028809812084,
+   "projection": -0.010166753711242005,
+   "projection_se": 0.0002676443747991181,
+   "cosine": -0.5901800003871186,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00011756618603906716,
+   "gain_se": 0.0002538373751292495,
+   "gain_pvalue": 0.3216264417167739,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    19
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 41,
+   "amplitude": 0.017257354971487095,
+   "projection": 0.00011380932809506169,
+   "projection_se": 0.00022120049251971545,
+   "cosine": 0.014346567817141677,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    11
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumTotalTrades"
+   ],
+   "rank": 42,
+   "amplitude": 0.01691973847414494,
+   "projection": 0.012111381966863613,
+   "projection_se": 0.00027883753331909704,
+   "cosine": 0.6912935272435367,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    5
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   "rank": 43,
+   "amplitude": 0.01664603450731426,
+   "projection": 0.007016314568339187,
+   "projection_se": 0.0002998611420464717,
+   "cosine": 0.5722765865291899,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    16
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 44,
+   "amplitude": 0.016305653892235043,
+   "projection": -0.0023519413185152877,
+   "projection_se": 0.0001148063610210109,
+   "cosine": -0.30916467206057163,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    18
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 45,
+   "amplitude": 0.016059159020138998,
+   "projection": 0.0012244527419320668,
+   "projection_se": 0.0001754218255753308,
+   "cosine": 0.11209749255947292,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.563374087949395e-05,
+   "gain_se": 0.0001833060515968327,
+   "gain_pvalue": 0.44439272438142546,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    8
+   ],
+   "names": [
+    "AverageMInFile",
+    "MSinceMostRecentDelq"
+   ],
+   "rank": 46,
+   "amplitude": 0.01592439526652219,
+   "projection": 0.00996443008807341,
+   "projection_se": 0.0002762844404420369,
+   "cosine": 0.46142810019403147,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    18
+   ],
+   "names": [
+    "NetFractionRevolvingBurden",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 47,
+   "amplitude": 0.015700362306346412,
+   "projection": 0.0070146455479897585,
+   "projection_se": 0.00022748915325001754,
+   "cosine": 0.15860963892588137,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    22
+   ],
+   "names": [
+    "MSinceMostRecentInqexcl7days",
+    "PercentTradesWBalance"
+   ],
+   "rank": 48,
+   "amplitude": 0.015655515378667526,
+   "projection": -0.0036683543317274528,
+   "projection_se": 0.00010883161491516218,
+   "cosine": -0.3663240136207686,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0334915946696166,
+   "gain_mean": -4.477129229646931e-06,
+   "gain_se": 3.878783606517294e-06,
+   "gain_pvalue": 0.8758034406565747,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    6
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   "rank": 49,
+   "amplitude": 0.015568468276280995,
+   "projection": -0.00017665870960709303,
+   "projection_se": 0.00015402009046384116,
+   "cosine": -0.09870843432107733,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.37896771363465165,
+   "gain_mean": -1.854531465971992e-05,
+   "gain_se": 6.714681847848847e-05,
+   "gain_pvalue": 0.608799130646969,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    8
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "MSinceMostRecentDelq"
+   ],
+   "rank": 50,
+   "amplitude": 0.015286403240936183,
+   "projection": 0.006182412583299795,
+   "projection_se": 0.00027215132561785916,
+   "cosine": 0.489306693164148,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    22
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "PercentTradesWBalance"
+   ],
+   "rank": 51,
+   "amplitude": 0.014615981668243851,
+   "projection": -0.0031926838166634105,
+   "projection_se": 5.473306443899173e-05,
+   "cosine": -0.3092152823861515,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    19
+   ],
+   "names": [
+    "MSinceMostRecentInqexcl7days",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 52,
+   "amplitude": 0.014242144496261004,
+   "projection": -0.0037483783453586134,
+   "projection_se": 0.00011281960299495116,
+   "cosine": -0.47173920679751363,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    19
+   ],
+   "names": [
+    "NetFractionRevolvingBurden",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 53,
+   "amplitude": 0.014204910839691687,
+   "projection": 0.0074332622126673815,
+   "projection_se": 0.0003481701388646835,
+   "cosine": 0.6652610569426355,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    10
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "MaxDelqEver"
+   ],
+   "rank": 54,
+   "amplitude": 0.013727715911758727,
+   "projection": 0.0007804916239899277,
+   "projection_se": 6.732361895940793e-05,
+   "cosine": 0.36858710622478236,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    0,
+    16
+   ],
+   "names": [
+    "ExternalRiskEstimate",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 55,
+   "amplitude": 0.013685643518707475,
+   "projection": -0.0010218868149947545,
+   "projection_se": 0.0002172131875575651,
+   "cosine": -0.22269178634619233,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    18
+   ],
+   "names": [
+    "AverageMInFile",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 56,
+   "amplitude": 0.01326988685281207,
+   "projection": -0.007177867309202994,
+   "projection_se": 0.00026360825025134387,
+   "cosine": -0.43774974830555,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    21
+   ],
+   "names": [
+    "NetFractionRevolvingBurden",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 57,
+   "amplitude": 0.012566184959724763,
+   "projection": 0.0038589741553802298,
+   "projection_se": 0.00042641105758966163,
+   "cosine": 0.27112340425294335,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    11
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NumTotalTrades"
+   ],
+   "rank": 58,
+   "amplitude": 0.012362366710539122,
+   "projection": 0.00021044770279643934,
+   "projection_se": 0.0001685741585588724,
+   "cosine": 0.02598586104980163,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    7
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "PercentTradesNeverDelq"
+   ],
+   "rank": 59,
+   "amplitude": 0.012285762353453506,
+   "projection": 0.005578750039245841,
+   "projection_se": 0.0001881433814473352,
+   "cosine": 0.36734930537133254,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.7177801864967183,
+   "gain_mean": 9.860485761930766e-05,
+   "gain_se": 0.00010313790277552504,
+   "gain_pvalue": 0.1695238160115613,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    13
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "PercentInstallTrades"
+   ],
+   "rank": 60,
+   "amplitude": 0.012254860458069894,
+   "projection": 0.007805066917401165,
+   "projection_se": 0.0003251615952126752,
+   "cosine": 0.45256604817338425,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -0.000315298658450784,
+   "gain_se": 0.00020127582096459652,
+   "gain_pvalue": 0.9413842450518904,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    17
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 61,
+   "amplitude": 0.011771728827704367,
+   "projection": -0.00041076079543240135,
+   "projection_se": 1.8257604836086165e-05,
+   "cosine": -0.43564191137411673,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    21
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 62,
+   "amplitude": 0.011727827475917415,
+   "projection": -0.003147684345579325,
+   "projection_se": 0.00010756852516283042,
+   "cosine": -0.7159274833233785,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    18,
+    19
+   ],
+   "names": [
+    "NetFractionInstallBurden",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 63,
+   "amplitude": 0.01169416687774091,
+   "projection": -0.0015444604628214221,
+   "projection_se": 9.695919019533063e-05,
+   "cosine": -0.3443853744843476,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    3
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "AverageMInFile"
+   ],
+   "rank": 64,
+   "amplitude": 0.01158733451976354,
+   "projection": 0.015886825106183236,
+   "projection_se": 0.0004060296243118795,
+   "cosine": 0.3124530277692355,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 9.648806983418439e-05,
+   "gain_se": 0.00022283134396052913,
+   "gain_pvalue": 0.33250396508041014,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    15
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NumInqLast6M"
+   ],
+   "rank": 65,
+   "amplitude": 0.010920737826617137,
+   "projection": 0.004126325634246058,
+   "projection_se": 0.00016381807131912631,
+   "cosine": 0.19935728815527184,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 1.2705353851729362,
+   "gain_mean": -0.0001293711549662336,
+   "gain_se": 7.638387870882408e-05,
+   "gain_pvalue": 0.9548385734682632,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    14
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 66,
+   "amplitude": 0.010844661671125067,
+   "projection": 0.0006097643520121348,
+   "projection_se": 0.000162533849937046,
+   "cosine": 0.0739880363610806,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -6.466650634057275e-05,
+   "gain_se": 0.00014358087335239708,
+   "gain_pvalue": 0.6737831555642673,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    18
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 67,
+   "amplitude": 0.010786241918184381,
+   "projection": 0.0071829021316976915,
+   "projection_se": 0.00023006124677781622,
+   "cosine": 0.44280471298746105,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    21,
+    22
+   ],
+   "names": [
+    "NumBank2NatlTradesWHighUtilization",
+    "PercentTradesWBalance"
+   ],
+   "rank": 68,
+   "amplitude": 0.010725944017645404,
+   "projection": -0.003332917494917716,
+   "projection_se": 0.00012973845318692517,
+   "cosine": -0.8642914265236155,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    16
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 69,
+   "amplitude": 0.010660353559277198,
+   "projection": 0.002302080324217188,
+   "projection_se": 9.806047876898855e-05,
+   "cosine": 0.5870373869002683,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    7
+   ],
+   "names": [
+    "AverageMInFile",
+    "PercentTradesNeverDelq"
+   ],
+   "rank": 70,
+   "amplitude": 0.010527779097013681,
+   "projection": -0.022347744590454854,
+   "projection_se": 0.0007395652575141284,
+   "cosine": -0.5151209762618859,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.0003429380014092961,
+   "gain_se": 0.0001672925563353968,
+   "gain_pvalue": 0.020185639434458717,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    9
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 71,
+   "amplitude": 0.01016695168151324,
+   "projection": 7.247220072230178e-12,
+   "projection_se": 7.262840763821172e-11,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -0.00011269033097441393,
+   "gain_se": 0.00013125273118364534,
+   "gain_pvalue": 0.8047125184889945,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    22
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "PercentTradesWBalance"
+   ],
+   "rank": 72,
+   "amplitude": 0.010161720336941436,
+   "projection": 0.002661164372890347,
+   "projection_se": 9.313362959852978e-05,
+   "cosine": 0.3206103513759945,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 6.981908127930661e-05,
+   "gain_se": 0.00015132524912357404,
+   "gain_pvalue": 0.3222614872046347,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    11
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumTotalTrades"
+   ],
+   "rank": 73,
+   "amplitude": 0.009872692949445335,
+   "projection": 0.001245070012423417,
+   "projection_se": 0.00019560042174109567,
+   "cosine": 0.05244436325541061,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    19
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 74,
+   "amplitude": 0.009818610697909513,
+   "projection": 0.00020090101469369886,
+   "projection_se": 2.1996430183206573e-05,
+   "cosine": 0.1771665158793873,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -0.0001373575581912937,
+   "gain_se": 0.00014698328791087854,
+   "gain_pvalue": 0.824979920927411,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    13
+   ],
+   "names": [
+    "AverageMInFile",
+    "PercentInstallTrades"
+   ],
+   "rank": 75,
+   "amplitude": 0.009657660293006371,
+   "projection": -0.005279880104817706,
+   "projection_se": 0.0005310173133945043,
+   "cosine": -0.2222651963866813,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    7
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "PercentTradesNeverDelq"
+   ],
+   "rank": 76,
+   "amplitude": 0.009393510051924233,
+   "projection": 0.0007344493387429339,
+   "projection_se": 0.00024805839999640937,
+   "cosine": 0.03049242492383059,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.521901505992821,
+   "gain_mean": -1.6496468801852145e-05,
+   "gain_se": 0.00011166879081304415,
+   "gain_pvalue": 0.5587207945437849,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    15
+   ],
+   "names": [
+    "NumTotalTrades",
+    "NumInqLast6M"
+   ],
+   "rank": 77,
+   "amplitude": 0.009321478843595797,
+   "projection": -3.0609135723979986e-05,
+   "projection_se": 2.2391249124335344e-05,
+   "cosine": -0.004545997363637181,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    12
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 78,
+   "amplitude": 0.00925437612776845,
+   "projection": -0.004761152008495261,
+   "projection_se": 0.00020848026646708013,
+   "cosine": -0.6825473551443791,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.874251083700041,
+   "gain_mean": 0.00010363351433925702,
+   "gain_se": 0.00013661782542721793,
+   "gain_pvalue": 0.22405637837541192,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    5
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   "rank": 79,
+   "amplitude": 0.00918993253672164,
+   "projection": 0.002735304042393914,
+   "projection_se": 0.00012435938996192966,
+   "cosine": 0.25979772018973607,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 0.00031834099513895216,
+   "gain_se": 0.0002191800795357862,
+   "gain_pvalue": 0.0731927690494888,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    14
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 80,
+   "amplitude": 0.009040230360182849,
+   "projection": 0.004238451884994057,
+   "projection_se": 0.00010223319704327748,
+   "cosine": 0.47072067842331305,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 7.236319518405063e-05,
+   "gain_se": 0.00015436464577624526,
+   "gain_pvalue": 0.3196131323929136,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    18,
+    22
+   ],
+   "names": [
+    "NetFractionInstallBurden",
+    "PercentTradesWBalance"
+   ],
+   "rank": 81,
+   "amplitude": 0.008870096004434643,
+   "projection": -0.0002833910729535934,
+   "projection_se": 0.00016611654043750723,
+   "cosine": -0.04355558783761913,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.3270258584972654e-05,
+   "gain_se": 0.00011446828121042875,
+   "gain_pvalue": 0.41945417979739696,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    22
+   ],
+   "names": [
+    "AverageMInFile",
+    "PercentTradesWBalance"
+   ],
+   "rank": 82,
+   "amplitude": 0.008753602228771688,
+   "projection": -0.017406781602184458,
+   "projection_se": 0.00039285772709896625,
+   "cosine": -0.43280111990345216,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00030715868575388117,
+   "gain_se": 0.00013225158839992582,
+   "gain_pvalue": 0.010102125318569225,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    21
+   ],
+   "names": [
+    "MSinceMostRecentInqexcl7days",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 83,
+   "amplitude": 0.008740532993990285,
+   "projection": 0.0012885746910480703,
+   "projection_se": 8.746071504416237e-05,
+   "cosine": 0.4423191249098315,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -3.100600590290717e-05,
+   "gain_se": 0.0001457078978319608,
+   "gain_pvalue": 0.5842568191003059,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    3
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "AverageMInFile"
+   ],
+   "rank": 84,
+   "amplitude": 0.008730781582401021,
+   "projection": 0.0018700600649239724,
+   "projection_se": 7.172143779013331e-05,
+   "cosine": 0.06796866283135267,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    9
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 85,
+   "amplitude": 0.008354818404895483,
+   "projection": 0.00032992999734146264,
+   "projection_se": 1.4482527102089711e-05,
+   "cosine": 0.1873386835749075,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 7.757500740998306e-05,
+   "gain_se": 0.00012098723277976982,
+   "gain_pvalue": 0.2607017609913428,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    11
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NumTotalTrades"
+   ],
+   "rank": 86,
+   "amplitude": 0.008317910236565088,
+   "projection": 0.0011806130551396535,
+   "projection_se": 0.00015148324547717472,
+   "cosine": 0.3565521333149354,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    14
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 87,
+   "amplitude": 0.008317434837665633,
+   "projection": 0.023169449053858534,
+   "projection_se": 0.0005173401047069768,
+   "cosine": 0.8299148233513667,
+   "lens_pvalue": 0.999995627333412,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    21
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 88,
+   "amplitude": 0.008235788116202517,
+   "projection": 0.007924967595572254,
+   "projection_se": 0.00013797920957350296,
+   "cosine": 0.3742184964821306,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 6.414409022180157e-05,
+   "gain_se": 0.00010827811123683433,
+   "gain_pvalue": 0.27679095925453423,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    17
+   ],
+   "names": [
+    "NumInqLast6Mexcl7days",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 89,
+   "amplitude": 0.008229714122601295,
+   "projection": -0.002398169355416044,
+   "projection_se": 0.00020909939620609918,
+   "cosine": -0.4860548704335937,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.7197707222622174,
+   "gain_mean": 9.941755431441711e-05,
+   "gain_se": 0.0001015255221163772,
+   "gain_pvalue": 0.16373142928374274,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    17
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 90,
+   "amplitude": 0.008202900348369681,
+   "projection": 0.019629550149626734,
+   "projection_se": 0.00024591419430856985,
+   "cosine": 0.581028374073432,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 1.5270986419213741,
+   "gain_mean": -2.3813963213406053e-05,
+   "gain_se": 9.625242147415068e-05,
+   "gain_pvalue": 0.5977051415552117,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    19
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 91,
+   "amplitude": 0.008182443445113749,
+   "projection": 0.009293742058537327,
+   "projection_se": 0.00021398565546018182,
+   "cosine": 0.7514455783015767,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 0.00012561056737029402,
+   "gain_se": 0.00012869150654128513,
+   "gain_pvalue": 0.1645174901747694,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    22
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "PercentTradesWBalance"
+   ],
+   "rank": 92,
+   "amplitude": 0.00814405640558405,
+   "projection": -0.000476817164091031,
+   "projection_se": 6.12204678305834e-05,
+   "cosine": -0.028757042896776806,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -0.00010173952386686107,
+   "gain_se": 0.00011333509951079927,
+   "gain_pvalue": 0.8153239634090332,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    18,
+    20
+   ],
+   "names": [
+    "NetFractionInstallBurden",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 93,
+   "amplitude": 0.007964613544296117,
+   "projection": -0.0010409681098958218,
+   "projection_se": 9.548076686288388e-05,
+   "cosine": -0.3066299851092162,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    17
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 94,
+   "amplitude": 0.007853122368830921,
+   "projection": 8.526115024131388e-05,
+   "projection_se": 4.501456488826977e-05,
+   "cosine": 0.01638303982171748,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    17
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 95,
+   "amplitude": 0.007778911458710792,
+   "projection": 0.0008217299896892307,
+   "projection_se": 0.00016319390773809374,
+   "cosine": 0.04355015113227469,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.2548946785043897e-05,
+   "gain_se": 0.0001211082968494258,
+   "gain_pvalue": 0.5738514469779258,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    19
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 96,
+   "amplitude": 0.007674359472683314,
+   "projection": -0.004178851329430379,
+   "projection_se": 0.0001106433757478336,
+   "cosine": -0.19240039806584,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    18
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 97,
+   "amplitude": 0.007282311403317344,
+   "projection": 0.0026751856918569594,
+   "projection_se": 0.0001697545529182699,
+   "cosine": 0.11799578355087598,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 1.1940163153882014e-05,
+   "gain_se": 7.314964423311473e-05,
+   "gain_pvalue": 0.43516895989189974,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    19
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 98,
+   "amplitude": 0.007211459850786302,
+   "projection": 0.0020678060916406054,
+   "projection_se": 8.690821121919062e-05,
+   "cosine": 0.2672261581806472,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 1.2035644104044216,
+   "gain_mean": 8.200965412871125e-05,
+   "gain_se": 7.021995616245236e-05,
+   "gain_pvalue": 0.12142422043564882,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    18
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 99,
+   "amplitude": 0.007199358352680459,
+   "projection": 0.0009096477708735956,
+   "projection_se": 0.00017206266952665036,
+   "cosine": 0.21955847000265086,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 9.153397800693918e-05,
+   "gain_se": 9.480833671826265e-05,
+   "gain_pvalue": 0.16715638262837051,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    4
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumSatisfactoryTrades"
+   ],
+   "rank": 100,
+   "amplitude": 0.007074771667404778,
+   "projection": 0.011511098345668673,
+   "projection_se": 0.0003259805619505438,
+   "cosine": 0.5701203942213345,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 7.259118940228872e-05,
+   "gain_se": 0.00011709896830493299,
+   "gain_pvalue": 0.2676574863997255,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    19,
+    22
+   ],
+   "names": [
+    "NumRevolvingTradesWBalance",
+    "PercentTradesWBalance"
+   ],
+   "rank": 101,
+   "amplitude": 0.007034968047835736,
+   "projection": 0.0009645469831687827,
+   "projection_se": 4.213745593875404e-05,
+   "cosine": 0.2682412957741869,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    9
+   ],
+   "names": [
+    "AverageMInFile",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 102,
+   "amplitude": 0.006906738209454318,
+   "projection": 0.0007242124801884286,
+   "projection_se": 8.591115451096625e-05,
+   "cosine": 0.3786807108978558,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00011213726938124993,
+   "gain_se": 0.00010506921029921284,
+   "gain_pvalue": 0.1429248509564613,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    13
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "PercentInstallTrades"
+   ],
+   "rank": 103,
+   "amplitude": 0.006878730756349128,
+   "projection": -0.004562696709355121,
+   "projection_se": 0.00016281504879074425,
+   "cosine": -0.13968013014781466,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    11
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumTotalTrades"
+   ],
+   "rank": 104,
+   "amplitude": 0.0067420495545085475,
+   "projection": -2.97820418311078e-05,
+   "projection_se": 4.032321624401918e-05,
+   "cosine": -0.0038615948872909507,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    18
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 105,
+   "amplitude": 0.006678253847044122,
+   "projection": 0.000692199135437363,
+   "projection_se": 4.657233510440115e-05,
+   "cosine": 0.43078116447314296,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.0431489099864417e-05,
+   "gain_se": 9.028480585861545e-05,
+   "gain_pvalue": 0.5459913650921412,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    13
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "PercentInstallTrades"
+   ],
+   "rank": 106,
+   "amplitude": 0.006661114969346914,
+   "projection": 0.006975875536428924,
+   "projection_se": 0.00033921324454860445,
+   "cosine": 0.502453748378867,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -9.363180974170979e-05,
+   "gain_se": 7.423397409695145e-05,
+   "gain_pvalue": 0.8964008179425835,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    19
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 107,
+   "amplitude": 0.006571286795645262,
+   "projection": -0.000816990842792369,
+   "projection_se": 2.4087206759770453e-05,
+   "cosine": -0.5618227456151174,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    17
+   ],
+   "names": [
+    "NumTotalTrades",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 108,
+   "amplitude": 0.006462886953065032,
+   "projection": -0.0017828238867353837,
+   "projection_se": 0.00022275681408134244,
+   "cosine": -0.16878838601778076,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    9
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 109,
+   "amplitude": 0.006259738786873249,
+   "projection": -0.00015669680695379781,
+   "projection_se": 9.989436607454047e-06,
+   "cosine": -0.3251254765604484,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.1903868656830072,
+   "gain_mean": -3.826662123746814e-05,
+   "gain_se": 5.830569853404132e-05,
+   "gain_pvalue": 0.7441877030870929,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    17
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 110,
+   "amplitude": 0.006105991410620064,
+   "projection": 0.006665385675808078,
+   "projection_se": 0.00014980943336350653,
+   "cosine": 0.8517723864751815,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 1.3351340497327961,
+   "gain_mean": -0.00010026879688729971,
+   "gain_se": 8.521234048181692e-05,
+   "gain_pvalue": 0.8803410443399955,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    18
+   ],
+   "names": [
+    "NumTotalTrades",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 111,
+   "amplitude": 0.006056812222098979,
+   "projection": -0.00037705390008350444,
+   "projection_se": 8.673695134683417e-05,
+   "cosine": -0.04109627844756637,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    11
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumTotalTrades"
+   ],
+   "rank": 112,
+   "amplitude": 0.005966201279738041,
+   "projection": -0.0038145211709315827,
+   "projection_se": 0.00012145540746922867,
+   "cosine": -0.4806849815483168,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    12
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 113,
+   "amplitude": 0.005847034770932557,
+   "projection": 0.0007587495992725083,
+   "projection_se": 5.6202154676918045e-05,
+   "cosine": 0.12150357249512872,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    19
+   ],
+   "names": [
+    "NumTotalTrades",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 114,
+   "amplitude": 0.005738057480921868,
+   "projection": 0.0004325430455890497,
+   "projection_se": 2.631339110212202e-05,
+   "cosine": 0.03385174606599808,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    18
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 115,
+   "amplitude": 0.005723242386276013,
+   "projection": -0.003359655260789501,
+   "projection_se": 9.569097878858522e-05,
+   "cosine": -0.46180497092936057,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    17
+   ],
+   "names": [
+    "NumInqLast6M",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 116,
+   "amplitude": 0.005582536285843858,
+   "projection": 0.016117557831284345,
+   "projection_se": 0.0005352637843226515,
+   "cosine": 0.7142603376775604,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    22
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "PercentTradesWBalance"
+   ],
+   "rank": 117,
+   "amplitude": 0.005570577293464188,
+   "projection": 0.0033934396478683213,
+   "projection_se": 0.00014372862365767209,
+   "cosine": 0.42394490944762186,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    20
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 118,
+   "amplitude": 0.005312531356782566,
+   "projection": 4.666531419484867e-05,
+   "projection_se": 7.25194587184019e-05,
+   "cosine": 0.0014998049537160928,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    15
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NumInqLast6M"
+   ],
+   "rank": 119,
+   "amplitude": 0.0052513305392740475,
+   "projection": 0.003015108858422121,
+   "projection_se": 9.300656782750376e-05,
+   "cosine": 0.3194959654831345,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.5332626178847517,
+   "gain_mean": -2.5655704243227017e-06,
+   "gain_se": 2.0481756017636927e-05,
+   "gain_pvalue": 0.5498416369605839,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    15
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumInqLast6M"
+   ],
+   "rank": 120,
+   "amplitude": 0.005214135997751879,
+   "projection": 0.013589936873710044,
+   "projection_se": 0.0005036017472286328,
+   "cosine": 0.6493340613077127,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 6.292285602677382e-05,
+   "gain_se": 6.368724357108122e-05,
+   "gain_pvalue": 0.1615768647817057,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    14
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 121,
+   "amplitude": 0.005180756718524795,
+   "projection": 4.3393376304900424e-05,
+   "projection_se": 0.00010988184658902974,
+   "cosine": 0.016948819080559112,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    12
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 122,
+   "amplitude": 0.005147562316021065,
+   "projection": -0.0005929531740312637,
+   "projection_se": 9.36266639026333e-05,
+   "cosine": -0.14638555659532806,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    21
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 123,
+   "amplitude": 0.005108283623380519,
+   "projection": 0.0009472762782104171,
+   "projection_se": 0.00013487802175762744,
+   "cosine": 0.20106576429451428,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    18
+   ],
+   "names": [
+    "NumInqLast6M",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 124,
+   "amplitude": 0.005071438965400606,
+   "projection": -0.0013172181802942964,
+   "projection_se": 0.00010150940284666308,
+   "cosine": -0.2371480238390217,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    15
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumInqLast6M"
+   ],
+   "rank": 125,
+   "amplitude": 0.004994320284292416,
+   "projection": -0.00037824393582601044,
+   "projection_se": 0.00015532860881510064,
+   "cosine": -0.04564891674412263,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    18
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 126,
+   "amplitude": 0.004858548711156296,
+   "projection": 0.004100225262760469,
+   "projection_se": 0.00015492167022973247,
+   "cosine": 0.318757888234369,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -2.7565978784817015e-05,
+   "gain_se": 5.947114179572546e-05,
+   "gain_pvalue": 0.6785036474827386,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    13
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "PercentInstallTrades"
+   ],
+   "rank": 127,
+   "amplitude": 0.004843066160326372,
+   "projection": -0.0013226632031294303,
+   "projection_se": 0.0002780666348950984,
+   "cosine": -0.10384519507318361,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    19
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 128,
+   "amplitude": 0.0048137408300225094,
+   "projection": 0.01805917253082818,
+   "projection_se": 0.00027467359716369454,
+   "cosine": 0.6484215378634531,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 9.253825576529892e-06,
+   "gain_se": 5.472622355100804e-05,
+   "gain_pvalue": 0.4328617148230814,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    2
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "MSinceMostRecentTradeOpen"
+   ],
+   "rank": 129,
+   "amplitude": 0.00473288588777311,
+   "projection": 0.00029395090078662787,
+   "projection_se": 0.00013438055720000017,
+   "cosine": 0.0470323902663542,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00013694451049464938,
+   "gain_se": 6.825352538707041e-05,
+   "gain_pvalue": 0.022406296573809124,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    22
+   ],
+   "names": [
+    "NumTotalTrades",
+    "PercentTradesWBalance"
+   ],
+   "rank": 130,
+   "amplitude": 0.004686982310924005,
+   "projection": 0.0027441956716988247,
+   "projection_se": 8.510241228094745e-05,
+   "cosine": 0.3094212242252078,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    11
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NumTotalTrades"
+   ],
+   "rank": 131,
+   "amplitude": 0.004675147377581127,
+   "projection": 0.0007472199417099519,
+   "projection_se": 3.4394716581186996e-05,
+   "cosine": 0.3411945657863461,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    15
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumInqLast6M"
+   ],
+   "rank": 132,
+   "amplitude": 0.004532591003407465,
+   "projection": 0.0034947639948979684,
+   "projection_se": 0.00026111146731469244,
+   "cosine": 0.7481355627676993,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    19
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 133,
+   "amplitude": 0.004483061877749976,
+   "projection": -0.0011854875633548992,
+   "projection_se": 5.0005736230309187e-05,
+   "cosine": -0.37545966369349265,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    13
+   ],
+   "names": [
+    "NumTotalTrades",
+    "PercentInstallTrades"
+   ],
+   "rank": 134,
+   "amplitude": 0.004473485517298068,
+   "projection": -0.00020039384923170432,
+   "projection_se": 0.00011657465860319302,
+   "cosine": -0.01301445262391469,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -0.0001942400372179947,
+   "gain_se": 8.041657489747206e-05,
+   "gain_pvalue": 0.9921415254118979,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    13
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "PercentInstallTrades"
+   ],
+   "rank": 135,
+   "amplitude": 0.004413086583136498,
+   "projection": -0.001987074856263739,
+   "projection_se": 9.708962093954051e-05,
+   "cosine": -0.7026473604192481,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -8.720066581987697e-05,
+   "gain_se": 6.806470155940445e-05,
+   "gain_pvalue": 0.8999284073076954,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    14
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 136,
+   "amplitude": 0.004397246125133285,
+   "projection": 0.0003950815979447818,
+   "projection_se": 1.3140234420810455e-05,
+   "cosine": 0.23369350596674968,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 4.27408974160383e-05,
+   "gain_se": 8.064908865987743e-05,
+   "gain_pvalue": 0.2980693749275586,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    22
+   ],
+   "names": [
+    "NetFractionRevolvingBurden",
+    "PercentTradesWBalance"
+   ],
+   "rank": 137,
+   "amplitude": 0.004382292781461573,
+   "projection": -0.0004405892425081468,
+   "projection_se": 0.00023803627613452037,
+   "cosine": -0.018745591100908062,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    10
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "MaxDelqEver"
+   ],
+   "rank": 138,
+   "amplitude": 0.004326392510457441,
+   "projection": 0.0002895832636705922,
+   "projection_se": 1.3525195451651176e-05,
+   "cosine": 0.18390694919926506,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 1.4865215500592892,
+   "gain_mean": -4.202997522351854e-05,
+   "gain_se": 6.200441545356536e-05,
+   "gain_pvalue": 0.7510680405548836,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    21
+   ],
+   "names": [
+    "NumInqLast6M",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 139,
+   "amplitude": 0.004323811482347365,
+   "projection": 0.005013075619860909,
+   "projection_se": 0.0003448397728320577,
+   "cosine": 0.31885801249098655,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.5402135557703673,
+   "gain_mean": -3.1100507402528822e-06,
+   "gain_se": 2.496135260515104e-05,
+   "gain_pvalue": 0.5495777639807147,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    12
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 140,
+   "amplitude": 0.004251505177930772,
+   "projection": -0.0026463989268800682,
+   "projection_se": 0.00012967483988832797,
+   "cosine": -0.7771614575525488,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    9
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 141,
+   "amplitude": 0.004125426987253444,
+   "projection": -2.139827513621757e-10,
+   "projection_se": 1.4208550465759405e-10,
+   "cosine": -0.42490184032728595,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    21
+   ],
+   "names": [
+    "NumTotalTrades",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 142,
+   "amplitude": 0.004113052961165732,
+   "projection": -0.0012267476069777032,
+   "projection_se": 8.073248475400744e-05,
+   "cosine": -0.0662806819879557,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 8.266374170734591e-06,
+   "gain_se": 8.807249446238706e-05,
+   "gain_pvalue": 0.46261068124093147,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    17,
+    20
+   ],
+   "names": [
+    "NetFractionRevolvingBurden",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 143,
+   "amplitude": 0.003934716241604959,
+   "projection": -0.005747863502290465,
+   "projection_se": 0.0002721828955860717,
+   "cosine": -0.6424797713231967,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    21
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 144,
+   "amplitude": 0.0038356275095266425,
+   "projection": -0.0034068636869907304,
+   "projection_se": 9.557285572713347e-05,
+   "cosine": -0.3382406092042337,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    20
+   ],
+   "names": [
+    "NumInqLast6M",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 145,
+   "amplitude": 0.0038327428642315284,
+   "projection": -0.0030475154015237875,
+   "projection_se": 0.00011365652715279267,
+   "cosine": -0.4439406603898963,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -9.391701657976366e-05,
+   "gain_se": 4.783925664961333e-05,
+   "gain_pvalue": 0.9751873016632883,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    12
+   ],
+   "names": [
+    "NumTotalTrades",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 146,
+   "amplitude": 0.0036667707080186903,
+   "projection": -0.0030690609160763456,
+   "projection_se": 0.0001647993527583387,
+   "cosine": -0.2330764573992137,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    8
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "MSinceMostRecentDelq"
+   ],
+   "rank": 147,
+   "amplitude": 0.0035697040732543058,
+   "projection": -0.018773024878029704,
+   "projection_se": 0.00026550937346470836,
+   "cosine": -0.6466159389412385,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    16
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 148,
+   "amplitude": 0.0034921552143721657,
+   "projection": -0.0003560666577192705,
+   "projection_se": 2.8277051073166242e-05,
+   "cosine": -0.8732643519466239,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    22
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "PercentTradesWBalance"
+   ],
+   "rank": 149,
+   "amplitude": 0.00319448895702215,
+   "projection": -0.000771053601186221,
+   "projection_se": 9.817869323884858e-05,
+   "cosine": -0.12369443889149777,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00012317416058023724,
+   "gain_se": 4.99444680670167e-05,
+   "gain_pvalue": 0.006827328219539211,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    18
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 150,
+   "amplitude": 0.0031822891417630176,
+   "projection": 0.001211668888225782,
+   "projection_se": 0.00013365155457005685,
+   "cosine": 0.25009837595029183,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 4.496797798524829e-05,
+   "gain_se": 3.82861621757094e-05,
+   "gain_pvalue": 0.12009280284561225,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    21
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 151,
+   "amplitude": 0.003134158958783511,
+   "projection": 0.004736454278231756,
+   "projection_se": 0.00018615328406788336,
+   "cosine": 0.13990824717107295,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    13
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "PercentInstallTrades"
+   ],
+   "rank": 152,
+   "amplitude": 0.0030306419920686097,
+   "projection": 0.0005101138335126671,
+   "projection_se": 5.07963996788048e-05,
+   "cosine": 0.30221577025837815,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.8391056281189423e-05,
+   "gain_se": 6.122382686855799e-05,
+   "gain_pvalue": 0.6180603473734493,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    15
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumInqLast6M"
+   ],
+   "rank": 153,
+   "amplitude": 0.002997218261421341,
+   "projection": -0.0017723014414999505,
+   "projection_se": 0.0001844197620337308,
+   "cosine": -0.1267361669310963,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    9
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 154,
+   "amplitude": 0.002986725489663246,
+   "projection": 0.0005751980933721351,
+   "projection_se": 3.2178878495160544e-05,
+   "cosine": 0.2646659625996723,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 0.00010121367678617632,
+   "gain_se": 5.367838256132503e-05,
+   "gain_pvalue": 0.029677304593988353,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    5
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   "rank": 155,
+   "amplitude": 0.002923337715266928,
+   "projection": -0.001414707073466384,
+   "projection_se": 0.0001644857108122938,
+   "cosine": -0.33330287190861,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.266242312462972e-06,
+   "gain_se": 4.1920204435944646e-05,
+   "gain_pvalue": 0.4784433378199952,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    20
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 156,
+   "amplitude": 0.0029022616380876077,
+   "projection": -0.0009494262311061176,
+   "projection_se": 0.00011455128459553332,
+   "cosine": -0.1690969718406973,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    11
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NumTotalTrades"
+   ],
+   "rank": 157,
+   "amplitude": 0.002865602319453115,
+   "projection": -0.0009326811015279761,
+   "projection_se": 0.00010562991669574022,
+   "cosine": -0.1628626302402174,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    8
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentDelq"
+   ],
+   "rank": 158,
+   "amplitude": 0.0028260503859093146,
+   "projection": 0.005601968651169396,
+   "projection_se": 0.00010084189320715694,
+   "cosine": 0.15810990295081118,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": true,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -2.6356651883313673e-05,
+   "gain_se": 2.3820793509406646e-05,
+   "gain_pvalue": 0.8657353279301844,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    20
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 159,
+   "amplitude": 0.0027215971440693104,
+   "projection": 0.0006472006397513235,
+   "projection_se": 0.0004113994728477999,
+   "cosine": 0.06401765967114068,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    15
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NumInqLast6M"
+   ],
+   "rank": 160,
+   "amplitude": 0.0026881533344014436,
+   "projection": -0.0001495120063713376,
+   "projection_se": 4.419489552837521e-05,
+   "cosine": -0.19690004448220663,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -8.344956906069372e-06,
+   "gain_se": 4.562333048137659e-05,
+   "gain_pvalue": 0.5725656261414364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    20
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 161,
+   "amplitude": 0.002684578273013433,
+   "projection": 0.000333700115926197,
+   "projection_se": 4.1032041845854645e-05,
+   "cosine": 0.12900218701565724,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    19
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 162,
+   "amplitude": 0.0026799026081737345,
+   "projection": 0.0006846132750456713,
+   "projection_se": 2.775168930185273e-05,
+   "cosine": 0.12059315704074715,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    22
+   ],
+   "names": [
+    "NumInqLast6M",
+    "PercentTradesWBalance"
+   ],
+   "rank": 163,
+   "amplitude": 0.0025391219460160212,
+   "projection": 0.0012980332804827966,
+   "projection_se": 9.117821754661053e-05,
+   "cosine": 0.21641869116476575,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    8
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "MSinceMostRecentDelq"
+   ],
+   "rank": 164,
+   "amplitude": 0.0024844210946989896,
+   "projection": -0.00864827047611696,
+   "projection_se": 0.0003115079238027824,
+   "cosine": -0.8137062971990741,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    15
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NumInqLast6M"
+   ],
+   "rank": 165,
+   "amplitude": 0.0024565514141052466,
+   "projection": 0.0002868245961381118,
+   "projection_se": 2.9704665599435586e-05,
+   "cosine": 0.3061867655356594,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.4023173570199053e-05,
+   "gain_se": 3.3628958107557414e-05,
+   "gain_pvalue": 0.7624976180189668,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    20
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 166,
+   "amplitude": 0.0023969385749699488,
+   "projection": 0.003702429868314439,
+   "projection_se": 0.00016090142990307903,
+   "cosine": 0.17738839854330732,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -6.28103547708951e-05,
+   "gain_se": 3.528818706533063e-05,
+   "gain_pvalue": 0.9624559480425449,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    7
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "PercentTradesNeverDelq"
+   ],
+   "rank": 167,
+   "amplitude": 0.0023829934106459534,
+   "projection": -0.0014298964687619242,
+   "projection_se": 4.948761063394254e-05,
+   "cosine": -0.10627713503125662,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    18,
+    21
+   ],
+   "names": [
+    "NetFractionInstallBurden",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 168,
+   "amplitude": 0.002358407934082189,
+   "projection": -0.0004432812762580293,
+   "projection_se": 0.00016704491301173027,
+   "cosine": -0.10007974023997249,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    22
+   ],
+   "names": [
+    "NumInqLast6Mexcl7days",
+    "PercentTradesWBalance"
+   ],
+   "rank": 169,
+   "amplitude": 0.0023272407385145463,
+   "projection": -9.764628932043911e-05,
+   "projection_se": 2.962058516531684e-05,
+   "cosine": -0.030468567570400576,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.51833695122206e-06,
+   "gain_se": 4.5277094111518377e-05,
+   "gain_pvalue": 0.5133757545162356,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    4,
+    21
+   ],
+   "names": [
+    "NumSatisfactoryTrades",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 170,
+   "amplitude": 0.0022498296337190985,
+   "projection": -0.00015388989851655398,
+   "projection_se": 6.768050033894314e-05,
+   "cosine": -0.02388089899135378,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    15
+   ],
+   "names": [
+    "MSinceMostRecentInqexcl7days",
+    "NumInqLast6M"
+   ],
+   "rank": 171,
+   "amplitude": 0.0022199946462349712,
+   "projection": 0.003257930687970064,
+   "projection_se": 7.271877505541559e-05,
+   "cosine": 0.2712265026120246,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 8.15635450934964e-06,
+   "gain_se": 2.2363599796111608e-05,
+   "gain_pvalue": 0.357661843028508,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    18
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 172,
+   "amplitude": 0.002216297390288949,
+   "projection": -0.001018504005404016,
+   "projection_se": 8.293958335318971e-05,
+   "cosine": -0.5843438180164442,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    13
+   ],
+   "names": [
+    "MaxDelqEver",
+    "PercentInstallTrades"
+   ],
+   "rank": 173,
+   "amplitude": 0.0022086524429189743,
+   "projection": -0.00048184996672266255,
+   "projection_se": 2.4767920064065634e-05,
+   "cosine": -0.47452814424417145,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    6
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   "rank": 174,
+   "amplitude": 0.002069608974801052,
+   "projection": -0.0031490394915518164,
+   "projection_se": 0.00014944476348552062,
+   "cosine": -0.4931757217071807,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.5499744470407116e-05,
+   "gain_se": 2.5878009729329893e-05,
+   "gain_pvalue": 0.8377819509501535,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    21
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 175,
+   "amplitude": 0.0020500981830947444,
+   "projection": 0.0001385984626368912,
+   "projection_se": 0.00024639751277142794,
+   "cosine": 0.019116410522008583,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -3.054121155753789e-05,
+   "gain_se": 3.4529106394005294e-05,
+   "gain_pvalue": 0.811788513914159,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    13
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "PercentInstallTrades"
+   ],
+   "rank": 176,
+   "amplitude": 0.0019967601266654674,
+   "projection": 0.001870183302999673,
+   "projection_se": 0.00015926003422322017,
+   "cosine": 0.4439684962581729,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 2.6976764195350775e-05,
+   "gain_se": 2.7381869645491705e-05,
+   "gain_pvalue": 0.16226160906273923,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    8
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "MSinceMostRecentDelq"
+   ],
+   "rank": 177,
+   "amplitude": 0.001984134340427834,
+   "projection": 0.0030409633215785015,
+   "projection_se": 9.952862903761797e-05,
+   "cosine": 0.3996458208144895,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 7.88520977177898e-06,
+   "gain_se": 3.094095868043758e-05,
+   "gain_pvalue": 0.399420645397135,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    5
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   "rank": 178,
+   "amplitude": 0.0019517629232597264,
+   "projection": 0.001217973472407925,
+   "projection_se": 4.1336016458778193e-05,
+   "cosine": 0.14017817005307096,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    12
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 179,
+   "amplitude": 0.0018580240683436753,
+   "projection": 0.0015193434866760031,
+   "projection_se": 0.00012742010814919405,
+   "cosine": 0.6696962576236736,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -3.1183985444187226e-05,
+   "gain_se": 1.820146958001967e-05,
+   "gain_pvalue": 0.9566683264789939,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    14
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 180,
+   "amplitude": 0.0018364699381663604,
+   "projection": 0.003714842379966522,
+   "projection_se": 9.675084839384741e-05,
+   "cosine": 0.4054687872475663,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -1.2760541339756746e-05,
+   "gain_se": 1.5030772564702538e-05,
+   "gain_pvalue": 0.8020485332744873,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    20
+   ],
+   "names": [
+    "MSinceMostRecentInqexcl7days",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 181,
+   "amplitude": 0.0018285291175256793,
+   "projection": 0.0008190933080805033,
+   "projection_se": 7.553438689213488e-05,
+   "cosine": 0.22423450499989617,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    6
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   "rank": 182,
+   "amplitude": 0.0018195097023523108,
+   "projection": -0.0010150500240774247,
+   "projection_se": 2.7984905886192728e-05,
+   "cosine": -0.13057237439657357,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.8810121324453393e-05,
+   "gain_se": 2.032537053845093e-05,
+   "gain_pvalue": 0.9218237583769849,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    20
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 183,
+   "amplitude": 0.0017834683249096086,
+   "projection": -0.0037465238345793564,
+   "projection_se": 0.00021877680190518893,
+   "cosine": -0.96540521532123,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -3.94131403962501e-05,
+   "gain_se": 2.9921193561731022e-05,
+   "gain_pvalue": 0.9061194905225186,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    10
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "MaxDelqEver"
+   ],
+   "rank": 184,
+   "amplitude": 0.001749522213756446,
+   "projection": -0.0031460152353121567,
+   "projection_se": 0.00015454743165238,
+   "cosine": -0.7571010683942487,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    15
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "NumInqLast6M"
+   ],
+   "rank": 185,
+   "amplitude": 0.0017464278500991762,
+   "projection": 0.002317545391226563,
+   "projection_se": 9.991601317762906e-05,
+   "cosine": 0.28939686013838034,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 1.363770278110547e-05,
+   "gain_se": 2.4333645009428026e-05,
+   "gain_pvalue": 0.28758750853933923,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    10
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "MaxDelqEver"
+   ],
+   "rank": 186,
+   "amplitude": 0.0017384875935670546,
+   "projection": -0.0025558123836827967,
+   "projection_se": 0.00010648511831400195,
+   "cosine": -0.4375680562073403,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    18
+   ],
+   "names": [
+    "NumInqLast6Mexcl7days",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 187,
+   "amplitude": 0.001692854255868153,
+   "projection": -5.801636864674716e-05,
+   "projection_se": 0.00013289264442218701,
+   "cosine": -0.05414148068067869,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.0660228444395455e-05,
+   "gain_se": 2.3280413886766948e-05,
+   "gain_pvalue": 0.18741804653898286,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    10
+   ],
+   "names": [
+    "AverageMInFile",
+    "MaxDelqEver"
+   ],
+   "rank": 188,
+   "amplitude": 0.0016757099052647612,
+   "projection": 0.0006116672266781993,
+   "projection_se": 3.6357806222211195e-05,
+   "cosine": 0.13678774402803384,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -1.1888477332218397e-05,
+   "gain_se": 2.5298854517636024e-05,
+   "gain_pvalue": 0.6807944720797685,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    16
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 189,
+   "amplitude": 0.0016074752052691256,
+   "projection": -2.3554426505731164e-10,
+   "projection_se": 1.5511032793269307e-10,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -3.7711858612098963e-06,
+   "gain_se": 2.7930763306698774e-05,
+   "gain_pvalue": 0.5537016041215338,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    22
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "PercentTradesWBalance"
+   ],
+   "rank": 190,
+   "amplitude": 0.0015931469571809152,
+   "projection": 0.001471483884259969,
+   "projection_se": 4.765432205245654e-05,
+   "cosine": 0.7391713115113105,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 4.230449698774324e-05,
+   "gain_se": 3.441952761070627e-05,
+   "gain_pvalue": 0.10952012231326153,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    15
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NumInqLast6M"
+   ],
+   "rank": 191,
+   "amplitude": 0.00156067473601349,
+   "projection": 0.0013311595922310146,
+   "projection_se": 6.160829308762533e-05,
+   "cosine": 0.5682474158951567,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -4.4142896152260145e-05,
+   "gain_se": 2.375101026290081e-05,
+   "gain_pvalue": 0.9684558869238596,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    18
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 192,
+   "amplitude": 0.0015349206711070791,
+   "projection": 0.000983332971589413,
+   "projection_se": 5.33381308821598e-05,
+   "cosine": 0.3119473862333346,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    21
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 193,
+   "amplitude": 0.0014926990282828258,
+   "projection": 0.0002097020067618659,
+   "projection_se": 8.790224151424658e-06,
+   "cosine": 0.21416017147720603,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -7.42375522904718e-06,
+   "gain_se": 2.2996943976617585e-05,
+   "gain_pvalue": 0.6265822704615379,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    22
+   ],
+   "names": [
+    "MaxDelqEver",
+    "PercentTradesWBalance"
+   ],
+   "rank": 194,
+   "amplitude": 0.0013746034528933154,
+   "projection": 3.205836029160156e-10,
+   "projection_se": 1.4134926913614782e-10,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.447223924664154e-05,
+   "gain_se": 2.1693383276967957e-05,
+   "gain_pvalue": 0.05602263479704182,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    13
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "PercentInstallTrades"
+   ],
+   "rank": 195,
+   "amplitude": 0.001372635437358951,
+   "projection": -0.001459869183123657,
+   "projection_se": 4.694112610953727e-05,
+   "cosine": -0.12472347641766439,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    14
+   ],
+   "names": [
+    "MaxDelqEver",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 196,
+   "amplitude": 0.0013166018729727968,
+   "projection": 0.0011368045529489268,
+   "projection_se": 0.00011025823398414708,
+   "cosine": 0.13835093324504857,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    17
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NetFractionRevolvingBurden"
+   ],
+   "rank": 197,
+   "amplitude": 0.0012702265746223074,
+   "projection": 0.0006135718957888426,
+   "projection_se": 0.00020470928058042887,
+   "cosine": 0.29887477936035933,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    22
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "PercentTradesWBalance"
+   ],
+   "rank": 198,
+   "amplitude": 0.0012682541874838864,
+   "projection": 0.0002676097265332282,
+   "projection_se": 9.174294694562502e-06,
+   "cosine": 0.06708347969023477,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 1.804355178204702e-05,
+   "gain_se": 1.1410363803527653e-05,
+   "gain_pvalue": 0.056901289895884846,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    11
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NumTotalTrades"
+   ],
+   "rank": 199,
+   "amplitude": 0.0011556699479740402,
+   "projection": -0.0007818090210758705,
+   "projection_se": 0.00011700259115746185,
+   "cosine": -0.5946674366163641,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    19
+   ],
+   "names": [
+    "NumInqLast6M",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 200,
+   "amplitude": 0.0011144008884763584,
+   "projection": -0.0012643821255438619,
+   "projection_se": 6.917671060948527e-05,
+   "cosine": -0.11091193170297048,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.11698644539841503,
+   "gain_mean": -6.64594082392711e-07,
+   "gain_se": 1.1253480306590899e-06,
+   "gain_pvalue": 0.7225949094289151,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    22
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "PercentTradesWBalance"
+   ],
+   "rank": 201,
+   "amplitude": 0.0010933392648590948,
+   "projection": 0.00010165368812555339,
+   "projection_se": 7.1177446371635685e-06,
+   "cosine": 0.25862527279768655,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.450099687380183e-07,
+   "gain_se": 1.7751508094986728e-05,
+   "gain_pvalue": 0.49449389134702626,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    14,
+    16
+   ],
+   "names": [
+    "MSinceMostRecentInqexcl7days",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 202,
+   "amplitude": 0.0010382792669575104,
+   "projection": 4.1320570110250245e-05,
+   "projection_se": 1.461703528846347e-05,
+   "cosine": 0.0829825196455769,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -1.6728755333673681e-06,
+   "gain_se": 1.5082940667221263e-05,
+   "gain_pvalue": 0.5441568409935571,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    8,
+    16
+   ],
+   "names": [
+    "MSinceMostRecentDelq",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 203,
+   "amplitude": 0.0009721081402216465,
+   "projection": 0.0022137650411592734,
+   "projection_se": 5.6164376971731e-05,
+   "cosine": 0.377636880915643,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    18
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NetFractionInstallBurden"
+   ],
+   "rank": 204,
+   "amplitude": 0.0009527264157187091,
+   "projection": 1.4753972395284937e-10,
+   "projection_se": 8.788439938096658e-11,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 8.425915852783953e-06,
+   "gain_se": 1.2470836175827783e-05,
+   "gain_pvalue": 0.2496315614701725,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    7
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "PercentTradesNeverDelq"
+   ],
+   "rank": 205,
+   "amplitude": 0.0009021888533259882,
+   "projection": 0.0009531174825262506,
+   "projection_se": 7.029394697961208e-05,
+   "cosine": 0.29826070124177056,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.588641918081798,
+   "gain_mean": 2.1882139117896797e-06,
+   "gain_se": 3.135862623921144e-06,
+   "gain_pvalue": 0.242650244708065,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    20,
+    22
+   ],
+   "names": [
+    "NumInstallTradesWBalance",
+    "PercentTradesWBalance"
+   ],
+   "rank": 206,
+   "amplitude": 0.0008821382313273134,
+   "projection": -0.0027795446107089206,
+   "projection_se": 0.00013103127568504533,
+   "cosine": -0.5261117475014742,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": -2.5463262177089575e-05,
+   "gain_se": 1.199736053769466e-05,
+   "gain_pvalue": 0.9830981432919351,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    19,
+    21
+   ],
+   "names": [
+    "NumRevolvingTradesWBalance",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 207,
+   "amplitude": 0.0008429248968222166,
+   "projection": 0.00036046960397441755,
+   "projection_se": 3.1122306055601535e-05,
+   "cosine": 0.5684021017567121,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    19,
+    20
+   ],
+   "names": [
+    "NumRevolvingTradesWBalance",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 208,
+   "amplitude": 0.0008307561915069062,
+   "projection": 0.0007700168104071034,
+   "projection_se": 4.308183102788748e-05,
+   "cosine": 0.5872375504607337,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    16
+   ],
+   "names": [
+    "NumTotalTrades",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 209,
+   "amplitude": 0.0008101924802393263,
+   "projection": 0.000667251995165423,
+   "projection_se": 5.9135993794091035e-05,
+   "cosine": 0.6455402840954096,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 2.067985885595663e-05,
+   "gain_se": 1.629673099442787e-05,
+   "gain_pvalue": 0.10222811306562452,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    20
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 210,
+   "amplitude": 0.000787972772016787,
+   "projection": 0.0009041252020880322,
+   "projection_se": 0.00012736394821756108,
+   "cosine": 0.12825001114775714,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    12
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 211,
+   "amplitude": 0.0007667710836519717,
+   "projection": -0.00022188049561331497,
+   "projection_se": 3.353183962622906e-05,
+   "cosine": -0.08071012523863373,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    19
+   ],
+   "names": [
+    "NumInqLast6Mexcl7days",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 212,
+   "amplitude": 0.0007575519956129536,
+   "projection": -4.956071222119795e-11,
+   "projection_se": 1.5980993987813125e-10,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 1.8917948684087547e-05,
+   "gain_se": 1.555655126710263e-05,
+   "gain_pvalue": 0.11197798548449317,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    12
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 213,
+   "amplitude": 0.000637345286678015,
+   "projection": 0.0024349586558940917,
+   "projection_se": 0.00012894002378179844,
+   "cosine": 0.46725568758240116,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": 6.532766406308976e-07,
+   "gain_se": 1.1329418825573511e-05,
+   "gain_pvalue": 0.4770089422741064,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    22
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "PercentTradesWBalance"
+   ],
+   "rank": 214,
+   "amplitude": 0.0006308016135399171,
+   "projection": 0.00016959631425926756,
+   "projection_se": 6.060394170088354e-06,
+   "cosine": 0.18760171258469854,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    11,
+    20
+   ],
+   "names": [
+    "NumTotalTrades",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 215,
+   "amplitude": 0.0006005058047037198,
+   "projection": -0.0027308226850569356,
+   "projection_se": 0.00011391824098511179,
+   "cosine": -0.435969038468976,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 1.413931923130115e-06,
+   "gain_se": 8.435070056506084e-06,
+   "gain_pvalue": 0.4334389970347295,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    16
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 216,
+   "amplitude": 0.0005987740316214926,
+   "projection": 0.0008010539488047603,
+   "projection_se": 4.2719315529966056e-05,
+   "cosine": 0.5521735058335804,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -8.790239937932489e-06,
+   "gain_se": 9.197622628181868e-06,
+   "gain_pvalue": 0.8303900665487166,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    15
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NumInqLast6M"
+   ],
+   "rank": 217,
+   "amplitude": 0.000589706743876933,
+   "projection": -0.0011949501660071563,
+   "projection_se": 6.329762834206195e-05,
+   "cosine": -0.33452763279498576,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    6
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   "rank": 218,
+   "amplitude": 0.0005313686531579657,
+   "projection": 0.004017368494557611,
+   "projection_se": 0.00011452774380699645,
+   "cosine": 0.3130191322586672,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 2.0,
+   "gain_mean": -4.433549458231017e-06,
+   "gain_se": 1.220997266285386e-05,
+   "gain_pvalue": 0.6417382230611887,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    7
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "PercentTradesNeverDelq"
+   ],
+   "rank": 219,
+   "amplitude": 0.0004769491589987226,
+   "projection": 0.0022085912969335595,
+   "projection_se": 0.00019068657213663939,
+   "cosine": 0.4694608670082892,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    20
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 220,
+   "amplitude": 0.000470209058491273,
+   "projection": -0.003974434739655431,
+   "projection_se": 0.0001619505281351805,
+   "cosine": -0.48067890668443064,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    16
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 221,
+   "amplitude": 0.00043163342839753886,
+   "projection": -0.0003419433299413181,
+   "projection_se": 4.2069656317965375e-05,
+   "cosine": -0.08477359017504696,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    19
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 222,
+   "amplitude": 0.00042893833649368076,
+   "projection": 3.0518952072918247e-05,
+   "projection_se": 2.4911553804237633e-06,
+   "cosine": 0.072739784932135,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    3,
+    16
+   ],
+   "names": [
+    "AverageMInFile",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 223,
+   "amplitude": 0.0002668397572756787,
+   "projection": -0.0032881770573809505,
+   "projection_se": 0.00010788031834737989,
+   "cosine": -0.38160193091117856,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    11
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NumTotalTrades"
+   ],
+   "rank": 224,
+   "amplitude": 0.0002543590682557142,
+   "projection": 0.00013748949198416724,
+   "projection_se": 1.875383488512299e-05,
+   "cosine": 0.7660518017341945,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": true,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    7,
+    10
+   ],
+   "names": [
+    "PercentTradesNeverDelq",
+    "MaxDelqEver"
+   ],
+   "rank": 225,
+   "amplitude": 0.0002486726049533689,
+   "projection": -0.00014396375335000943,
+   "projection_se": 9.096510090817648e-05,
+   "cosine": -0.033755022890764055,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    20
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 226,
+   "amplitude": 0.00023505605274827548,
+   "projection": 8.403140837390107e-05,
+   "projection_se": 1.0383347407496546e-05,
+   "cosine": 0.19118348012151076,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    20,
+    21
+   ],
+   "names": [
+    "NumInstallTradesWBalance",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 227,
+   "amplitude": 0.00023141801884399323,
+   "projection": -0.0017919269394328992,
+   "projection_se": 8.868722017490587e-05,
+   "cosine": -0.3484821023135173,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    6
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NumTrades90Ever2DerogPubRec"
+   ],
+   "rank": 228,
+   "amplitude": 0.0001226966120034904,
+   "projection": 1.8682339870310723e-10,
+   "projection_se": 2.570521181346203e-10,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    14
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "MSinceMostRecentInqexcl7days"
+   ],
+   "rank": 229,
+   "amplitude": 0.00010170224689011532,
+   "projection": -0.001270962111283426,
+   "projection_se": 0.00020424996582454002,
+   "cosine": -0.6652502895441502,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    19
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 230,
+   "amplitude": 5.0648501260843224e-05,
+   "projection": -1.5479440598976774e-10,
+   "projection_se": 1.3150520296927437e-10,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 4.2679349770843904e-07,
+   "gain_se": 6.357039280607783e-07,
+   "gain_pvalue": 0.2509919490507714,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    21
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 231,
+   "amplitude": 1.7165820851363386e-09,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 1.9841633685378887e-10,
+   "gain_se": 6.121421346764088e-10,
+   "gain_pvalue": 0.37291813385730554,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    15
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "NumInqLast6M"
+   ],
+   "rank": 232,
+   "amplitude": 1.2614494296455462e-09,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    15,
+    16
+   ],
+   "names": [
+    "NumInqLast6M",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 233,
+   "amplitude": 1.1319201405565304e-09,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.1100020926436555e-10,
+   "gain_se": 6.099871931570936e-10,
+   "gain_pvalue": 0.3050792881365295,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    1,
+    16
+   ],
+   "names": [
+    "MSinceOldestTradeOpen",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 234,
+   "amplitude": 9.421814318718687e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    13
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "PercentInstallTrades"
+   ],
+   "rank": 235,
+   "amplitude": 8.307204551266904e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.9949976051619624e-10,
+   "gain_se": 6.103841650302654e-10,
+   "gain_pvalue": 0.31182844931661624,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    2,
+    5
+   ],
+   "names": [
+    "MSinceMostRecentTradeOpen",
+    "NumTrades60Ever2DerogPubRec"
+   ],
+   "rank": 236,
+   "amplitude": 5.977940202408246e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    13,
+    16
+   ],
+   "names": [
+    "PercentInstallTrades",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 237,
+   "amplitude": 5.542483281920806e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    21
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 238,
+   "amplitude": 5.136457754235541e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    16
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 239,
+   "amplitude": 5.088082919621646e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.091218864873604e-10,
+   "gain_se": 6.098968071410605e-10,
+   "gain_pvalue": 0.306132514810561,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    10,
+    12
+   ],
+   "names": [
+    "MaxDelqEver",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 240,
+   "amplitude": 4.866449603121368e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    12,
+    21
+   ],
+   "names": [
+    "NumTradesOpeninLast12M",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 241,
+   "amplitude": 4.75787213059435e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.1425895432294425e-10,
+   "gain_se": 6.099155041272007e-10,
+   "gain_pvalue": 0.3031891720320647,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    16
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NumInqLast6Mexcl7days"
+   ],
+   "rank": 242,
+   "amplitude": 4.132771844904365e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    20
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 243,
+   "amplitude": 3.703310794469042e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 2.829554395278547e-10,
+   "gain_se": 6.097903833630704e-10,
+   "gain_pvalue": 0.3213164111374846,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    21
+   ],
+   "names": [
+    "NumInqLast6Mexcl7days",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 244,
+   "amplitude": 3.458195956264684e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    16,
+    20
+   ],
+   "names": [
+    "NumInqLast6Mexcl7days",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 245,
+   "amplitude": 2.929710937218534e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    21
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NumBank2NatlTradesWHighUtilization"
+   ],
+   "rank": 246,
+   "amplitude": 2.7828522106033024e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.0143505875210086e-10,
+   "gain_se": 6.098875714183522e-10,
+   "gain_pvalue": 0.31056590055926525,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    9
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "MaxDelq2PublicRecLast12M"
+   ],
+   "rank": 247,
+   "amplitude": 2.629426325300375e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.055900751595999e-10,
+   "gain_se": 6.099554954619789e-10,
+   "gain_pvalue": 0.30818419306994427,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    19
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NumRevolvingTradesWBalance"
+   ],
+   "rank": 248,
+   "amplitude": 1.7376425396398442e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    20
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NumInstallTradesWBalance"
+   ],
+   "rank": 249,
+   "amplitude": 1.6795205572656012e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.0039533327607694e-10,
+   "gain_se": 6.098436076128394e-10,
+   "gain_pvalue": 0.3111555204223427,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    12
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "NumTradesOpeninLast12M"
+   ],
+   "rank": 250,
+   "amplitude": 1.558891316513226e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    9,
+    10
+   ],
+   "names": [
+    "MaxDelq2PublicRecLast12M",
+    "MaxDelqEver"
+   ],
+   "rank": 251,
+   "amplitude": 1.5053784674247477e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    6,
+    10
+   ],
+   "names": [
+    "NumTrades90Ever2DerogPubRec",
+    "MaxDelqEver"
+   ],
+   "rank": 252,
+   "amplitude": 1.432618388495674e-10,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 2.0,
+   "gain_mean": 3.077213533410246e-10,
+   "gain_se": 6.099121451405083e-10,
+   "gain_pvalue": 0.3069431230644055,
+   "gain_selected": false
+  },
+  {
+   "pair": [
+    5,
+    10
+   ],
+   "names": [
+    "NumTrades60Ever2DerogPubRec",
+    "MaxDelqEver"
+   ],
+   "rank": 253,
+   "amplitude": 5.6335028666947245e-11,
+   "projection": 0.0,
+   "projection_se": 0.0,
+   "cosine": 0.0,
+   "lens_pvalue": 1.0,
+   "lens_selected": false,
+   "family_rms_selected": false,
+   "pair_relative_selected": false,
+   "beta": 0.0,
+   "gain_mean": 3.074204052239398e-10,
+   "gain_se": 6.099006997826249e-10,
+   "gain_pvalue": 0.30711314524267364,
+   "gain_selected": false
+  }
+ ],
+ "timings": {
+  "discovery_seconds": 9.350209512999982,
+  "replication_seconds": 7.976966899999979,
+  "utility_seconds": 0.5328449260000525,
+  "wall_seconds": 18.186030890999973
+ }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+runs/
+data/*
+!data/README.md
+third_party/
+figures/*.pdf
+figures/fig_overview.tex
+figures/tab_*.tex
+figures/figure_data.json
+tables/*.tex
